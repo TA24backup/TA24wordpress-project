@@ -1,0 +1,139 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Increasing specificity of Mapbox classes */
+body .mapster-submission-map .mapboxgl-ctrl-group button:not(:hover):not(:active),
+body .mapster-submission-map .maplibregl-ctrl-group button:not(:hover):not(:active),
+body .mapster-wp-maps .mapboxgl-ctrl-group button:not(:hover):not(:active),
+body .mapster-wp-maps .maplibregl-ctrl-group button:not(:hover):not(:active) {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  min-height: unset;
+  display: block;
+}
+body .mapster-submission-map button.maplibregl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-submission-map button.mapboxgl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-submission-map button.maplibregl-ctrl-attrib-button:hover:not(:active),
+body .mapster-submission-map button.mapboxgl-ctrl-attrib-button:hover:not(:active)
+body .mapster-wp-maps button.maplibregl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-wp-maps button.mapboxgl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-wp-maps button.maplibregl-ctrl-attrib-button:hover:not(:active),
+body .mapster-wp-maps button.mapboxgl-ctrl-attrib-button:hover:not(:active) {
+  background-color: hsla(0,0%,100%,.5);
+  padding: 0;
+}
+
+body .mapster-submission-map .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input:focus
+body .mapster-wp-maps .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input:focus {
+  border: 0;
+  background-color: transparent;
+  margin: 0;
+  height: 50px;
+  color: #404040;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 6px 45px;
+  outline: none;
+}
+
+body .mapster-submission-map .mapboxgl-ctrl-geocoder--button:not(:hover):not(:active),
+body .mapster-wp-maps .mapboxgl-ctrl-geocoder--button:not(:hover):not(:active) {
+  background-color: unset;
+  color: unset;
+}
+
+@media screen and (min-width: 640px) {
+  body .mapster-submission-map .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+  body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+  body .mapster-wp-maps .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+  body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input {
+      height: 36px;
+      padding: 6px 35px;
+  }
+}
+
+.mapster-submission-modal-overlay {
+  transition: opacity 0.2s ease-out;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.5);
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+}
+
+.mapster-submission-modal {
+  background: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  max-width: 90%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30em;
+  text-align: left;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: none;
+  flex-direction: column;
+  z-index: 2001;
+}
+
+.mapster-submission-modal .mapster-submission-modal-close {
+  align-items: center;
+  color: #111827;
+  display: flex;
+  height: 4.5em;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4.5em;
+}
+.mapster-submission-modal .mapster-submission-modal-close svg {
+  display: block;
+}
+.mapster-submission-modal .mapster-submission-modal-title {
+  color: #111827;
+  padding: 1.5em 2em;
+  pointer-events: all;
+  position: relative;
+  width: calc(100% - 4.5em);
+}
+.mapster-submission-modal .mapster-submission-modal-title h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.mapster-submission-modal .mapster-submission-modal-content {
+  border-top: 1px solid #e0e0e0;
+  padding: 2em;
+  pointer-events: all;
+  overflow: auto;
+}
+
+.mapster-submission-modal .mapster-submission-map {
+  height: 400px;
+  width: 100%;
+}
+
+.mapster-submission-modal .mapster-submission-details {
+  display: none;
+}
+
+.mapster-submission-modal hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

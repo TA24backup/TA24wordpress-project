@@ -1,0 +1,55 @@
+#customize-controls .control-section-construction-light .accordion-section-title:hover,
+#customize-controls .control-section-construction-light .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.rtl .control-section-construction-light .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+#accordion-section-construction-light .accordion-section-title .button {
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding: 0 25px 0;
+}
+
+#accordion-section-construction-light .accordion-section-title:before{
+    display:none;
+}
+
+#accordion-section-construction-light-doc .accordion-section-title .button {
+    float: right;
+}
+
+#customize-control-construction_light_theme_features li {
+
+    border: 1px dashed #ababab;
+    padding: 10px;
+
+}
+#_customize-input-construction_light_theme_features{
+    display: none;
+}
+#accordion-section-construction-light-info h3::before{
+    content: "";   
+    display: none;
+}
+#accordion-section-construction-light-info h3{
+    text-align: center;
+}
+#accordion-section-construction-light-info .button{
+    height: auto;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    white-space: normal;
+    background-color: #ff262b;
+    border: none;
+    color: #FFF;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+    font-size: 15px;
+    text-align: center;
+}
