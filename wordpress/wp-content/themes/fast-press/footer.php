@@ -40,12 +40,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 		else { ?>
 			<a class="powered" href="<?php echo esc_url( __( 'https://wordpress.org/', 'fast-press' ) ); ?>">
 				<?php
-				esc_html_e( 'Powered by TA24', 'fast-press' );
+				esc_html_e( 'Powered by WordPress', 'fast-press' );
 				?>
 			</a>
 			<p>
 				<?php esc_html_e( 'All rights reserved', 'fast-press' ); ?>  &copy; <?php bloginfo( 'name' ); ?>			
-				<a title="Seos Theme - Fast Press" href="<?php echo esc_url( 'https://seosthemes.com/', 'fast-press' ); ?>" target="_blank"><?php esc_html_e( 'Theme', 'fast-press' ); ?></a>
+				<a title="Seos Theme - Fast Press" href="<?php echo esc_url( 'https://seosthemes.com/', 'fast-press' ); ?>" target="_blank"><?php esc_html_e( 'Fast Press Theme by Seos Themes', 'fast-press' ); ?></a>
 			</p>
 		<?php } ?>
 		</div><!-- .site-info -->

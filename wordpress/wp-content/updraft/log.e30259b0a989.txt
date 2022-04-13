@@ -1,0 +1,6 @@
+0000.000 (0) Opened log file at time: Mon, 11 Apr 2022 03:08:45 +0000 on https://antilonelylonelyalliance.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 7.4.28 (fpm-fcgi, Linux ip-172-31-47-29 4.19.0-20-cloud-amd64 #1 SMP Debian 4.19.235-1 (2022-03-17) x86_64) MySQL: 10.3.34-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 15.8M | 20M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 5117.9 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.012 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Scheduled backup aborted - another backup of this type was apparently invoked by the WordPress scheduler only 332 seconds ago - the WordPress scheduler invoking events multiple times usually indicates a very overloaded server (or other plugins that mis-use the scheduler)
