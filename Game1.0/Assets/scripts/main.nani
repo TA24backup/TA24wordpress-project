@@ -1,0 +1,739 @@
+
+
+@bgm 主旋律
+#start
+@back 宿舍 wait:false
+星辰是某大学的新生，因为平时他和室友所处的关系非常差，因此他整天窝在宿舍里玩电脑游戏。
+@sfx 点击电脑鼠标
+@sfx 敲击键盘声
+某一天，当新晨正在电脑前酣战时，他收到了一条短信
+@sfx 收信息 wait:false
+@back 手机短信
+你认为是谁发的呢？
+@choice "父母" goto:.Parent
+@choice "老师" goto:.Teacher
+@choice "网友" goto:.网友线
+@stop
+
+#Parent
+短信：儿子，忙么？最近你在学校过的怎么样？ 你在学校还有生活费么？ 有没有好好学习？ 你已经很久一段时间没给家里打电话了，我和你爸都想你了。
+@back 宿舍
+XinChen.normal: 我两个假期没回家了，或许这个五一劳动节，我应该回家一趟
+@choice "回家" goto:.Go_home
+@choice "呆在学校" goto:.Stay_at_school
+@stop
+#Go_home
+@hideChars
+@sfx 苹果手机来电铃声 wait:false
+@back 手机短信 wait:false
+"手机来电"
+XinChen.angry: 好困啊，是谁打的电话？烦死了！
+星辰此时十分想继续进入梦乡，但是不接电话也使他愧疚，于是：
+@choice "查看手机" goto:.call_back
+@choice "不管它" goto:.ignore
+@stop
+#call_back
+你拿起手机后发现有十几条来电和短信。
+你慌忙仔细查看来电内容，发现是家里来的电话，于是乎你急忙拨打回去。
+XinChen.angry: 妈，你们别急，我昨晚通宵打游戏，导致今早的闹铃我没听到，我这就回家，您老就在家等我吧！
+@hideChars
+@sfx 洗漱 wait:false
+@back 洗漱
+挂断电话的你飞速洗漱和打理好自己，然后背上你的双肩包超车站走去。 
+@back 车站 wait:false
+@sfx 喧闹声
+你在穿过拥挤的人群和乘坐吵闹的列车后终于在半夜前到了家。
+@back 家
+@sfx 敲门 wait:false
+敲门声...  
+@sfx 开门声
+你的父母把你接进了家门，并催促你快点上座吃饭。你熟练的把书包一丢就做到桌前大口吃起了饭菜。
+@sfx 吃饭声
+@back 吃饭
+相比起你的大快朵颐，你的父母却吃的很少，似乎有什么心事，于是乎你决定：
+@choice "主动和父母谈起学校的事情" goto:.talk_with_parent
+@choice "等待父母的询问" goto:.wait_parent_ask
+@choice "风紧扯呼" goto:.escape
+@stop
+#talk_with_parent
+@back 吃饭
+你和父母说了很多的校园趣事，但对你的遭遇只字不提，你的主动谈心使父母的变得不再愁眉紧凑，家里的氛围变得越来越活跃，就在此时，你的父母提出全家人趁着五一出去游玩，你决定：
+@choice "同意父母的请求" goto:.agree_parent
+@choice "拒绝父母的请求" goto:.disagree_parent
+@stop
+#agree_parent
+@back 吃饭
+你觉得难得的五一假期，一家人出去玩挺不错，于是乎你同意了父母的请求。
+饭后，你们一家三口开始了对旅游地点的讨论。
+最终你们选出了三条路线，分别是西湖之行、黄山之旅和魔都之旅，你的父母决定遵从你的意见，让你选择出去玩的路线，于是乎你选择：
+@choice "自然公园之行" goto:.Xihu
+@choice "大堡礁之旅" goto:.Huangshan
+@choice "悉尼之旅" goto:.Modu
+@stop
+#Xihu
+@back 自然风光 wait:false
+@sfx 自然公园
+初到风景区的你被这里的美景所吸引，你漫步在湖边，不禁感慨，世界上还有这么美的风景。
+就在你欣赏自然美景时，你发现了一抹熟悉的身影。
+你没想到在这里能碰到老师，心想这真是缘分，你觉得应该去打声招呼，于是乎你走向老师....
+XinChen.happy: 老师好，我是你班的学生星辰，没想到老师也来自然公园观光。
+@hideChars
+Teacher.happy: 是星辰同学啊，你好啊。这不是休假么，老师我就带着家人来这里散散心。
+XinChen.normal: 我觉得这是一个好机会，我应该给老师讲述下我在学校的遭遇和处境。
+@hideChars
+于是乎你找了个机会和老师独处...
+XinChen.normal: 老师，很抱歉打扰你，我知道在你休假的时候找您谈心不太合适，但是，我觉得这是个好机会，所以我....
+@hideChars
+在听过你的讲述后，你的老师十分的惊讶你的表现，决定帮助你，于是乎你们倆家人决定一块旅游。
+XinChen.happy: 天啊，我才发现我暗恋的女孩竟然是老师的女儿，我太幸运了！
+@hideChars
+于是乎你借着旅游的名头多次和女孩接触，最终抱得美人归。
+@back 成就 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.agree_parent
+@choice "重新开始" goto:.start
+@stop
+#Huangshan
+@back 大堡礁 wait:false
+@sfx 海边
+大堡礁作为世界最大最长的珊瑚礁群，每年吸引了无数的游客来这里欣赏美景，你和你的家人也不例外
+XinChen.happy: 天啊，我真幸运！不仅能看到如此雄浑撞破的美景还能在旅游团中看到这么可爱的女孩子！
+于是乎你借着同是旅游团队成员的名头多次与这位女孩交谈....
+XinChen.happy: 原来你也玩XXX游戏啊，我可是这个游戏的死忠粉，我上周在大冰川boss时....
+@hideChars
+Gril_Huangshan.happy: 你说话的方式真像我一个网友。
+@hideChars
+XinChen.happy: 那还真巧，说不定我就你那位好友呢，对了，你的游戏id是啥，我用app加一下你
+@hideChars
+Gril_Huangshan.happy: id是3568452358，名字叫爱吃油豆腐的狐狸小姐
+@hideChars
+XinChen.happy: 嗯？那不是我的网络情缘么？
+@hideChars
+Gril_Huangshan.happy: 不会吧，难道你是只会看表的兔子先生？
+@hideChars
+XinChen.happy: 阿对对对，真是大水冲了龙王庙，自家人啊
+@hideChars
+Gril_Huangshan.happy: 别贫嘴，讨厌~ 说实话，你人还不错，我真怕我的情缘缘是个扣脚大叔
+@hideChars
+XinChen.normal: 伤心了，你竟然这么看我的，，哎
+@hideChars
+Gril_Huangshan.happy: 哈哈哈哈，逗你玩的。快点走啦，没发现咱们俩掉队了么？
+@hideChars
+XinChen.normal: 我这不是见到你太高兴了么，对了，待会打游戏去啊，我知道......
+@hideChars
+在你的不懈努力下，你不再独自打游戏了，因为你和你的情缘缘走到了一起。
+@back 黄山线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.agree_parent
+@choice "重新开始" goto:.start
+@stop
+#Modu
+@back 悉尼 wait:false
+@sfx 车水马龙
+说实话，你觉得很没有真实感，在澳洲上学的你来悉尼就感觉和回家一样，但看着父母开心的样子，你不禁感慨。
+就在此时，白光一闪！
+你突然从梦中惊醒！
+XinChen.normal: 我怎么在床上，我不是和父母去旅游了么？怎么回事？
+@hideChars
+你突然想起，你昨晚打游戏打到很晚，所以你没有在早上起来，你不经懊悔，在打电话和家里说明情况后孤独的在宿舍打起游戏。
+@back 魔都线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.agree_parent
+@choice "重新开始" goto:.start
+@stop
+#disagree_parent
+@back 打游戏
+你觉得五一出去旅游的人一定很多，不如在家苟着打游戏，于是乎你拒绝了你父母的请求,独自就在家里打游戏。
+@hideChars
+@back 拒绝父母线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.agree_parent
+@choice "重新开始" goto:.start
+@stop
+#wait_parent_ask
+@back 吃饭
+父母在你吃完饭后询问了你在学校的情况，都被你几句话对付过去了。在询问无果后，你的父母决定问你是否愿意和他们出去旅行。你的决定是？
+@choice "同意父母的请求" goto:.agree_parent
+@choice "拒绝父母的请求" goto:.disagree_parent
+@stop
+#escape
+@back 门 wait:false
+@sfx 关门声
+你似乎害怕父母的询问和关心，你在快速解决完晚饭后就独自跑进了你的房间，没有给你的父母一点提问的时间。
+就这样，你的父母抛下你去旅游散心了，你也乐得清闲在家里打游戏。
+@back 打游戏 wait:false
+XinChen.normal: 哎，天天打游戏都打腻了，情缘缘这几天都不上线，算了没意思，出去走走。
+@hideChars
+你在关上电脑后决定去：
+@choice "公园" goto:.park
+@choice "小吃城" goto:.snack
+@stop
+#park
+@back 公园 wait:false
+@sfx 校园
+在决定好去哪里之后，我飞速的穿好衣服，骑上你的小电驴朝着公园出发...
+到公园后。
+XinChen.normal: 这里人真多啊，原来这里的一切都没变啊，我记得那个滑梯还把我裤子磨烂过....
+@hideChars
+就在你回忆过去时，你看到一家人朝你这边走来，你打眼一看是你的室友A，于是乎你决定：
+@choice "打招呼" goto:.greet
+@choice "风紧扯呼" goto:.shy
+@stop
+#greet
+@back 公园 wait:false
+你觉得不和别人打招呼太不礼貌，于是你大大方方的和室友A和他的家人打了招呼。
+XinChen.happy: A，好久不见，最近过得咋样？叔叔阿姨好，你们也是出来玩的么？
+@hideChars
+Roommate.happy: 嘿，星辰。平时在宿舍你可不是这样，欸？你咋一人？
+@hideChars
+XinChen.happy: 别提了，平时我起床时你们都上课去了，肯定见不到这么阳光光帅气的我啊，我爸妈出去旅游了，我在家闷了就出来走走。
+@hideChars
+Roommate.sad: 那你可真惨。
+@hideChars
+Roommate.happy: 那你和我们一块逛逛吧？自己多无聊？
+@hideChars
+最终你架不住舍友的热情，和他们一同逛公园。这期间，你和你的同学聊了很多，你们越聊越投机，双方对彼此的看法也变了很多。
+在毕业后，你俩一块去了腾鹅发展，并取得了很好的成就！
+@back 激情线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.escape
+@choice "重新开始" goto:.start
+@stop
+#shy
+@back 公园
+你觉得和别人交流太难了，于是乎你蹦撤卖溜了。
+你的室友非常纳闷你什么看到他就跑了，但也没在意，因为本来就和你不熟悉。
+最终，你在多次拒绝和舍友沟通后，你的人际关系彻底崩溃。
+@hideChars
+@back 害羞线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.escape
+@choice "重新开始" goto:.start
+@stop
+#snack
+@back 夜市
+@sfx 车水马龙
+在决定好去哪里之后，我飞速的穿好衣服，骑上你的小电驴朝着小吃城出发...
+在到达小吃城后，你决定去吃点小吃来满足自己的胃。
+但是当你走到你常去的小吃摊时，你被一顿吵闹声所吸引，你顺着人群去看看发生了什么。
+原来是有一男子买小吃时插队，而一位打扮漂亮的女孩在看到后大声怒斥这种行为而那名男子十分的嚣张，于是乎你决定：
+@choice "冷眼旁观" goto:.just_watch
+@choice "上去帮忙" goto:.help
+@stop
+#just_watch
+@back 夜市
+你有心想帮助那名姑娘，但是你十分害怕打不过名男子，于是乎你选择了和大家一块冷眼围观。
+这场闹剧很快就被赶来的警察所制止，你不由得松了口气，但是总觉得心中少了点什么。
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.escape
+@choice "重新开始" goto:.start
+@stop
+#help
+@back 夜市
+XinChen.happy: 光天化日朗朗乾坤，你竟敢对女孩子动手，我不能忍，给我住手！！
+@hideChars
+说话间你就冲向男子，然而你高估了你的战斗力，三下五除二你就被放到。那名男子没得意太久，这场闹剧就被赶来的警察所制止。
+女孩走到你身旁
+扶起声...
+Gril_snack.happy: 刚才真是谢谢你了，没有你，我可能会被打的
+@hideChars
+XinChen.happy: 哈哈哈，没事，我皮糙肉厚耐揍，你一个女孩子家家的被打了多可惜，欸呦，我的腰，一定是刚才扭到了
+@hideChars
+看着你想耍帅又痛苦的表情，女孩不禁笑了起来。
+在这以后，你和女孩互换了手机号。
+在毕业后，你在实习单位又遇到了这位女孩，你俩一见钟情...
+@back 见义勇为线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.escape
+@choice "重新开始" goto:.start
+@stop
+#ignore
+@back 宿舍
+XinChen.angry: 我太困了，算了不看手机了，天大地大，自己最大...zZZ
+@hideChars
+补完觉后的你第一时间起床看手机，发现十几条父母的未接电话和短信
+由于没有接到父母的电话而且醒来时已经是下午，所以你取消了回家的行程并打电话通知父母。
+@back game_over wait:false
+@sfx 成就达成
+@choice "再试一次" goto:.Go_home
+@choice "重新开始" goto:.start
+@stop
+
+#Stay_at_school
+@back 宿舍
+虽说父母期盼你回家，但是，你也清楚，你的父母都是工作狂，根本不会有时间陪你，你给发的短信也只是敷衍旁人的眼光罢了。
+你摸摸的关上手机和电脑，打算去操场散散心
+@back 学校 wait:false
+@sfx 校园
+你在路上看到了室友A，你刚想打招呼就发现室友身边有一个可爱的女孩子，这时：
+@choice "直接：嗨，美女" goto:.Straight
+@choice "不熟，算了算了" goto:.unfamiliar
+@stop
+#Straight
+@back 学校
+你大大方方的和室友与女孩打了招呼。
+XinChen.happy: 下午好！A你不厚道，怎么有美女不给我介绍下？
+@hideChars
+Roommate.surprise: 嗨，星辰，你小子终于肯出房门了。
+Roommate.happy: 这位是我们桌游社的社长清雪，怎么，看上了？
+@hideChars
+XinChen.happy: 嘿，别打趣我了。对了，你们这是去干啥啊？
+@hideChars
+Roommate.happy: 我们这是去打桌游，怎么样，下周我们有个局，一块去？美女可多了！
+@hideChars
+于是乎，你欣然同意前往。
+你认为周末的局是？
+@choice "网吧" goto:.Wangba
+@choice "魔都"  goto:.Modu1
+@choice "桌游室"  goto:.Zhuoyoushi
+@stop
+#Wangba
+@back 网吧 wait:false
+@sfx 敲击键盘声
+下周末，你到达了约定的网吧，你们在一起愉快的畅玩游戏。从此，这变成了你们的惯例，每周周末都能看到你们在网吧酣战的情景...
+@back 网吧线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Straight
+@choice "重新开始" goto:.start
+@stop
+#Modu1
+@back 悉尼 wait:false
+@sfx 车水马龙
+说实话，你觉得很没有真实感，在澳洲上学的你来悉尼就感觉和回家一样，但看着朋友们开心的样子，你不禁感慨。
+就在此时，白光一闪！
+你突然从梦中惊醒！原来这都是一场梦，你什么都没有！
+@back 魔都1线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Straight
+@choice "重新开始" goto:.start
+@stop
+#Zhuoyoushi
+@back 桌游室 wait:false
+@sfx 喧闹声
+下周末，你到达了约定的桌游室，发现朋友们都在等你，你不好意思的加入牌局。因为角色分配的问题，你和清雪多次配对为队友，一来二去的你们就熟悉了。在相处几年后，你们倆成为了一对新婚夫妇。
+@back 桌游室线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Straight
+@choice "重新开始" goto:.start
+@stop
+#unfamiliar
+@back 学校
+@hideChars
+你心想，算了算了，本就和他不熟，更何况还有外人，想罢，你飞快的朝反方向跑去。
+在逃跑过程中，你隐约听见女孩说：“他人怎么这样。。。。”
+最终，你在多次拒绝和舍友沟通后，你的人际关系彻底崩溃。
+
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Straight
+@choice "重新开始" goto:.start
+@stop
+
+
+
+
+
+#Teacher
+@back 手机短信
+短信：星辰同学，我是你的生活老师，我希望和你谈一下你和你舍友关系的问题。
+你的决定是：
+@choice "答应谈谈" goto:.谈谈
+@choice "委婉拒绝" goto:.委婉拒绝
+@choice "不熟，不理他" goto:.不熟，不谈
+@stop
+#谈谈
+@back 宿舍 wait:false
+你觉得有必要和老师好好谈谈，于是乎你和老师约在办公室见面。
+@back 办公室
+XinChen.normal: 老师好。
+@hideChars
+Teacher.happy: 你好星辰同学。
+@hideChars
+XinChen.normal: 老师，我们宿舍的具体情况是.....
+@hideChars
+经过你的具体讲述后，老师知道了大概
+Teacher.happy: 星辰同学，我很想帮你，但是你要和老师说是什么导致了你这种状况，这样我才能帮助你
+@hideChars
+你觉得你的问题出在：
+@choice "和室友不熟悉" goto:.和室友不熟悉
+@choice "没有共同话题" goto:.没有共同话题
+@choice "性格"        goto:.性格
+@stop
+#和室友不熟悉
+@back 办公室
+你觉得一定是和室友彼此之间不熟悉，才导致现在的情况。
+Teacher.happy: 在我看来你的室友A，他性格随和而且人缘不错，你为什么觉得和你相处不好呢？
+@hideChars
+XinChen.normal: 老师，我觉得，是因为：
+@choice "室友太热情，我难以招架" goto:.室友太热情，我难以招架
+@choice "室友A十分的虚伪，我不稀罕与他为伍" goto:.室友A十分的虚伪，我不稀罕与他为伍
+@choice "我们没有共同话题" goto:.我们没有共同话题
+@stop
+#室友太热情，我难以招架
+@back 办公室
+老师听完你的话语后，决定把A同学叫来，帮你询问原因。
+@sfx 敲门
+敲门声...
+Teacher.happy: 请进
+@hideChars
+@sfx 关门声 wait:false
+关门声...
+Roommate.happy: 老师，听说你找我
+@hideChars
+Teacher.happy: 是的，事情是这样的...
+@hideChars
+经过一段时间的讲述，你的室友明白了缘由
+Roommate.sad: 星辰为什么觉得我不能接受我呢？
+@hideChars
+你随口说出：
+@choice "欠人情" goto:.欠人情
+@choice "知人知面不知心" goto:.知人知面不知心
+@stop
+#欠人情
+@back 办公室
+Roommate.surprise: 我帮助你并不是图什么回报，因为你是我的室友我才帮助你的。
+Roommate.sad: 你这样使我十分的难受。
+@hideChars
+你发现自己刚才说话是多么的不妥。
+XinChen.happy: 哈哈哈，我刚才口快了，没过脑子，你别往心里去，其实...
+@hideChars
+经过老师的帮助，你和你的室友解开了心结，并相约五一劳动节一块玩耍。最终你们决定：
+@choice "网吧" goto:.网吧2
+@choice "手机游戏" goto:.手机游戏
+@choice "魔都" goto:.魔都2
+@stop
+#网吧2
+@back 网吧
+@sfx 敲击键盘声
+五一假期期间，你到达了约定的网吧，你们在一起愉快的畅玩游戏。从此，这变成了你们的惯例，每周周末都能看到你们在网吧酣战的情景...
+@back 网吧线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.室友太热情，我难以招架
+@choice "重新开始" goto:.start
+@stop
+#手机游戏
+@back 打游戏
+@sfx 游戏音
+五一假期期间，你与室友约定在手机游戏里碰面。在经过一下午的厮杀后，你和你室友的感情快速升温，最后成了无话不谈的好朋友。
+毕业后，你俩合伙开设了一家公司，并大赚特赚。
+@back 激情线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.室友太热情，我难以招架
+@choice "重新开始" goto:.start
+@stop
+#魔都2
+@back 悉尼 wait:false
+@sfx 车水马龙
+说实话，你觉得很没有真实感，在澳洲上学的你来魔都就感觉和回家一样，但看着室友开心的样子，你不禁感慨。
+就在此时，白光一闪！
+你突然从梦中惊醒！
+@back 魔都线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.室友太热情，我难以招架
+@choice "重新开始" goto:.start
+@stop
+#知人知面不知心
+@back 办公室
+因为你的这种态度，老师和室友A都对你感到不满，你因为很久没有和正常人交流过了，因此察觉不出来。
+最终，老师和室友放弃了你。
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+#室友A十分的虚伪，我不稀罕与他为伍
+@back 办公室
+因为你的这种态度，老师和室友A都对你感到不满，你因为很久没有和正常人交流过了，因此察觉不出来。
+最终，老师和室友放弃了你。
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+#我们没有共同话题
+@back 办公室
+XinChen.normal: 我的兴趣爱好是电脑游戏，我不喜欢人多的地方，而他们喜欢去人多热闹的地方。
+XinChen.normal: 更何况，我独自来魔都上学，对身边的很多东西都很陌生，而且，而且，，，我不好意思和他们出去。
+@hideChars
+此时，你决定：
+@choice "决定尝试接受室友" goto:.室友太热情，我难以招架
+@choice "不行，太害羞了，匿了匿了" goto:.不行，太害羞了，匿了匿了
+@stop
+#不行，太害羞了，匿了匿了
+@back 办公室
+你越说越害羞，最后，你不顾老师的叫声直接跑出了办公室！
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+
+#没有共同话题
+@back 办公室
+其实，在你的心里，你觉得你和你的室友完全是两类人，因此，你对老师的劝导左耳朵进右耳朵出。临近中午时，你找了个接口跑出了办公室
+出了办公室后，你决定：
+@choice "回宿舍" goto:.回宿舍
+@choice "去吃饭" goto:.去吃饭
+@stop
+#回宿舍
+@back 宿舍 wait:false
+@sfx 敲击键盘声
+你回到宿舍后，你决定继续今天没打完的游戏...
+由于缺少父母的陪伴，再加上室友的不理解，你觉得自己的人生除了游戏别无所求了
+@back 碌碌无为线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+#去吃饭
+@back 食堂 wait:false
+@sfx 喧闹声
+在决定好去哪里之后，我飞速的朝着食堂冲去。
+在到达食堂后，你决定去吃一顿大餐来满足自己的胃。
+但是当你走到你常去的打饭窗口时，你被一顿吵闹声所吸引，你顺着人群去看看发生了什么。
+原来是有一男生别人安分守己排队时插队，而一位打扮漂亮的女孩在看到后大声怒斥这种行为而那名男生十分的嚣张，于是乎你决定：
+@choice "冷眼旁观" goto:.just_watch1
+@choice "上去帮忙" goto:help1
+@stop
+#just_watch1
+@back 食堂
+你有心想帮助那名姑娘，但是你十分害怕那名男生的报复，于是乎你选择了和大家一块冷眼围观。
+这场闹剧很快就被赶来的老师所制止，你不由得松了口气，但是总觉得心中少了点什么。
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+#help1
+@back 食堂
+XinChen.happy: 光天化日朗朗乾坤，你竟敢对女孩子动手，我不能忍，给我住手！！
+@hideChars
+说话间你就冲向男生，然而你高估了你的战斗力，三下五除二你就被放到。那名男子没得意太久，这场闹剧就被赶来的老师所制止。
+女孩走到你身旁
+扶起声...
+Gril_snack.happy: 刚才真是谢谢你了，没有你，我可能会被打的
+@hideChars
+XinChen.happy: 哈哈哈，没事，我皮糙肉厚耐揍，你一个女孩子家家的被打了多可惜，欸呦，我的腰，一定是刚才扭到了
+@hideChars
+看着你想耍帅又痛苦的表情，女孩不禁笑了起来。
+在这以后，你和女孩互换了手机号。
+在毕业后，你在实习单位又遇到了这位女孩，你俩一见钟情...
+@back 见义勇为线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.谈谈
+@choice "重新开始" goto:.start
+@stop
+#性格
+@back 办公室
+在你看来谁都没有错，只是性格原因；
+因此，你奉行能处就处，不处拉倒的原则。
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Teacher
+@choice "重新开始" goto:.start
+@stop
+#委婉拒绝
+@back 宿舍
+你想了想，决定礼貌的拒绝老师的帮助，因为，你不认为一个外人可以忙助你什么。
+想到这，你打算出去走走
+@back 学校 wait:false
+@sfx 校园
+正巧这时你在路上看到了室友A，你刚想打招呼就发现室友身边有一个可爱的女孩子，这时：
+@choice "直接：嗨，美女" goto:.Straight
+@choice "不熟，算了算了" goto:.unfamiliar
+@stop
+#不熟，不谈
+你想了想，自从来到学校后你就没去过教室，老师应该不是认识你，因此你大胆推测，这是一封恶搞短信。
+@back 打游戏
+你随手关上手机，继续开始打游戏
+@back 不熟线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.Teacher
+@choice "重新开始" goto:.start
+@stop
+
+
+#网友线
+@back 手机短信
+短信内容：hi~兔子先生，咱们惊不惊喜，意不意外，想不想知道我是谁？想知道的话，那就下周五下午两点在猫儿咖啡厅见~期待你的到来！！
+@back 宿舍
+XinChen.normal: 这个人知道我网名，会是谁呢？
+XinChen.happy: 难道是油豆腐小姐？
+@hideChars
+对于这封邀约，你决定：
+@choice "赴约" goto:.赴约
+@choice "不赴约" goto:.不赴约
+@stop
+#赴约
+@back 宿舍
+你觉得这一定是你的情缘狐狸小姐，于是乎你马上接受了邀请。
+六个月前，你在一款游戏中认识了这位狐狸小姐，你们一块打怪升级，一块过本，随着时间的发展，你们彼此间都心生爱素。
+XinChen.happy: 终于到了周五，不行，我一定要早到，给狐狸小姐留下好的影响。
+@hideChars
+于是乎，你提前十分钟到达了指定地点。
+@back 咖啡厅 wait:false
+@sfx 咖啡厅
+但是，天不随人愿，你在等了半小时后仍然没看到人，于是你：
+@choice "发短信催促" goto:.发短信催促
+@choice "再等会" goto:.再等会
+@choice "不等了，走人！" goto:.不等了
+@stop
+#发短信催促
+@back 咖啡厅
+@sfx 收信息
+你觉得狐狸小姐不守时，但时又无可奈何，于是你鼓足勇气给狐狸小姐发了封短信，以此来催促她
+在你再次等待十分钟后，终于见到了你的情缘，狐狸小姐。
+Huli: 抱歉哈,我中途手机没电了，回家充了会儿电，你没等太久吧~
+@hideChars
+此时，你决定怎么回复：
+@choice "没关系" goto:.没关系
+@choice "不相信她的鬼话" goto:.不相信她的鬼话
+@choice "长相不符合预期，准备开溜"  goto:.长相不符合预期
+@stop
+#没关系
+@back 咖啡厅
+在你看来，女孩子有迟到的权力，再说，你觉得这是展示自己男友力的绝好机会。
+XinChen.happy: 既然都来，那我们去吃饭吧，我知道附近有一家餐馆非常帮。
+@hideChars
+Huli.happy: 好啊，就去你说的那家吧。
+@hideChars
+@back 餐厅
+@sfx 咖啡厅 wait:false
+到店后
+Huli.normal: 哇，这家店真有氛围，你的眼光真不错啊兔子先生。
+@hideChars
+用餐中...
+Huli.normal: 你是不是觉得我很man？吃饭很粗鲁？
+@hideChars
+XinChen.happy: 我该怎么说呢？
+@hideChars
+@choice "夸她" goto:.夸她
+@choice "不夸她" goto:.不夸她
+@stop
+#夸她
+@back 咖啡厅
+XinChen.normal: 不不不，怎么会呢，虽说在游戏中确实觉得你是铁血真汉子，但是现实中的你却不一样
+@hideChars
+Huli.angry: 怎么个不一样法？
+@hideChars
+XinChen.normal: 额。。。。。
+XinChen.normal: 嗯。。。。。
+@hideChars
+你的窘态逗得狐狸小姐开怀大笑，就这样，两个孤独的人逐渐走到了一块
+@back 黄山线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#不夸她
+@back 咖啡厅
+或许是你的死板，你直接点破了狐狸小姐的小心思
+哎，不懂风情的你还不知道自己哪里错了。
+最终你失去了这个女孩。
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#不相信她的鬼话
+@back 咖啡厅
+你觉得狐狸小姐是在骗你，就算没法第一时间通知你，也可以在手机充电的时候通知你。
+你越想越气，决定随便应付一下就回宿舍。
+就这样，不懂女孩心的你错过了女孩。
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#长相不符合预期
+@back 咖啡厅
+你虽然不介意女孩子迟到这件事，但是作为颜控的你却不喜欢狐狸小姐，因为不是你的菜。
+你在随便应付一下狐狸小姐后就独自回了宿舍。
+就这样，不懂女孩心的你错过了女孩。
+@back 外貌线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#再等会
+@back 咖啡厅
+你虽然在等了一会，但是狐狸小姐还是没有到，你无奈只好独自回宿舍...
+在回去的路上你越想越气，就在这时，你收到了狐狸小姐的短信，她向你解释道，她的手机在来的路上没电了，因此不得不回家充电，因此耽误了很多时间，她一再向你道歉，并想见见你，你决定：
+@choice "原谅她" goto:.没关系
+@choice "不原谅她" goto:.不原谅她
+@stop
+#不原谅她
+@back 咖啡厅
+你觉得做人最重要的就是原则，因此你坚持不见
+由于缺乏和异性的沟通，不理解女孩子的心思，从而不知道怎么和女孩子相处，你错过了女孩
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#不等了
+@back 咖啡厅
+你觉得这个女孩一点也不尊重他人，因此你十分气愤，尽管狐狸小姐十分真诚的向你道歉，但是缺乏和异性沟通的你怎么可能为女孩思考呢？
+于是乎，你错过了这个女孩。
+@back 逃避线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.赴约
+@choice "重新开始" goto:.start
+@stop
+#不赴约
+@back 宿舍
+开什么玩笑，我星辰可是注定要冲向游戏巅峰的男人，怎么会被这种小事所打扰，于是乎你果断关闭手机，继续酣战。
+傍晚...
+你决定：
+@choice "去食堂" goto:.去食堂
+@choice "在宿舍吃点零食" goto:.在宿舍吃点零食
+@stop
+#去食堂
+@back 食堂 wait:false
+@sfx 喧闹声
+在决定好去哪里之后，我飞速的朝着食堂冲去。
+在到达食堂后，你决定去吃一顿大餐来满足自己的胃。
+但是当你走到你常去的打饭窗口时，你被一顿吵闹声所吸引，你顺着人群去看看发生了什么。
+原来是有一男生别人安分守己排队时插队，而一位打扮漂亮的女孩在看到后大声怒斥这种行为而那名男生十分的嚣张，于是乎你决定：
+@choice "冷眼旁观" goto:.just_watch2
+@choice "上去帮忙" goto:.help2
+@stop
+#just_watch2
+@back 食堂
+你有心想帮助那名姑娘，但是你十分害怕那名男生的报复，于是乎你选择了和大家一块冷眼围观。
+这场闹剧很快就被赶来的老师所制止，你不由得松了口气，但是总觉得心中少了点什么。
+@back 冷眼线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.不赴约
+@choice "重新开始" goto:.start
+@stop
+#help2
+@back 食堂
+XinChen.happy: 光天化日朗朗乾坤，你竟敢对女孩子动手，我不能忍，给我住手！！
+@hideChars
+说话间你就冲向男生，然而你高估了你的战斗力，三下五除二你就被放到。那名男子没得意太久，这场闹剧就被赶来的老师所制止。
+女孩走到你身旁
+扶起声...
+Gril_snack.happy: 刚才真是谢谢你了，没有你，我可能会被打的
+@hideChars
+XinChen.happy: 哈哈哈，没事，我皮糙肉厚耐揍，你一个女孩子家家的被打了多可惜，欸呦，我的腰，一定是刚才扭到了
+@hideChars
+看着你想耍帅又痛苦的表情，女孩不禁笑了起来。
+在这以后，你和女孩互换了手机号。
+在毕业后，你在实习单位又遇到了这位女孩，你俩一见钟情...
+@back 见义勇为线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.不赴约
+@choice "重新开始" goto:.start
+@stop
+#在宿舍吃点零食
+@back 零食 wait:false
+你在柜子中找到点零食随便对付了一口后，你决定继续今天没打完的游戏...
+@back 宿舍
+由于缺少父母的陪伴，再加上室友的不理解，你觉得自己的人生除了游戏别无所求了
+@back 碌碌无为线 wait:false
+@sfx 成就达成
+@choice "试玩其他结局" goto:.不赴约
+@choice "重新开始" goto:.start
+@stop
