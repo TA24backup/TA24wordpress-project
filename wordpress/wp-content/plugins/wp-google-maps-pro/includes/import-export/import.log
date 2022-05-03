@@ -40,3 +40,209 @@
 2022-04-08 12:06:52 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/map_library.csv
 2022-04-08 12:06:52 :- converting_line_endings on 0
 2022-04-08 12:06:54 :- Import completed
+2022-04-16 08:05:50 :- Base class constructor called
+2022-04-16 08:05:50 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton.csv
+2022-04-16 08:06:11 :- Base class constructor called
+2022-04-16 08:06:11 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton.csv
+2022-04-16 08:06:11 :- Import completed
+2022-04-16 08:15:17 :- Base class constructor called
+2022-04-16 08:15:17 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-1.csv
+2022-04-16 08:15:39 :- Base class constructor called
+2022-04-16 08:15:39 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-1.csv
+2022-04-16 08:15:39 :- Attempting to geocode -37.88723,145.05816 (latlng)
+2022-04-16 08:15:39 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:39 :- Geocode successful (3 Shepparson Ave, Carnegie VIC 3163, Australia)
+2022-04-16 08:15:39 :- Attempting to geocode -37.91007,145.12756 (latlng)
+2022-04-16 08:15:39 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:40 :- Geocode successful (36 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-16 08:15:40 :- Attempting to geocode -37.92417,145.11676 (latlng)
+2022-04-16 08:15:40 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:40 :- Geocode successful (14 Faulkiner St, Clayton VIC 3168, Australia)
+2022-04-16 08:15:40 :- Attempting to geocode -37.91028,145.12713 (latlng)
+2022-04-16 08:15:40 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:40 :- Geocode successful (38 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-16 08:15:40 :- Attempting to geocode -37.92406,145.16257 (latlng)
+2022-04-16 08:15:40 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:41 :- Geocode successful (39 Woolwich Dr, Mulgrave VIC 3170, Australia)
+2022-04-16 08:15:41 :- Attempting to geocode -37.93696,145.1036 (latlng)
+2022-04-16 08:15:41 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:41 :- Geocode successful (2/2 Fermont Ct, Clarinda VIC 3169, Australia)
+2022-04-16 08:15:41 :- Attempting to geocode -37.93901,145.13482 (latlng)
+2022-04-16 08:15:41 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:42 :- Geocode successful (25A Moore Ave, Clayton South VIC 3169, Australia)
+2022-04-16 08:15:42 :- Attempting to geocode -37.89188,145.09188 (latlng)
+2022-04-16 08:15:42 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:42 :- Geocode successful (25 Dalgety St, Oakleigh VIC 3166, Australia)
+2022-04-16 08:15:42 :- Attempting to geocode -37.94717,145.15357 (latlng)
+2022-04-16 08:15:42 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:42 :- Geocode successful (1A Virginia St, Springvale VIC 3171, Australia)
+2022-04-16 08:15:43 :- Attempting to geocode -37.87911,145.16488 (latlng)
+2022-04-16 08:15:43 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:43 :- Geocode successful (52-54 Osullivan Rd, Glen Waverley VIC 3150, Australia)
+2022-04-16 08:15:43 :- Attempting to geocode -37.87125,145.12822 (latlng)
+2022-04-16 08:15:43 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:43 :- Geocode successful (6 Farquharson St, Mount Waverley VIC 3149, Australia)
+2022-04-16 08:15:43 :- Attempting to geocode -37.90484,145.19024 (latlng)
+2022-04-16 08:15:43 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-16 08:15:44 :- Geocode successful (5 Trooper Ct, Wheelers Hill VIC 3150, Australia)
+2022-04-16 08:15:44 :- Import completed
+2022-04-17 04:07:39 :- Base class constructor called
+2022-04-17 04:07:39 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-2.csv
+2022-04-17 04:07:47 :- Base class constructor called
+2022-04-17 04:07:47 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-2.csv
+2022-04-17 04:07:47 :- Attempting to geocode -37.88723,145.05816 (latlng)
+2022-04-17 04:07:47 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:48 :- Geocode successful (3 Shepparson Ave, Carnegie VIC 3163, Australia)
+2022-04-17 04:07:48 :- Attempting to geocode -37.91007,145.12756 (latlng)
+2022-04-17 04:07:48 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:48 :- Geocode successful (36 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-17 04:07:48 :- Attempting to geocode -37.92417,145.11676 (latlng)
+2022-04-17 04:07:48 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:48 :- Geocode successful (14 Faulkiner St, Clayton VIC 3168, Australia)
+2022-04-17 04:07:48 :- Attempting to geocode -37.91028,145.12713 (latlng)
+2022-04-17 04:07:48 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:49 :- Geocode successful (38 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-17 04:07:49 :- Attempting to geocode -37.92406,145.16257 (latlng)
+2022-04-17 04:07:49 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:49 :- Geocode successful (39 Woolwich Dr, Mulgrave VIC 3170, Australia)
+2022-04-17 04:07:49 :- Attempting to geocode -37.93696,145.1036 (latlng)
+2022-04-17 04:07:49 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:50 :- Geocode successful (2/2 Fermont Ct, Clarinda VIC 3169, Australia)
+2022-04-17 04:07:50 :- Attempting to geocode -37.93901,145.13482 (latlng)
+2022-04-17 04:07:50 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:50 :- Geocode successful (25A Moore Ave, Clayton South VIC 3169, Australia)
+2022-04-17 04:07:50 :- Attempting to geocode -37.89188,145.09188 (latlng)
+2022-04-17 04:07:50 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:50 :- Geocode successful (25 Dalgety St, Oakleigh VIC 3166, Australia)
+2022-04-17 04:07:50 :- Attempting to geocode -37.94717,145.15357 (latlng)
+2022-04-17 04:07:50 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:51 :- Geocode successful (1A Virginia St, Springvale VIC 3171, Australia)
+2022-04-17 04:07:51 :- Attempting to geocode -37.87911,145.16488 (latlng)
+2022-04-17 04:07:51 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:51 :- Geocode successful (52-54 Osullivan Rd, Glen Waverley VIC 3150, Australia)
+2022-04-17 04:07:51 :- Attempting to geocode -37.87125,145.12822 (latlng)
+2022-04-17 04:07:51 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:52 :- Geocode successful (6 Farquharson St, Mount Waverley VIC 3149, Australia)
+2022-04-17 04:07:52 :- Attempting to geocode -37.90484,145.19024 (latlng)
+2022-04-17 04:07:52 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 04:07:52 :- Geocode successful (5 Trooper Ct, Wheelers Hill VIC 3150, Australia)
+2022-04-17 04:07:52 :- Import completed
+2022-04-17 05:29:00 :- Base class constructor called
+2022-04-17 05:29:00 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-3.csv
+2022-04-17 05:29:08 :- Base class constructor called
+2022-04-17 05:29:08 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-3.csv
+2022-04-17 05:29:08 :- Attempting to geocode -37.88723,145.05816 (latlng)
+2022-04-17 05:29:08 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:08 :- Geocode successful (3 Shepparson Ave, Carnegie VIC 3163, Australia)
+2022-04-17 05:29:08 :- Attempting to geocode -37.91007,145.12756 (latlng)
+2022-04-17 05:29:08 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:09 :- Geocode successful (36 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-17 05:29:09 :- Attempting to geocode -37.92417,145.11676 (latlng)
+2022-04-17 05:29:09 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:09 :- Geocode successful (14 Faulkiner St, Clayton VIC 3168, Australia)
+2022-04-17 05:29:09 :- Attempting to geocode -37.91028,145.12713 (latlng)
+2022-04-17 05:29:09 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:09 :- Geocode successful (38 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-17 05:29:09 :- Attempting to geocode -37.92406,145.16257 (latlng)
+2022-04-17 05:29:09 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:10 :- Geocode successful (39 Woolwich Dr, Mulgrave VIC 3170, Australia)
+2022-04-17 05:29:10 :- Attempting to geocode -37.93696,145.1036 (latlng)
+2022-04-17 05:29:10 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:10 :- Geocode successful (2/2 Fermont Ct, Clarinda VIC 3169, Australia)
+2022-04-17 05:29:10 :- Attempting to geocode -37.93901,145.13482 (latlng)
+2022-04-17 05:29:10 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:11 :- Geocode successful (25A Moore Ave, Clayton South VIC 3169, Australia)
+2022-04-17 05:29:11 :- Attempting to geocode -37.89188,145.09188 (latlng)
+2022-04-17 05:29:11 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:11 :- Geocode successful (25 Dalgety St, Oakleigh VIC 3166, Australia)
+2022-04-17 05:29:11 :- Attempting to geocode -37.94717,145.15357 (latlng)
+2022-04-17 05:29:11 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:11 :- Geocode successful (1A Virginia St, Springvale VIC 3171, Australia)
+2022-04-17 05:29:11 :- Attempting to geocode -37.87911,145.16488 (latlng)
+2022-04-17 05:29:11 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:12 :- Geocode successful (52-54 Osullivan Rd, Glen Waverley VIC 3150, Australia)
+2022-04-17 05:29:12 :- Attempting to geocode -37.87125,145.12822 (latlng)
+2022-04-17 05:29:12 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:12 :- Geocode successful (6 Farquharson St, Mount Waverley VIC 3149, Australia)
+2022-04-17 05:29:12 :- Attempting to geocode -37.90484,145.19024 (latlng)
+2022-04-17 05:29:12 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-17 05:29:13 :- Geocode successful (5 Trooper Ct, Wheelers Hill VIC 3150, Australia)
+2022-04-17 05:29:13 :- Import completed
+2022-04-27 08:00:25 :- Base class constructor called
+2022-04-27 08:00:25 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:02:27 :- Base class constructor called
+2022-04-27 08:02:27 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-1.csv
+2022-04-27 08:07:27 :- Base class constructor called
+2022-04-27 08:07:27 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-2.csv
+2022-04-27 08:09:06 :- Base class constructor called
+2022-04-27 08:09:06 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-3.csv
+2022-04-27 08:09:22 :- Base class constructor called
+2022-04-27 08:09:22 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-4.csv
+2022-04-27 08:12:53 :- Base class constructor called
+2022-04-27 08:12:53 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-4.csv
+2022-04-27 08:13:16 :- Base class constructor called
+2022-04-27 08:13:16 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-4.csv
+2022-04-27 08:13:30 :- Base class constructor called
+2022-04-27 08:13:30 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Library_near-_clayton-4.csv
+2022-04-27 08:13:30 :- Attempting to geocode -37.88723,145.05816 (latlng)
+2022-04-27 08:13:30 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:30 :- Geocode successful (3 Shepparson Ave, Carnegie VIC 3163, Australia)
+2022-04-27 08:13:31 :- Attempting to geocode -37.91007,145.12756 (latlng)
+2022-04-27 08:13:31 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:31 :- Geocode successful (36 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-27 08:13:31 :- Attempting to geocode -37.92417,145.11676 (latlng)
+2022-04-27 08:13:31 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:31 :- Geocode successful (19 Faulkiner St, Clayton VIC 3168, Australia)
+2022-04-27 08:13:31 :- Attempting to geocode -37.91028,145.12713 (latlng)
+2022-04-27 08:13:31 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:32 :- Geocode successful (38 Marshall Ave, Clayton VIC 3168, Australia)
+2022-04-27 08:13:32 :- Attempting to geocode -37.92406,145.16257 (latlng)
+2022-04-27 08:13:32 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:32 :- Geocode successful (39 Woolwich Dr, Mulgrave VIC 3170, Australia)
+2022-04-27 08:13:32 :- Attempting to geocode -37.93696,145.1036 (latlng)
+2022-04-27 08:13:32 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:32 :- Geocode successful (2/2 Fermont Ct, Clarinda VIC 3169, Australia)
+2022-04-27 08:13:33 :- Attempting to geocode -37.93901,145.13482 (latlng)
+2022-04-27 08:13:33 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:33 :- Geocode successful (25A Moore Ave, Clayton South VIC 3169, Australia)
+2022-04-27 08:13:33 :- Attempting to geocode -37.89188,145.09188 (latlng)
+2022-04-27 08:13:33 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:33 :- Geocode successful (25 Dalgety St, Oakleigh VIC 3166, Australia)
+2022-04-27 08:13:33 :- Attempting to geocode -37.94717,145.15357 (latlng)
+2022-04-27 08:13:33 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:34 :- Geocode successful (1A Virginia St, Springvale VIC 3171, Australia)
+2022-04-27 08:13:34 :- Attempting to geocode -37.87911,145.16488 (latlng)
+2022-04-27 08:13:34 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:34 :- Geocode successful (52-54 Osullivan Rd, Glen Waverley VIC 3150, Australia)
+2022-04-27 08:13:34 :- Attempting to geocode -37.87125,145.12822 (latlng)
+2022-04-27 08:13:34 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:34 :- Geocode successful (6 Farquharson St, Mount Waverley VIC 3149, Australia)
+2022-04-27 08:13:35 :- Attempting to geocode -37.90484,145.19024 (latlng)
+2022-04-27 08:13:35 :- Request Token: AIzaSyAFfrExVfZW040Ql8wUzs2jQnEo9w23mVU
+2022-04-27 08:13:35 :- Geocode successful (5 Trooper Ct, Wheelers Hill VIC 3150, Australia)
+2022-04-27 08:13:35 :- Import completed
+2022-04-27 08:14:43 :- Base class constructor called
+2022-04-27 08:14:43 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-4.csv
+2022-04-27 08:17:02 :- Base class constructor called
+2022-04-27 08:17:02 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:23:07 :- Base class constructor called
+2022-04-27 08:23:07 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:23:19 :- Base class constructor called
+2022-04-27 08:23:19 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:23:26 :- Base class constructor called
+2022-04-27 08:23:26 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:26:29 :- Base class constructor called
+2022-04-27 08:26:29 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:26:44 :- Base class constructor called
+2022-04-27 08:26:44 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton.csv
+2022-04-27 08:26:45 :- Import completed
+2022-04-27 08:31:23 :- Base class constructor called
+2022-04-27 08:31:23 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-1.csv
+2022-04-27 08:31:34 :- Base class constructor called
+2022-04-27 08:31:34 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/04/Sport_near_Clayton-1.csv
+2022-04-27 08:31:35 :- Import completed
+2022-05-01 08:49:47 :- Base class constructor called
+2022-05-01 08:49:47 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/05/food_near_Clayton.csv
+2022-05-01 08:50:01 :- Base class constructor called
+2022-05-01 08:50:01 :- Loading file /opt/bitnami/wordpress/wp-content/uploads/2022/05/food_near_Clayton.csv
+2022-05-01 08:50:02 :- Import completed

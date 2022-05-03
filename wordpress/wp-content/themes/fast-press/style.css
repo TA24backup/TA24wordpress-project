@@ -1195,7 +1195,11 @@ audio {
 	line-height: inherit;
 	margin: 0;
    padding-top: 10px;
-   font-size: 30px;
+   font-size: 20px;
+	margin-left: 500px;
+   margin-right: 500px;
+	word-break:break-word;
+	word-wrap:break-word;
 	text-shadow: 0px 0px 20px black;
 }
 
@@ -1220,11 +1224,11 @@ audio {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #282828;
-	-webkit-transition: all 0.3s linear 0s;
-	-moz-transition: all 0.3s linear 0s;
-	-o-transition: all 0.3s linear 0s;
-	transition: all 0.3s linear 0s;	
+	color: #ffffff;
+	-webkit-transition: all 0s linear 0s;
+	-moz-transition: all 0s linear 0s;
+	-o-transition: all 0s linear 0s;
+	transition: all 0s linear 0s;	
 }
 
 h2 a {
@@ -1417,7 +1421,7 @@ article p a {
 	
 .main-navigation ul li a {
 	display: block;  
-	font-size: 16px;
+	font-size: 20px;
 	text-decoration: none;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;	
     font-weight: 500;
@@ -1615,8 +1619,8 @@ nav ul li:hover > ul {
 .main-navigation ul li:hover > ul {
 	z-index: 99999;
 	display: block;
-	-webkit-animation-duration: 0.7s;
-    animation-duration: 0.7s;
+	-webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-transition: all 0.1s ease-in-out;

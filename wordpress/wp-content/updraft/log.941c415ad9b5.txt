@@ -1,0 +1,968 @@
+0000.002 (0) Opened log file at time: Tue, 03 May 2022 03:09:56 +0000 on https://antilonelylonelyalliance.com
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 7.4.28 (fpm-fcgi, Linux ip-172-31-47-29 4.19.0-20-cloud-amd64 #1 SMP Debian 4.19.235-1 (2022-03-17) x86_64) MySQL: 10.3.34-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 15.9M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 5177.1 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.018 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.025 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1651461160, seconds_ago=86236)
+0000.033 (0) Set semaphore last lock (fd) time to 2022-05-03 03:09:56
+0000.036 (0) Semaphore lock (fd) complete
+0000.046 (0) Backup run: resumption=0, nonce=941c415ad9b5, file_nonce=941c415ad9b5 begun at=1651547396 (0s ago), job type=backup
+0000.052 (0) Scheduling a resumption (1) after 300 seconds (1651547696) in case this run gets aborted
+0000.059 (0) Checking if we have a zip executable available
+0000.063 (0) Testing: /usr/bin/zip
+0000.073 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.076 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.083 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.092 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.096 (0) Working binary zip found: /usr/bin/zip
+0000.101 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.105 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.527 (0) Total entities for the zip file: 6301 directories, 23909 files (0 skipped as non-modified), 340.1 MB
+0000.533 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.537 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.540 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.542 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.546 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.549 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.553 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.556 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.558 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.561 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.564 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 23909 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.754 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: size is now: 3.90 MB
+0001.761 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1100 files added (on-disk size: 3975.8 KB)
+0001.769 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1200 files added (on-disk size: 3975.8 KB)
+0001.773 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1300 files added (on-disk size: 3975.8 KB)
+0001.777 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1400 files added (on-disk size: 3975.8 KB)
+0001.781 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1500 files added (on-disk size: 3975.8 KB)
+0001.785 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1600 files added (on-disk size: 3975.8 KB)
+0001.789 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1700 files added (on-disk size: 3975.8 KB)
+0001.792 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1800 files added (on-disk size: 3975.8 KB)
+0001.794 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 1900 files added (on-disk size: 3975.8 KB)
+0001.798 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2000 files added (on-disk size: 3975.8 KB)
+0001.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.3 MB, 23909 files batched, 1001 (2002) added so far); re-opening (prior size: 3975.8 KB)
+0003.405 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: size is now: 10.60 MB
+0003.415 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2100 files added (on-disk size: 10803.5 KB)
+0003.418 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2200 files added (on-disk size: 10803.5 KB)
+0003.426 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2300 files added (on-disk size: 10803.5 KB)
+0003.432 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2400 files added (on-disk size: 10803.5 KB)
+0003.436 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2500 files added (on-disk size: 10803.5 KB)
+0003.440 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2600 files added (on-disk size: 10803.5 KB)
+0003.443 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2700 files added (on-disk size: 10803.5 KB)
+0003.447 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2800 files added (on-disk size: 10803.5 KB)
+0003.451 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 2900 files added (on-disk size: 10803.5 KB)
+0003.454 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3000 files added (on-disk size: 10803.5 KB)
+0003.457 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.5 MB, 23909 files batched, 1001 (3003) added so far); re-opening (prior size: 10803.5 KB)
+0005.537 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: size is now: 18.30 MB
+0005.544 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3100 files added (on-disk size: 18710.1 KB)
+0005.548 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3200 files added (on-disk size: 18710.1 KB)
+0005.550 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3300 files added (on-disk size: 18710.1 KB)
+0005.553 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3400 files added (on-disk size: 18710.1 KB)
+0005.559 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3500 files added (on-disk size: 18710.1 KB)
+0005.562 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3600 files added (on-disk size: 18710.1 KB)
+0005.566 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3700 files added (on-disk size: 18710.1 KB)
+0005.569 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3800 files added (on-disk size: 18710.1 KB)
+0005.573 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 3900 files added (on-disk size: 18710.1 KB)
+0005.578 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4000 files added (on-disk size: 18710.1 KB)
+0005.581 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.1 MB, 23909 files batched, 1001 (4004) added so far); re-opening (prior size: 18710.1 KB)
+0007.251 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: size is now: 27.90 MB
+0007.258 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4100 files added (on-disk size: 28527.7 KB)
+0007.261 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4200 files added (on-disk size: 28527.7 KB)
+0007.265 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4300 files added (on-disk size: 28527.7 KB)
+0007.269 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4400 files added (on-disk size: 28527.7 KB)
+0007.272 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4500 files added (on-disk size: 28527.7 KB)
+0007.274 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4600 files added (on-disk size: 28527.7 KB)
+0007.278 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4700 files added (on-disk size: 28527.7 KB)
+0007.281 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4800 files added (on-disk size: 28527.7 KB)
+0007.285 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 4900 files added (on-disk size: 28527.7 KB)
+0007.288 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5000 files added (on-disk size: 28527.7 KB)
+0007.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10 MB, 23909 files batched, 1001 (5005) added so far); re-opening (prior size: 28527.7 KB)
+0008.380 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5100 files added (on-disk size: 30135.4 KB)
+0008.384 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5200 files added (on-disk size: 30135.4 KB)
+0008.386 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5300 files added (on-disk size: 30135.4 KB)
+0008.390 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5400 files added (on-disk size: 30135.4 KB)
+0008.394 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5500 files added (on-disk size: 30135.4 KB)
+0008.398 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5600 files added (on-disk size: 30135.4 KB)
+0008.402 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5700 files added (on-disk size: 30135.4 KB)
+0008.406 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5800 files added (on-disk size: 30135.4 KB)
+0008.410 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 5900 files added (on-disk size: 30135.4 KB)
+0008.414 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6000 files added (on-disk size: 30135.4 KB)
+0008.417 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.7 MB, 23909 files batched, 1001 (6006) added so far); re-opening (prior size: 30135.4 KB)
+0009.811 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6100 files added (on-disk size: 32349.1 KB)
+0009.825 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6200 files added (on-disk size: 32349.1 KB)
+0009.829 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6300 files added (on-disk size: 32349.1 KB)
+0009.833 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6400 files added (on-disk size: 32349.1 KB)
+0009.837 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6500 files added (on-disk size: 32349.1 KB)
+0009.840 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6600 files added (on-disk size: 32349.1 KB)
+0009.842 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6700 files added (on-disk size: 32349.1 KB)
+0009.846 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6800 files added (on-disk size: 32349.1 KB)
+0009.849 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 6900 files added (on-disk size: 32349.1 KB)
+0009.853 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7000 files added (on-disk size: 32349.1 KB)
+0009.856 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.9 MB, 23909 files batched, 1001 (7007) added so far); re-opening (prior size: 32349.1 KB)
+0010.777 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7100 files added (on-disk size: 33148.7 KB)
+0010.780 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7200 files added (on-disk size: 33148.7 KB)
+0010.784 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7300 files added (on-disk size: 33148.7 KB)
+0010.786 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7400 files added (on-disk size: 33148.7 KB)
+0010.790 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7500 files added (on-disk size: 33148.7 KB)
+0010.793 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7600 files added (on-disk size: 33148.7 KB)
+0010.796 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7700 files added (on-disk size: 33148.7 KB)
+0010.800 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7800 files added (on-disk size: 33148.7 KB)
+0010.804 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 7900 files added (on-disk size: 33148.7 KB)
+0010.806 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8000 files added (on-disk size: 33148.7 KB)
+0010.809 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.9 MB, 23909 files batched, 1001 (8008) added so far); re-opening (prior size: 33148.7 KB)
+0011.955 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8100 files added (on-disk size: 35565.1 KB)
+0011.959 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8200 files added (on-disk size: 35565.1 KB)
+0011.962 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8300 files added (on-disk size: 35565.1 KB)
+0011.966 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8400 files added (on-disk size: 35565.1 KB)
+0011.973 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8500 files added (on-disk size: 35565.1 KB)
+0011.977 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8600 files added (on-disk size: 35565.1 KB)
+0011.980 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8700 files added (on-disk size: 35565.1 KB)
+0011.983 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8800 files added (on-disk size: 35565.1 KB)
+0011.986 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 8900 files added (on-disk size: 35565.1 KB)
+0011.989 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9000 files added (on-disk size: 35565.1 KB)
+0011.992 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 23909 files batched, 1001 (9009) added so far); re-opening (prior size: 35565.1 KB)
+0013.056 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9100 files added (on-disk size: 37354.8 KB)
+0013.060 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9200 files added (on-disk size: 37354.8 KB)
+0013.063 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9300 files added (on-disk size: 37354.8 KB)
+0013.067 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9400 files added (on-disk size: 37354.8 KB)
+0013.071 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9500 files added (on-disk size: 37354.8 KB)
+0013.075 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9600 files added (on-disk size: 37354.8 KB)
+0013.079 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9700 files added (on-disk size: 37354.8 KB)
+0013.082 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9800 files added (on-disk size: 37354.8 KB)
+0013.086 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 9900 files added (on-disk size: 37354.8 KB)
+0013.089 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10000 files added (on-disk size: 37354.8 KB)
+0013.092 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.7 MB, 23909 files batched, 1001 (10010) added so far); re-opening (prior size: 37354.8 KB)
+0014.603 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10100 files added (on-disk size: 42118.5 KB)
+0014.607 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10200 files added (on-disk size: 42118.5 KB)
+0014.610 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10300 files added (on-disk size: 42118.5 KB)
+0014.614 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10400 files added (on-disk size: 42118.5 KB)
+0014.617 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10500 files added (on-disk size: 42118.5 KB)
+0014.620 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10600 files added (on-disk size: 42118.5 KB)
+0014.622 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10700 files added (on-disk size: 42118.5 KB)
+0014.626 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10800 files added (on-disk size: 42118.5 KB)
+0014.629 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 10900 files added (on-disk size: 42118.5 KB)
+0014.633 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11000 files added (on-disk size: 42118.5 KB)
+0014.635 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 23909 files batched, 1001 (11011) added so far); re-opening (prior size: 42118.5 KB)
+0015.890 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11100 files added (on-disk size: 48589.7 KB)
+0015.893 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11200 files added (on-disk size: 48589.7 KB)
+0015.897 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11300 files added (on-disk size: 48589.7 KB)
+0015.900 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11400 files added (on-disk size: 48589.7 KB)
+0015.902 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11500 files added (on-disk size: 48589.7 KB)
+0015.906 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11600 files added (on-disk size: 48589.7 KB)
+0015.910 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11700 files added (on-disk size: 48589.7 KB)
+0015.913 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11800 files added (on-disk size: 48589.7 KB)
+0015.917 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 11900 files added (on-disk size: 48589.7 KB)
+0015.920 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12000 files added (on-disk size: 48589.7 KB)
+0015.921 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 23909 files batched, 1001 (12012) added so far); re-opening (prior size: 48589.7 KB)
+0016.790 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12100 files added (on-disk size: 50242.5 KB)
+0016.804 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12200 files added (on-disk size: 50242.5 KB)
+0016.808 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12300 files added (on-disk size: 50242.5 KB)
+0016.812 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12400 files added (on-disk size: 50242.5 KB)
+0016.816 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12500 files added (on-disk size: 50242.5 KB)
+0016.819 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12600 files added (on-disk size: 50242.5 KB)
+0016.823 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12700 files added (on-disk size: 50242.5 KB)
+0016.826 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12800 files added (on-disk size: 50242.5 KB)
+0016.830 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 12900 files added (on-disk size: 50242.5 KB)
+0016.834 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13000 files added (on-disk size: 50242.5 KB)
+0016.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18 MB, 23909 files batched, 1001 (13013) added so far); re-opening (prior size: 50242.5 KB)
+0018.214 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13100 files added (on-disk size: 52440.9 KB)
+0018.218 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13200 files added (on-disk size: 52440.9 KB)
+0018.221 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13300 files added (on-disk size: 52440.9 KB)
+0018.225 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13400 files added (on-disk size: 52440.9 KB)
+0018.229 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13500 files added (on-disk size: 52440.9 KB)
+0018.232 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13600 files added (on-disk size: 52440.9 KB)
+0018.234 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13700 files added (on-disk size: 52440.9 KB)
+0018.238 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13800 files added (on-disk size: 52440.9 KB)
+0018.242 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 13900 files added (on-disk size: 52440.9 KB)
+0018.245 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14000 files added (on-disk size: 52440.9 KB)
+0018.248 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.3 MB, 23909 files batched, 1001 (14014) added so far); re-opening (prior size: 52440.9 KB)
+0019.694 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14100 files added (on-disk size: 58712.7 KB)
+0019.698 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14200 files added (on-disk size: 58712.7 KB)
+0019.701 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14300 files added (on-disk size: 58712.7 KB)
+0019.705 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14400 files added (on-disk size: 58712.7 KB)
+0019.708 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14500 files added (on-disk size: 58712.7 KB)
+0019.712 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14600 files added (on-disk size: 58712.7 KB)
+0019.714 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14700 files added (on-disk size: 58712.7 KB)
+0019.717 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14800 files added (on-disk size: 58712.7 KB)
+0019.721 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 14900 files added (on-disk size: 58712.7 KB)
+0019.724 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15000 files added (on-disk size: 58712.7 KB)
+0019.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.2 MB, 23909 files batched, 1001 (15015) added so far); re-opening (prior size: 58712.7 KB)
+0021.715 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15100 files added (on-disk size: 66945 KB)
+0021.725 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15200 files added (on-disk size: 66945 KB)
+0021.732 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15300 files added (on-disk size: 66945 KB)
+0021.748 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15400 files added (on-disk size: 66945 KB)
+0021.764 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15500 files added (on-disk size: 66945 KB)
+0021.772 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15600 files added (on-disk size: 66945 KB)
+0021.780 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15700 files added (on-disk size: 66945 KB)
+0021.783 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15800 files added (on-disk size: 66945 KB)
+0021.786 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 15900 files added (on-disk size: 66945 KB)
+0021.790 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16000 files added (on-disk size: 66945 KB)
+0021.793 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 23909 files batched, 1001 (16016) added so far); re-opening (prior size: 66945 KB)
+0023.514 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16100 files added (on-disk size: 72293.3 KB)
+0023.519 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16200 files added (on-disk size: 72293.3 KB)
+0023.522 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16300 files added (on-disk size: 72293.3 KB)
+0023.526 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16400 files added (on-disk size: 72293.3 KB)
+0023.529 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16500 files added (on-disk size: 72293.3 KB)
+0023.533 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16600 files added (on-disk size: 72293.3 KB)
+0023.537 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16700 files added (on-disk size: 72293.3 KB)
+0023.541 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16800 files added (on-disk size: 72293.3 KB)
+0023.544 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 16900 files added (on-disk size: 72293.3 KB)
+0023.546 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17000 files added (on-disk size: 72293.3 KB)
+0023.549 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.5 MB, 23909 files batched, 1001 (17017) added so far); re-opening (prior size: 72293.3 KB)
+0025.585 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17100 files added (on-disk size: 78408 KB)
+0025.589 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17200 files added (on-disk size: 78408 KB)
+0025.593 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17300 files added (on-disk size: 78408 KB)
+0025.596 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17400 files added (on-disk size: 78408 KB)
+0025.599 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17500 files added (on-disk size: 78408 KB)
+0025.602 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17600 files added (on-disk size: 78408 KB)
+0025.607 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17700 files added (on-disk size: 78408 KB)
+0025.611 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17800 files added (on-disk size: 78408 KB)
+0025.620 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 17900 files added (on-disk size: 78408 KB)
+0025.625 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18000 files added (on-disk size: 78408 KB)
+0025.628 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 23909 files batched, 1001 (18018) added so far); re-opening (prior size: 78408 KB)
+0026.925 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18100 files added (on-disk size: 81512.9 KB)
+0026.930 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18200 files added (on-disk size: 81512.9 KB)
+0026.934 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18300 files added (on-disk size: 81512.9 KB)
+0026.938 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18400 files added (on-disk size: 81512.9 KB)
+0026.942 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18500 files added (on-disk size: 81512.9 KB)
+0026.946 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18600 files added (on-disk size: 81512.9 KB)
+0026.949 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18700 files added (on-disk size: 81512.9 KB)
+0026.954 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18800 files added (on-disk size: 81512.9 KB)
+0026.959 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 18900 files added (on-disk size: 81512.9 KB)
+0026.964 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19000 files added (on-disk size: 81512.9 KB)
+0026.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 23909 files batched, 1001 (19019) added so far); re-opening (prior size: 81512.9 KB)
+0028.622 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19100 files added (on-disk size: 86022 KB)
+0028.626 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19200 files added (on-disk size: 86022 KB)
+0028.631 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19300 files added (on-disk size: 86022 KB)
+0028.635 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19400 files added (on-disk size: 86022 KB)
+0028.639 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19500 files added (on-disk size: 86022 KB)
+0028.643 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19600 files added (on-disk size: 86022 KB)
+0028.647 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19700 files added (on-disk size: 86022 KB)
+0028.651 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19800 files added (on-disk size: 86022 KB)
+0028.654 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 19900 files added (on-disk size: 86022 KB)
+0028.658 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20000 files added (on-disk size: 86022 KB)
+0028.661 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 23909 files batched, 1001 (20020) added so far); re-opening (prior size: 86022 KB)
+0030.144 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20100 files added (on-disk size: 89441 KB)
+0030.151 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20200 files added (on-disk size: 89441 KB)
+0030.155 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20300 files added (on-disk size: 89441 KB)
+0030.159 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20400 files added (on-disk size: 89441 KB)
+0030.163 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20500 files added (on-disk size: 89441 KB)
+0030.167 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 23909 files batched, 497 (20517) added so far); re-opening (prior size: 89441 KB)
+0032.027 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 10017.4 KB/s)
+0032.033 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6212449073792, normalised_time=2.5555431813448, max_time=32.028478860855, data points known=1, old_max_bytes=26214400, new_max_bytes=197126159)
+0032.038 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20600 files added (on-disk size: 96198.7 KB)
+0032.043 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20700 files added (on-disk size: 96198.7 KB)
+0032.048 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20800 files added (on-disk size: 96198.7 KB)
+0032.052 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 20900 files added (on-disk size: 96198.7 KB)
+0032.056 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21000 files added (on-disk size: 96198.7 KB)
+0032.061 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21100 files added (on-disk size: 96198.7 KB)
+0032.065 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21200 files added (on-disk size: 96198.7 KB)
+0032.069 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21300 files added (on-disk size: 96198.7 KB)
+0032.072 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21400 files added (on-disk size: 96198.7 KB)
+0032.076 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21500 files added (on-disk size: 96198.7 KB)
+0032.077 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.5 MB, 23909 files batched, 1001 (21518) added so far); re-opening (prior size: 96198.7 KB)
+0033.525 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21600 files added (on-disk size: 99688.4 KB)
+0033.530 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21700 files added (on-disk size: 99688.4 KB)
+0033.533 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21800 files added (on-disk size: 99688.4 KB)
+0033.537 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 21900 files added (on-disk size: 99688.4 KB)
+0033.541 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22000 files added (on-disk size: 99688.4 KB)
+0033.544 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22100 files added (on-disk size: 99688.4 KB)
+0033.548 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22200 files added (on-disk size: 99688.4 KB)
+0033.550 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22300 files added (on-disk size: 99688.4 KB)
+0033.554 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22400 files added (on-disk size: 99688.4 KB)
+0033.557 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22500 files added (on-disk size: 99688.4 KB)
+0033.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.3 MB, 23909 files batched, 1001 (22519) added so far); re-opening (prior size: 99688.4 KB)
+0034.648 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22600 files added (on-disk size: 100733.1 KB)
+0034.653 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22700 files added (on-disk size: 100733.1 KB)
+0034.657 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22800 files added (on-disk size: 100733.1 KB)
+0034.663 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 22900 files added (on-disk size: 100733.1 KB)
+0034.668 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23000 files added (on-disk size: 100733.1 KB)
+0034.672 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23100 files added (on-disk size: 100733.1 KB)
+0034.675 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23200 files added (on-disk size: 100733.1 KB)
+0034.679 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23300 files added (on-disk size: 100733.1 KB)
+0034.683 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23400 files added (on-disk size: 100733.1 KB)
+0034.687 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23500 files added (on-disk size: 100733.1 KB)
+0034.689 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.9 MB, 23909 files batched, 1001 (23520) added so far); re-opening (prior size: 100733.1 KB)
+0035.966 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23600 files added (on-disk size: 103061.4 KB)
+0035.970 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23700 files added (on-disk size: 103061.4 KB)
+0035.973 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23800 files added (on-disk size: 103061.4 KB)
+0035.977 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.tmp: 23900 files added (on-disk size: 103061.4 KB)
+0037.250 (0) Creating zip file manifest (/opt/bitnami/wordpress/wp-content/updraft/backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.list-temp.tmp)
+0037.340 (0) Successfully created zip file manifest (size: 2198978)
+0038.605 (0) Created plugins zip (0) - 104012.4 KB in 38.5 s (2702.5 KB/s) (sha1: dd2203241b4dc0b947347cf0ec6496c0f2c9a89e, sha256: 3b6551f78c12101ff13220bdfcd0d80e1591b810317013bfe7c31ddb5696732e)
+0038.611 (0) Beginning creation of dump of themes (split every: 400 MB)
+0038.809 (0) Total entities for the zip file: 288 directories, 1154 files (0 skipped as non-modified), 29.8 MB
+0038.813 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0038.817 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0038.820 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0038.822 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0038.826 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0038.829 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0038.833 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0038.837 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0038.840 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0038.842 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0038.844 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27.6 MB, 1154 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0040.344 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: size is now: 20.10 MB
+0040.352 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.tmp: 1100 files added (on-disk size: 20606.1 KB)
+0040.579 (0) Creating zip file manifest (/opt/bitnami/wordpress/wp-content/updraft/backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.list-temp.tmp)
+0040.584 (0) Successfully created zip file manifest (size: 79665)
+0040.841 (0) Created themes zip (0) - 21693 KB in 2.2 s (9732.9 KB/s) (sha1: 45d986f84dd0b62e06c994e3be522f11e22d634d, sha256: 364d8597d9a35868abefc0295833a33fcade7d1e98ab57383a31553967559f6d)
+0040.848 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0040.850 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0040.853 (0) finding files: demo-pack: adding to list (1)
+0040.855 (0) finding files: rmp-menu: adding to list (2)
+0040.856 (0) finding files: wp-google-maps: adding to list (3)
+0040.857 (0) finding files: 2019: adding to list (4)
+0040.859 (0) finding files: 2020: adding to list (5)
+0040.860 (0) finding files: 2022: adding to list (6)
+0040.861 (0) finding files: 2018: adding to list (7)
+0040.864 (0) finding files: 2021: adding to list (8)
+0040.865 (0) finding files: wp-file-manager-pro: adding to list (9)
+0040.867 (0) finding files: wp-data-access: adding to list (10)
+0040.868 (0) finding files: elementor: adding to list (11)
+0040.869 (0) finding files: wpcf7_uploads: adding to list (12)
+0040.872 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0040.923 (0) Total entities for the zip file: 27 directories, 1177 files (0 skipped as non-modified), 501.5 MB
+0040.927 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0040.930 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0040.933 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0040.937 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0040.941 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0040.945 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0040.948 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0040.951 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0040.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 188 MB added on this batch (188 MB, 1177 files batched, 805 (805) added so far); re-opening (prior size: 0 KB)
+0043.414 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: size is now: 187.60 MB
+0043.422 (0) A useful amount of data was added after this amount of zip processing: 3 s (normalised: 3 s, rate: 63829.9 KB/s)
+0043.425 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.0160930156708, normalised_time=3.0159207439249, max_time=43.422888040543, data points known=1, old_max_bytes=197126159, new_max_bytes=209715200)
+0043.430 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 900 files added (on-disk size: 192074.3 KB)
+0043.434 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 1000 files added (on-disk size: 192074.3 KB)
+0043.437 (0) Zip: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: 1100 files added (on-disk size: 192074.3 KB)
+0043.440 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (196 MB, 313 (1118) files added so far); last ratio: 0.9977; re-opening (prior size: 192074.3 KB)
+0048.242 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.tmp: size is now: 383.70 MB
+0048.283 (0) Zip size is at/near split limit (383.7 MB / 400 MB) - bumping index (from: 0)
+0053.968 (0) Creating zip file manifest (/opt/bitnami/wordpress/wp-content/updraft/backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.list-temp.tmp)
+0053.974 (0) Successfully created zip file manifest (size: 73279)
+0053.980 (0) Created uploads zip (0) - 392866.1 KB in 7.4 s (52995.8 KB/s) (checksums: sha1: 6ba85b4557e3af6feff65786d984da10e772a4f5, sha256: ab3059dcc82bd21135717711bfbbd640c70f1dc1a5c75dc56c5136e22545d808)
+0053.991 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (105.5 MB, 1 (1119) files added so far); re-opening (prior size: 0 KB)
+0054.941 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip.tmp: size is now: 105.50 MB
+0055.528 (0) Creating zip file manifest (/opt/bitnami/wordpress/wp-content/updraft/backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip.list-temp.tmp)
+0055.583 (0) Successfully created zip file manifest (size: 5807)
+0056.976 (0) Created uploads zip (1) - 120262 KB in 3 s (40209.8 KB/s) (sha1: 74e2cd6bc234c9b4dab4891bcb52c19cff6175bc, sha256: 23ae115a646a3ea1ed7da04fea949e4c25a01c220c3ca04c4edde1576946aabb)
+0056.991 (0) Beginning backup of other directories found in the content directory (index: 0)
+0056.994 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0056.999 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0057.003 (0) finding files: themes: skipping: this is the themes directory
+0057.006 (0) finding files: uploads: skipping: this is the uploads directory
+0057.010 (0) finding files: languages: adding to list (1)
+0057.013 (0) finding files: index.php: adding to list (2)
+0057.016 (0) finding files: updraft: skipping: this is the updraft directory
+0057.017 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0057.021 (0) finding files: plugins: skipping: this is the plugins directory
+0057.024 (0) finding files: upgrade: skipping: excluded by options
+0057.027 (0) finding files: wflogs: adding to list (3)
+0057.041 (0) Total entities for the zip file: 2 directories, 11 files (0 skipped as non-modified), 7.3 MB
+0057.722 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip.tmp: size is now: 3.40 MB
+0057.730 (0) Creating zip file manifest (/opt/bitnami/wordpress/wp-content/updraft/backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip.list-temp.tmp)
+0057.732 (0) Successfully created zip file manifest (size: 364)
+0057.783 (0) Created others zip (0) - 3514 KB in 0.8 s (4670.5 KB/s) (sha1: b4745171ccfd4a59b40bc8b5d995641da04bcb04, sha256: 5ad537fc8cabe6a2c2a28ba035afc7c1499a3b3bf56655441f53183b6d7433a4)
+0057.796 (0) Saving backup status to database (elements: 9)
+0057.822 (0) Beginning creation of database dump (WordPress DB)
+0057.831 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0057.935 (0) Table wp_options: Total expected rows (via COUNT): 487
+0057.938 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.038 (0) Table wp_options: Rows added in this batch (next record: 40826): 483 (uncompressed bytes in this segment=2223168) in 0.15 seconds
+0058.048 (0) Table wp_options: finishing file(s) (2, 451.8 KB)
+0058.055 (0) Table wp_users: Total expected rows (via COUNT): 2
+0058.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.063 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1523) in 0.01 seconds
+0058.071 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0058.083 (0) Table wp_usermeta: Total expected rows (via COUNT): 65
+0058.085 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.090 (0) Table wp_usermeta: Rows added in this batch (next record: 73): 65 (uncompressed bytes in this segment=6631) in 0.01 seconds
+0058.101 (0) Table wp_usermeta: finishing file(s) (2, 2.4 KB)
+0058.116 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 41
+0058.117 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.122 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 3675): 41 (uncompressed bytes in this segment=14738) in 0.02 seconds
+0058.133 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2 KB)
+0058.141 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0058.147 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.01 seconds
+0058.153 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0058.162 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0058.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.172 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=697) in 0.01 seconds
+0058.179 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0058.188 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 119
+0058.191 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.198 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 8368): 119 (uncompressed bytes in this segment=11282) in 0.01 seconds
+0058.205 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.7 KB)
+0058.217 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0058.220 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0058.229 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0058.234 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0058.240 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1679) in 0.01 seconds
+0058.248 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0058.258 (0) Table wp_links: Total expected rows (via COUNT): 0
+0058.261 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0058.269 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0058.618 (0) Table wp_postmeta: Total expected rows (approximate): 11557
+0059.288 (0) Table wp_postmeta: Rows added in this batch (next record: 12932): 10226 (uncompressed bytes in this segment=29098503) in 1.01 seconds
+0059.298 (0) Table wp_postmeta: finishing file(s) (2, 2253.8 KB)
+0059.527 (0) Table wp_posts: Total expected rows (approximate): 2097
+0059.943 (0) Table wp_posts: Rows added in this batch (next record: 2695): 1698 (uncompressed bytes in this segment=21674288) in 0.64 seconds
+0059.954 (0) Table wp_posts: finishing file(s) (2, 1303.6 KB)
+0059.959 (0) Table wp_term_relationships: Total expected rows (approximate): 29
+0059.967 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 29 (uncompressed bytes in this segment=1112) in 0.01 seconds
+0059.973 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0059.990 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 16
+0059.993 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.998 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 17): 16 (uncompressed bytes in this segment=1429) in 0.02 seconds
+0060.005 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0060.017 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0060.022 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0060.030 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0060.038 (0) Table wp_terms: Total expected rows (via COUNT): 16
+0060.041 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.050 (0) Table wp_terms: Rows added in this batch (next record: 17): 16 (uncompressed bytes in this segment=1301) in 0.02 seconds
+0060.057 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0060.072 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 23
+0060.073 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.078 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 612): 23 (uncompressed bytes in this segment=80362) in 0.02 seconds
+0060.089 (0) Table wp_aioseo_cache: finishing file(s) (2, 15.2 KB)
+0060.100 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 4
+0060.103 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.105 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=22440) in 0.01 seconds
+0060.114 (0) Table wp_aioseo_notifications: finishing file(s) (2, 14.6 KB)
+0060.128 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 17
+0060.129 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.134 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 25): 17 (uncompressed bytes in this segment=46268) in 0.02 seconds
+0060.141 (0) Table wp_aioseo_posts: finishing file(s) (2, 4.1 KB)
+0060.152 (0) Table wp_aiowps_debug_log: Total expected rows (via COUNT): 0
+0060.156 (0) Table wp_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0060.164 (0) Table wp_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0060.177 (0) Table wp_aiowps_events: Total expected rows (via COUNT): 0
+0060.180 (0) Table wp_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1000) in 0.01 seconds
+0060.187 (0) Table wp_aiowps_events: finishing file(s) (2, 0.4 KB)
+0060.199 (0) Table wp_aiowps_failed_logins: Total expected rows (via COUNT): 0
+0060.202 (0) Table wp_aiowps_failed_logins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.01 seconds
+0060.208 (0) Table wp_aiowps_failed_logins: finishing file(s) (2, 0.4 KB)
+0060.222 (0) Table wp_aiowps_global_meta: Total expected rows (via COUNT): 0
+0060.228 (0) Table wp_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1148) in 0.01 seconds
+0060.235 (0) Table wp_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0060.243 (0) Table wp_aiowps_login_activity: Total expected rows (via COUNT): 1
+0060.245 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.250 (0) Table wp_aiowps_login_activity: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1077) in 0.01 seconds
+0060.256 (0) Table wp_aiowps_login_activity: finishing file(s) (2, 0.5 KB)
+0060.266 (0) Table wp_aiowps_login_lockdown: Total expected rows (via COUNT): 0
+0060.270 (0) Table wp_aiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=932) in 0.01 seconds
+0060.276 (0) Table wp_aiowps_login_lockdown: finishing file(s) (2, 0.4 KB)
+0060.286 (0) Table wp_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0060.289 (0) Table wp_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=815) in 0.01 seconds
+0060.295 (0) Table wp_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0060.304 (0) Table wp_aysquiz_answers: Total expected rows (via COUNT): 9
+0060.308 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.313 (0) Table wp_aysquiz_answers: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1149) in 0.01 seconds
+0060.317 (0) Table wp_aysquiz_answers: finishing file(s) (2, 0.5 KB)
+0060.327 (0) Table wp_aysquiz_categories: Total expected rows (via COUNT): 1
+0060.330 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.333 (0) Table wp_aysquiz_categories: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=707) in 0.01 seconds
+0060.337 (0) Table wp_aysquiz_categories: finishing file(s) (2, 0.4 KB)
+0060.347 (0) Table wp_aysquiz_questions: Total expected rows (via COUNT): 3
+0060.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.353 (0) Table wp_aysquiz_questions: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1477) in 0.01 seconds
+0060.358 (0) Table wp_aysquiz_questions: finishing file(s) (2, 0.5 KB)
+0060.369 (0) Table wp_aysquiz_quizcategories: Total expected rows (via COUNT): 1
+0060.372 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.374 (0) Table wp_aysquiz_quizcategories: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=735) in 0.01 seconds
+0060.380 (0) Table wp_aysquiz_quizcategories: finishing file(s) (2, 0.4 KB)
+0060.389 (0) Table wp_aysquiz_quizes: Total expected rows (via COUNT): 1
+0060.392 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.394 (0) Table wp_aysquiz_quizes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2706) in 0.01 seconds
+0060.400 (0) Table wp_aysquiz_quizes: finishing file(s) (2, 1.1 KB)
+0060.411 (0) Table wp_aysquiz_rates: Total expected rows (via COUNT): 0
+0060.418 (0) Table wp_aysquiz_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.01 seconds
+0060.424 (0) Table wp_aysquiz_rates: finishing file(s) (2, 0.4 KB)
+0060.435 (0) Table wp_aysquiz_reports: Total expected rows (via COUNT): 0
+0060.438 (0) Table wp_aysquiz_reports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1019) in 0.01 seconds
+0060.444 (0) Table wp_aysquiz_reports: finishing file(s) (2, 0.4 KB)
+0060.467 (0) Table wp_aysquiz_settings: Total expected rows (via COUNT): 3
+0060.474 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.480 (0) Table wp_aysquiz_settings: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=830) in 0.01 seconds
+0060.493 (0) Table wp_aysquiz_settings: finishing file(s) (2, 0.4 KB)
+0060.509 (0) Table wp_aysquiz_themes: Total expected rows (via COUNT): 1
+0060.511 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.513 (0) Table wp_aysquiz_themes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2119) in 0.01 seconds
+0060.520 (0) Table wp_aysquiz_themes: finishing file(s) (2, 0.6 KB)
+0060.529 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0060.535 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=534) in 0.01 seconds
+0060.541 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0060.552 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0060.557 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2245) in 0.01 seconds
+0060.565 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0060.575 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0060.578 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1244) in 0.01 seconds
+0060.585 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0060.637 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0060.652 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.03 seconds
+0060.673 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0060.688 (0) Table wp_snippets: Total expected rows (via COUNT): 5
+0060.689 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.692 (0) Table wp_snippets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2652) in 0.01 seconds
+0060.699 (0) Table wp_snippets: finishing file(s) (2, 0.9 KB)
+0060.705 (0) Table wp_wfblockediplog: Total expected rows (approximate): 889
+0060.716 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 889 (uncompressed bytes in this segment=56994) in 0.01 seconds
+0060.725 (0) Table wp_wfblockediplog: finishing file(s) (2, 6.7 KB)
+0060.732 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0060.735 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.01 seconds
+0060.741 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0060.746 (0) Table wp_wfconfig: Total expected rows (approximate): 259
+0060.809 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 261 (uncompressed bytes in this segment=845023) in 0.06 seconds
+0060.816 (0) Table wp_wfconfig: finishing file(s) (2, 430.1 KB)
+0060.821 (0) Table wp_wfcrawlers: Total expected rows (approximate): 9
+0060.825 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=1802) in 0.01 seconds
+0060.832 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0060.839 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0060.843 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0060.848 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0060.854 (0) Table wp_wffilemods: Total expected rows (approximate): 2353
+0060.913 (0) Table wp_wffilemods: Rows added in this batch (next record: 3000): 2376 (uncompressed bytes in this segment=563595) in 0.06 seconds
+0060.921 (0) Table wp_wffilemods: finishing file(s) (2, 215.6 KB)
+0060.926 (0) Table wp_wfhits: Total expected rows (approximate): 1733
+0060.975 (0) Table wp_wfhits: Rows added in this batch (next record: 2271): 1860 (uncompressed bytes in this segment=1045778) in 0.05 seconds
+0060.984 (0) Table wp_wfhits: finishing file(s) (2, 56.7 KB)
+0060.989 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0060.993 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.01 seconds
+0060.997 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0061.003 (0) Table wp_wfissues: Total expected rows (via COUNT): 24
+0061.006 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.017 (0) Table wp_wfissues: Rows added in this batch (next record: 718): 24 (uncompressed bytes in this segment=33878) in 0.02 seconds
+0061.024 (0) Table wp_wfissues: finishing file(s) (2, 6.8 KB)
+0061.028 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 20937
+0061.143 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 21062): 21062 (uncompressed bytes in this segment=1955553) in 0.12 seconds
+0061.152 (0) Table wp_wfknownfilelist: finishing file(s) (2, 218 KB)
+0061.155 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0061.158 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0061.165 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0061.170 (0) Table wp_wflocs: Total expected rows (approximate): 2
+0061.175 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=972) in 0.00 seconds
+0061.184 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0061.191 (0) Table wp_wflogins: Total expected rows (via COUNT): 918
+0061.208 (0) Table wp_wflogins: Rows added in this batch (next record: 918): 918 (uncompressed bytes in this segment=209166) in 0.02 seconds
+0061.218 (0) Table wp_wflogins: finishing file(s) (2, 15.7 KB)
+0061.223 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0061.227 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.01 seconds
+0061.235 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0061.238 (0) Table wp_wfls_settings: Total expected rows (approximate): 23
+0061.243 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1770) in 0.01 seconds
+0061.251 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0061.257 (0) Table wp_wfnotifications: Total expected rows (approximate): 3
+0061.262 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1753) in 0.01 seconds
+0061.270 (0) Table wp_wfnotifications: finishing file(s) (2, 0.8 KB)
+0061.278 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0061.281 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.01 seconds
+0061.290 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0061.294 (0) Table wp_wfreversecache: Total expected rows (approximate): 5
+0061.300 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=932) in 0.01 seconds
+0061.310 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0061.317 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0061.320 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.01 seconds
+0061.324 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0061.334 (0) Table wp_wfstatus: Total expected rows (via COUNT): 943
+0061.348 (0) Table wp_wfstatus: Rows added in this batch (next record: 1855): 943 (uncompressed bytes in this segment=78448) in 0.02 seconds
+0061.356 (0) Table wp_wfstatus: finishing file(s) (2, 13.1 KB)
+0061.361 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0061.365 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0061.372 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0061.381 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0061.385 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.01 seconds
+0061.392 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0061.406 (0) Table wp_wpda_csv_uploads: Total expected rows (via COUNT): 0
+0061.409 (0) Table wp_wpda_csv_uploads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.01 seconds
+0061.413 (0) Table wp_wpda_csv_uploads: finishing file(s) (2, 0.4 KB)
+0061.425 (0) Table wp_wpda_logging: Total expected rows (approximate): 0
+0061.430 (0) Table wp_wpda_logging: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=539) in 0.01 seconds
+0061.438 (0) Table wp_wpda_logging: finishing file(s) (2, 0.3 KB)
+0061.443 (0) Table wp_wpda_media: Total expected rows (approximate): 0
+0061.448 (0) Table wp_wpda_media: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0061.453 (0) Table wp_wpda_media: finishing file(s) (2, 0.4 KB)
+0061.463 (0) Table wp_wpda_menus: Total expected rows (via COUNT): 0
+0061.466 (0) Table wp_wpda_menus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.01 seconds
+0061.474 (0) Table wp_wpda_menus: finishing file(s) (2, 0.3 KB)
+0061.481 (0) Table wp_wpda_project: Total expected rows (via COUNT): 0
+0061.484 (0) Table wp_wpda_project: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.01 seconds
+0061.501 (0) Table wp_wpda_project: finishing file(s) (2, 0.4 KB)
+0061.529 (0) Table wp_wpda_project_page: Total expected rows (via COUNT): 0
+0061.532 (0) Table wp_wpda_project_page: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1438) in 0.01 seconds
+0061.538 (0) Table wp_wpda_project_page: finishing file(s) (2, 0.6 KB)
+0061.544 (0) Table wp_wpda_project_table: Total expected rows (approximate): 0
+0061.549 (0) Table wp_wpda_project_table: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0061.556 (0) Table wp_wpda_project_table: finishing file(s) (2, 0.3 KB)
+0061.579 (0) Table wp_wpda_publisher: Total expected rows (via COUNT): 0
+0061.582 (0) Table wp_wpda_publisher: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2242) in 0.01 seconds
+0061.589 (0) Table wp_wpda_publisher: finishing file(s) (2, 0.8 KB)
+0061.597 (0) Table wp_wpda_table_design: Total expected rows (approximate): 0
+0061.601 (0) Table wp_wpda_table_design: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+0061.608 (0) Table wp_wpda_table_design: finishing file(s) (2, 0.4 KB)
+0061.616 (0) Table wp_wpda_table_settings: Total expected rows (approximate): 0
+0061.621 (0) Table wp_wpda_table_settings: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=549) in 0.01 seconds
+0061.628 (0) Table wp_wpda_table_settings: finishing file(s) (2, 0.3 KB)
+0061.638 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 2
+0061.640 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.644 (0) Table wp_wpfm_backup: Rows added in this batch (next record: 6): 2 (uncompressed bytes in this segment=708) in 0.01 seconds
+0061.650 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.4 KB)
+0061.666 (0) Table wp_wpgmza: Total expected rows (via COUNT): 168
+0061.669 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.676 (0) Table wp_wpgmza: Rows added in this batch (next record: 778): 168 (uncompressed bytes in this segment=44110) in 0.02 seconds
+0061.686 (0) Table wp_wpgmza: finishing file(s) (2, 9.1 KB)
+0061.692 (0) Table wp_wpgmza_categories: Total expected rows (via COUNT): 38
+0061.694 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.700 (0) Table wp_wpgmza_categories: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=6783) in 0.01 seconds
+0061.704 (0) Table wp_wpgmza_categories: finishing file(s) (2, 1 KB)
+0061.712 (0) Table wp_wpgmza_category_maps: Total expected rows (via COUNT): 33
+0061.715 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.717 (0) Table wp_wpgmza_category_maps: Rows added in this batch (next record: 85): 33 (uncompressed bytes in this segment=1008) in 0.01 seconds
+0061.725 (0) Table wp_wpgmza_category_maps: finishing file(s) (2, 0.5 KB)
+0061.733 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0061.737 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0061.745 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0061.752 (0) Table wp_wpgmza_custom_fields: Total expected rows (via COUNT): 1
+0061.754 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.760 (0) Table wp_wpgmza_custom_fields: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=851) in 0.01 seconds
+0061.765 (0) Table wp_wpgmza_custom_fields: finishing file(s) (2, 0.5 KB)
+0061.775 (0) Table wp_wpgmza_datasets: Total expected rows (via COUNT): 0
+0061.780 (0) Table wp_wpgmza_datasets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.01 seconds
+0061.789 (0) Table wp_wpgmza_datasets: finishing file(s) (2, 0.4 KB)
+0061.802 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 3
+0061.805 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.808 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 7): 3 (uncompressed bytes in this segment=15348) in 0.01 seconds
+0061.817 (0) Table wp_wpgmza_maps: finishing file(s) (2, 2.3 KB)
+0061.822 (0) Table wp_wpgmza_maps_has_custom_fields_filters: Total expected rows (approximate): 1
+0061.828 (0) Table wp_wpgmza_maps_has_custom_fields_filters: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=565) in 0.01 seconds
+0061.835 (0) Table wp_wpgmza_maps_has_custom_fields_filters: finishing file(s) (2, 0.3 KB)
+0061.841 (0) Table wp_wpgmza_markers_has_categories: Total expected rows (approximate): 339
+0061.846 (0) Table wp_wpgmza_markers_has_categories: Rows added in this batch (next record: 1000): 339 (uncompressed bytes in this segment=4565) in 0.01 seconds
+0061.853 (0) Table wp_wpgmza_markers_has_categories: finishing file(s) (2, 1.2 KB)
+0061.858 (0) Table wp_wpgmza_markers_has_custom_fields: Total expected rows (approximate): 3
+0061.864 (0) Table wp_wpgmza_markers_has_custom_fields: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=712) in 0.01 seconds
+0061.871 (0) Table wp_wpgmza_markers_has_custom_fields: finishing file(s) (2, 0.4 KB)
+0061.878 (0) Table wp_wpgmza_nominatim_geocode_cache: Total expected rows (via COUNT): 5
+0061.881 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.884 (0) Table wp_wpgmza_nominatim_geocode_cache: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=29408) in 0.01 seconds
+0061.892 (0) Table wp_wpgmza_nominatim_geocode_cache: finishing file(s) (2, 5.5 KB)
+0061.901 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0061.904 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1269) in 0.01 seconds
+0061.913 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0061.923 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0061.925 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0061.936 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0061.943 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0061.944 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.00 seconds
+0061.952 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.4 KB)
+0061.954 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_options.table.tmpr40827.gz (1/87/fopen): adding to final database dump
+0061.962 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_options.table.gz (2/87/fopen): adding to final database dump
+0061.965 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_users.table.tmpr3.gz (3/87/fopen): adding to final database dump
+0061.967 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_users.table.gz (4/87/fopen): adding to final database dump
+0061.968 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_usermeta.table.tmpr74.gz (5/87/fopen): adding to final database dump
+0061.969 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_usermeta.table.gz (6/87/fopen): adding to final database dump
+0061.972 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_actions.table.tmpr3676.gz (7/87/fopen): adding to final database dump
+0061.973 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_actions.table.gz (8/87/fopen): adding to final database dump
+0061.975 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/87/fopen): adding to final database dump
+0061.976 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_claims.table.gz (10/87/fopen): adding to final database dump
+0061.977 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/87/fopen): adding to final database dump
+0061.980 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_groups.table.gz (12/87/fopen): adding to final database dump
+0061.981 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_logs.table.tmpr8369.gz (13/87/fopen): adding to final database dump
+0061.984 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_actionscheduler_logs.table.gz (14/87/fopen): adding to final database dump
+0061.985 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_commentmeta.table.tmpr0.gz (15/87/fopen): adding to final database dump
+0061.986 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_commentmeta.table.gz (16/87/fopen): adding to final database dump
+0061.987 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_comments.table.tmpr0.gz (17/87/fopen): adding to final database dump
+0061.988 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_comments.table.gz (18/87/fopen): adding to final database dump
+0061.989 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_links.table.tmpr0.gz (19/87/fopen): adding to final database dump
+0061.992 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_links.table.gz (20/87/fopen): adding to final database dump
+0061.993 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_postmeta.table.tmpr12933.gz (21/87/fopen): adding to final database dump
+0062.016 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_postmeta.table.gz (22/87/fopen): adding to final database dump
+0062.018 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_posts.table.tmpr2696.gz (23/87/fopen): adding to final database dump
+0062.033 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_posts.table.gz (24/87/fopen): adding to final database dump
+0062.035 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_term_relationships.table.tmpr100001.gz (25/87/fopen): adding to final database dump
+0062.036 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_term_relationships.table.gz (26/87/fopen): adding to final database dump
+0062.037 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_term_taxonomy.table.tmpr18.gz (27/87/fopen): adding to final database dump
+0062.040 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_term_taxonomy.table.gz (28/87/fopen): adding to final database dump
+0062.041 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_termmeta.table.tmpr0.gz (29/87/fopen): adding to final database dump
+0062.043 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_termmeta.table.gz (30/87/fopen): adding to final database dump
+0062.045 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_terms.table.tmpr18.gz (31/87/fopen): adding to final database dump
+0062.048 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_terms.table.gz (32/87/fopen): adding to final database dump
+0062.049 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_cache.table.tmpr613.gz (33/87/fopen): adding to final database dump
+0062.051 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_cache.table.gz (34/87/fopen): adding to final database dump
+0062.053 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_notifications.table.tmpr5.gz (35/87/fopen): adding to final database dump
+0062.055 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_notifications.table.gz (36/87/fopen): adding to final database dump
+0062.056 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_posts.table.tmpr26.gz (37/87/fopen): adding to final database dump
+0062.057 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aioseo_posts.table.gz (38/87/fopen): adding to final database dump
+0062.060 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_debug_log.table.tmpr0.gz (39/87/fopen): adding to final database dump
+0062.061 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_debug_log.table.gz (40/87/fopen): adding to final database dump
+0062.063 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_events.table.tmpr0.gz (41/87/fopen): adding to final database dump
+0062.064 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_events.table.gz (42/87/fopen): adding to final database dump
+0062.065 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_failed_logins.table.tmpr0.gz (43/87/fopen): adding to final database dump
+0062.067 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_failed_logins.table.gz (44/87/fopen): adding to final database dump
+0062.068 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_global_meta.table.tmpr0.gz (45/87/fopen): adding to final database dump
+0062.069 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_global_meta.table.gz (46/87/fopen): adding to final database dump
+0062.071 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_login_activity.table.tmpr2.gz (47/87/fopen): adding to final database dump
+0062.072 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_login_activity.table.gz (48/87/fopen): adding to final database dump
+0062.073 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_login_lockdown.table.tmpr0.gz (49/87/fopen): adding to final database dump
+0062.075 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_login_lockdown.table.gz (50/87/fopen): adding to final database dump
+0062.076 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_permanent_block.table.tmpr0.gz (51/87/fopen): adding to final database dump
+0062.077 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aiowps_permanent_block.table.gz (52/87/fopen): adding to final database dump
+0062.078 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_answers.table.tmpr10.gz (53/87/fopen): adding to final database dump
+0062.080 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_answers.table.gz (54/87/fopen): adding to final database dump
+0062.081 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_categories.table.tmpr2.gz (55/87/fopen): adding to final database dump
+0062.083 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_categories.table.gz (56/87/fopen): adding to final database dump
+0062.084 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_questions.table.tmpr4.gz (57/87/fopen): adding to final database dump
+0062.086 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_questions.table.gz (58/87/fopen): adding to final database dump
+0062.088 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_quizcategories.table.tmpr2.gz (59/87/fopen): adding to final database dump
+0062.089 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_quizcategories.table.gz (60/87/fopen): adding to final database dump
+0062.092 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_quizes.table.tmpr2.gz (61/87/fopen): adding to final database dump
+0062.093 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_quizes.table.gz (62/87/fopen): adding to final database dump
+0062.095 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_rates.table.tmpr0.gz (63/87/fopen): adding to final database dump
+0062.096 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_rates.table.gz (64/87/fopen): adding to final database dump
+0062.097 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_reports.table.tmpr0.gz (65/87/fopen): adding to final database dump
+0062.101 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_reports.table.gz (66/87/fopen): adding to final database dump
+0062.103 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_settings.table.tmpr4.gz (67/87/fopen): adding to final database dump
+0062.104 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_settings.table.gz (68/87/fopen): adding to final database dump
+0062.105 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_themes.table.tmpr2.gz (69/87/fopen): adding to final database dump
+0062.107 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_aysquiz_themes.table.gz (70/87/fopen): adding to final database dump
+0062.108 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_events.table.tmpr0.gz (71/87/fopen): adding to final database dump
+0062.109 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_events.table.gz (72/87/fopen): adding to final database dump
+0062.110 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions.table.tmpr0.gz (73/87/fopen): adding to final database dump
+0062.112 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions.table.gz (74/87/fopen): adding to final database dump
+0062.112 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (75/87/fopen): adding to final database dump
+0062.115 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions_actions_log.table.gz (76/87/fopen): adding to final database dump
+0062.116 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions_values.table.tmpr0.gz (77/87/fopen): adding to final database dump
+0062.117 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_e_submissions_values.table.gz (78/87/fopen): adding to final database dump
+0062.119 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_snippets.table.tmpr6.gz (79/87/fopen): adding to final database dump
+0062.121 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_snippets.table.gz (80/87/fopen): adding to final database dump
+0062.123 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfblockediplog.table.tmpr1001.gz (81/87/fopen): adding to final database dump
+0062.124 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfblockediplog.table.gz (82/87/fopen): adding to final database dump
+0062.125 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfblocks7.table.tmpr0.gz (83/87/fopen): adding to final database dump
+0062.128 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfblocks7.table.gz (84/87/fopen): adding to final database dump
+0062.129 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfconfig.table.tmpr1001.gz (85/87/fopen): adding to final database dump
+0062.135 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfconfig.table.gz (86/87/fopen): adding to final database dump
+0062.137 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfcrawlers.table.tmpr1001.gz (87/87/fopen): adding to final database dump
+0062.139 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfcrawlers.table.gz (88/87/fopen): adding to final database dump
+0062.140 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wffilechanges.table.tmpr1.gz (89/87/fopen): adding to final database dump
+0062.141 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wffilechanges.table.gz (90/87/fopen): adding to final database dump
+0062.144 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wffilemods.table.tmpr3001.gz (91/87/fopen): adding to final database dump
+0062.147 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wffilemods.table.gz (92/87/fopen): adding to final database dump
+0062.150 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfhits.table.tmpr2272.gz (93/87/fopen): adding to final database dump
+0062.151 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfhits.table.gz (94/87/fopen): adding to final database dump
+0062.152 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfhoover.table.tmpr0.gz (95/87/fopen): adding to final database dump
+0062.153 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfhoover.table.gz (96/87/fopen): adding to final database dump
+0062.156 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfissues.table.tmpr719.gz (97/87/fopen): adding to final database dump
+0062.157 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfissues.table.gz (98/87/fopen): adding to final database dump
+0062.160 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfknownfilelist.table.tmpr21063.gz (99/87/fopen): adding to final database dump
+0062.164 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfknownfilelist.table.gz (100/87/fopen): adding to final database dump
+0062.165 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflivetraffichuman.table.tmpr1.gz (101/87/fopen): adding to final database dump
+0062.168 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflivetraffichuman.table.gz (102/87/fopen): adding to final database dump
+0062.169 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflocs.table.tmpr1001.gz (103/87/fopen): adding to final database dump
+0062.172 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflocs.table.gz (104/87/fopen): adding to final database dump
+0062.173 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflogins.table.tmpr919.gz (105/87/fopen): adding to final database dump
+0062.176 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wflogins.table.gz (106/87/fopen): adding to final database dump
+0062.177 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (107/87/fopen): adding to final database dump
+0062.180 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfls_2fa_secrets.table.gz (108/87/fopen): adding to final database dump
+0062.181 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfls_settings.table.tmpr1001.gz (109/87/fopen): adding to final database dump
+0062.184 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfls_settings.table.gz (110/87/fopen): adding to final database dump
+0062.185 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfnotifications.table.tmpr1001.gz (111/87/fopen): adding to final database dump
+0062.187 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfnotifications.table.gz (112/87/fopen): adding to final database dump
+0062.189 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfpendingissues.table.tmpr0.gz (113/87/fopen): adding to final database dump
+0062.189 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfpendingissues.table.gz (114/87/fopen): adding to final database dump
+0062.190 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfreversecache.table.tmpr1001.gz (115/87/fopen): adding to final database dump
+0062.191 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfreversecache.table.gz (116/87/fopen): adding to final database dump
+0062.192 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfsnipcache.table.tmpr0.gz (117/87/fopen): adding to final database dump
+0062.193 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfsnipcache.table.gz (118/87/fopen): adding to final database dump
+0062.196 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfstatus.table.tmpr1856.gz (119/87/fopen): adding to final database dump
+0062.197 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wfstatus.table.gz (120/87/fopen): adding to final database dump
+0062.200 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wftrafficrates.table.tmpr1.gz (121/87/fopen): adding to final database dump
+0062.201 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wftrafficrates.table.gz (122/87/fopen): adding to final database dump
+0062.204 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (123/87/fopen): adding to final database dump
+0062.205 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (124/87/fopen): adding to final database dump
+0062.206 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_csv_uploads.table.tmpr0.gz (125/87/fopen): adding to final database dump
+0062.207 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_csv_uploads.table.gz (126/87/fopen): adding to final database dump
+0062.208 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_logging.table.tmpr1.gz (127/87/fopen): adding to final database dump
+0062.209 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_logging.table.gz (128/87/fopen): adding to final database dump
+0062.211 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_media.table.tmpr1.gz (129/87/fopen): adding to final database dump
+0062.212 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_media.table.gz (130/87/fopen): adding to final database dump
+0062.213 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_menus.table.tmpr0.gz (131/87/fopen): adding to final database dump
+0062.215 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_menus.table.gz (132/87/fopen): adding to final database dump
+0062.216 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project.table.tmpr0.gz (133/87/fopen): adding to final database dump
+0062.217 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project.table.gz (134/87/fopen): adding to final database dump
+0062.218 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project_page.table.tmpr0.gz (135/87/fopen): adding to final database dump
+0062.220 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project_page.table.gz (136/87/fopen): adding to final database dump
+0062.221 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project_table.table.tmpr1.gz (137/87/fopen): adding to final database dump
+0062.223 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_project_table.table.gz (138/87/fopen): adding to final database dump
+0062.224 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_publisher.table.tmpr0.gz (139/87/fopen): adding to final database dump
+0062.225 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_publisher.table.gz (140/87/fopen): adding to final database dump
+0062.228 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_table_design.table.tmpr1.gz (141/87/fopen): adding to final database dump
+0062.229 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_table_design.table.gz (142/87/fopen): adding to final database dump
+0062.232 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_table_settings.table.tmpr1.gz (143/87/fopen): adding to final database dump
+0062.233 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpda_table_settings.table.gz (144/87/fopen): adding to final database dump
+0062.235 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpfm_backup.table.tmpr7.gz (145/87/fopen): adding to final database dump
+0062.236 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpfm_backup.table.gz (146/87/fopen): adding to final database dump
+0062.237 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza.table.tmpr779.gz (147/87/fopen): adding to final database dump
+0062.239 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza.table.gz (148/87/fopen): adding to final database dump
+0062.240 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_categories.table.tmpr39.gz (149/87/fopen): adding to final database dump
+0062.241 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_categories.table.gz (150/87/fopen): adding to final database dump
+0062.243 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_category_maps.table.tmpr86.gz (151/87/fopen): adding to final database dump
+0062.244 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_category_maps.table.gz (152/87/fopen): adding to final database dump
+0062.247 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_circles.table.tmpr0.gz (153/87/fopen): adding to final database dump
+0062.248 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_circles.table.gz (154/87/fopen): adding to final database dump
+0062.249 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_custom_fields.table.tmpr3.gz (155/87/fopen): adding to final database dump
+0062.252 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_custom_fields.table.gz (156/87/fopen): adding to final database dump
+0062.253 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_datasets.table.tmpr0.gz (157/87/fopen): adding to final database dump
+0062.255 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_datasets.table.gz (158/87/fopen): adding to final database dump
+0062.256 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_maps.table.tmpr8.gz (159/87/fopen): adding to final database dump
+0062.257 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_maps.table.gz (160/87/fopen): adding to final database dump
+0062.259 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_maps_has_custom_fields_filters.table.tmpr1.gz (161/87/fopen): adding to final database dump
+0062.260 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_maps_has_custom_fields_filters.table.gz (162/87/fopen): adding to final database dump
+0062.261 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_markers_has_categories.table.tmpr1001.gz (163/87/fopen): adding to final database dump
+0062.263 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_markers_has_categories.table.gz (164/87/fopen): adding to final database dump
+0062.264 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_markers_has_custom_fields.table.tmpr1001.gz (165/87/fopen): adding to final database dump
+0062.265 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_markers_has_custom_fields.table.gz (166/87/fopen): adding to final database dump
+0062.268 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_nominatim_geocode_cache.table.tmpr6.gz (167/87/fopen): adding to final database dump
+0062.269 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_nominatim_geocode_cache.table.gz (168/87/fopen): adding to final database dump
+0062.271 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_polygon.table.tmpr0.gz (169/87/fopen): adding to final database dump
+0062.272 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_polygon.table.gz (170/87/fopen): adding to final database dump
+0062.274 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_polylines.table.tmpr0.gz (171/87/fopen): adding to final database dump
+0062.276 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_polylines.table.gz (172/87/fopen): adding to final database dump
+0062.277 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (173/87/fopen): adding to final database dump
+0062.280 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db-table-wp_wpgmza_rectangles.table.gz (174/87/fopen): adding to final database dump
+0062.299 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz: finished writing out complete database file (5059.7 KB)
+0062.370 (0) Total database tables backed up: 87 (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz, size: 5181294, sha1: 6b37c96a4ef9fb1cce004f39616e2e2c153e651d, sha256: e6b46ae99d4b201b46722cbf634bebefe5907bc23dfbcf8d68dfdd420d24e6cd)
+0062.381 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0062.383 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0062.384 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0062.387 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0062.388 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0062.389 (0) backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0062.391 (0) Saving backup history. Total backup size: 632.2 MB
+0062.395 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0062.401 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0062.407 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-99242d01df977debb1c4b554e88c6da3)
+0066.334 (0) Google Drive: quota usage: used=6689.9 MB, total=10492449.9 MB, available=10485760 MB
+0066.337 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0068.204 (0) Googledrive chunked upload: 1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0069.383 (0) Googledrive chunked upload: 3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0070.661 (0) Googledrive chunked upload: 6.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 16.9 / 74)
+0072.077 (0) Googledrive chunked upload: 14.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 16.9 / 74)
+0073.948 (0) Googledrive chunked upload: 30.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 16.9 / 74)
+0076.288 (0) Googledrive chunked upload: 62 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 16.9 / 74)
+0080.185 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0080.196 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip uploaded in 13.86 seconds
+0080.197 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip
+0080.211 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip: OK
+0080.217 (0) Deleting zip manifest (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-plugins.zip.list.tmp)
+0080.661 (0) Google Drive: quota usage: used=6791.5 MB, total=10492551.5 MB, available=10485760 MB
+0080.664 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0082.491 (0) Googledrive chunked upload: 4.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0083.365 (0) Googledrive chunked upload: 14.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0084.613 (0) Googledrive chunked upload: 33 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 16.9 / 74)
+0086.116 (0) Googledrive chunked upload: 70.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 16.9 / 74)
+0088.886 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0088.893 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip uploaded in 8.23 seconds
+0088.895 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip
+0088.901 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip: OK
+0088.904 (0) Deleting zip manifest (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-themes.zip.list.tmp)
+0089.391 (0) Google Drive: quota usage: used=6812.6 MB, total=10492572.6 MB, available=10485760 MB
+0089.394 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0091.012 (0) Googledrive chunked upload: 0.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0092.185 (0) Googledrive chunked upload: 0.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0093.475 (0) Googledrive chunked upload: 1.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 16.9 / 74)
+0095.033 (0) Googledrive chunked upload: 3.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 16.9 / 74)
+0096.860 (0) Googledrive chunked upload: 8.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 16.9 / 74)
+0099.517 (0) Googledrive chunked upload: 16.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 16.9 / 74)
+0103.693 (0) Googledrive chunked upload: 33.1 % uploaded (133169152)
+0107.830 (0) Googledrive chunked upload: 49.8 % uploaded (200278016)
+0111.927 (0) Googledrive chunked upload: 66.5 % uploaded (267386880)
+0116.092 (0) Googledrive chunked upload: 83.1 % uploaded (334495744)
+0120.210 (0) Googledrive chunked upload: 99.8 % uploaded (401604608)
+0122.025 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0122.032 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip uploaded in 32.64 seconds
+0122.033 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip
+0122.057 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip: OK
+0122.060 (0) Deleting zip manifest (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads.zip.list.tmp)
+0122.587 (0) Google Drive: quota usage: used=7196.3 MB, total=10492956.3 MB, available=10485760 MB
+0122.590 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0124.380 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0125.545 (0) Googledrive chunked upload: 2.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0126.629 (0) Googledrive chunked upload: 6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 16.9 / 74)
+0128.197 (0) Googledrive chunked upload: 12.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 16.9 / 74)
+0130.033 (0) Googledrive chunked upload: 26.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 16.9 / 74)
+0132.609 (0) Googledrive chunked upload: 53.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 16.9 / 74)
+0137.398 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0137.405 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip uploaded in 14.81 seconds
+0137.408 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip
+0137.423 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip: OK
+0137.425 (0) Deleting zip manifest (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-uploads2.zip.list.tmp)
+0137.864 (0) Google Drive: quota usage: used=7313.7 MB, total=10493073.7 MB, available=10485760 MB
+0137.868 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0139.745 (0) Googledrive chunked upload: 29.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0140.627 (0) Googledrive chunked upload: 87.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0142.687 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0142.692 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip uploaded in 4.82 seconds
+0142.695 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip
+0142.697 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip: OK
+0142.700 (0) Deleting zip manifest (backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-others.zip.list.tmp)
+0143.208 (0) Google Drive: quota usage: used=7317.2 MB, total=10493077.2 MB, available=10485760 MB
+0143.211 (0) Google Drive: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz: Attempting to upload to Google Drive (into folder id: 1UblWy4fmK9PJ8TdHe_qXHCcXZSRSYYko)
+0144.991 (0) Googledrive chunked upload: 20.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.9 / 74)
+0145.942 (0) Googledrive chunked upload: 60.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.9 / 74)
+0148.186 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0148.191 (0) Google Drive: OK: Archive backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz uploaded in 4.98 seconds
+0148.193 (0) Recording as successfully uploaded: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz
+0148.197 (0) Deleting local file: backup_2022-05-03-0309_You_Are_Not_Alone_941c415ad9b5-db.gz: OK
+0148.204 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0148.205 (0) Number of backup sets in history: 3; groups (db): 1
+0148.209 (0) Examining (for databases) backup set with group_id=0, nonce=941c415ad9b5, datestamp=1651547396 (May 03 2022 03:09:56)
+0148.212 (0) This backup set is the backup set just made, so will not be deleted.
+0148.212 (0) Examining (for databases) backup set with group_id=0, nonce=0b789416219b, datestamp=1651461160 (May 02 2022 03:12:40)
+0148.212 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0148.213 (0) Examining (for databases) backup set with group_id=0, nonce=f29b0e0345e6, datestamp=1651374715 (May 01 2022 03:11:55)
+0148.213 (0) 1651374715: db: this set includes a database (backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-db.gz); db count is now 2
+0148.213 (0) 1651374715: db: over retain limit (2); will delete this database
+0148.213 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-db.gz, service=googledrive
+0149.935 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-db.gz: Deletion successful
+0149.940 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0149.941 (0) Number of backup sets in history: 3; groups (files): 1
+0149.944 (0) Examining (for files) backup set with nonce=941c415ad9b5, datestamp=1651547396 (May 03 2022 03:09:56)
+0149.944 (0) This backup set is the backup set just made, so will not be deleted.
+0149.945 (0) This backup set is the backup set just made, so will not be deleted.
+0149.945 (0) This backup set is the backup set just made, so will not be deleted.
+0149.945 (0) This backup set is the backup set just made, so will not be deleted.
+0149.945 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0149.947 (0) Examining (for files) backup set with nonce=0b789416219b, datestamp=1651461160 (May 02 2022 03:12:40)
+0149.947 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0149.947 (0) Examining (for files) backup set with nonce=f29b0e0345e6, datestamp=1651374715 (May 01 2022 03:11:55)
+0149.947 (0) plugins: over retain limit (2); will delete this file entity
+0149.947 (0) themes: over retain limit (2); will delete this file entity
+0149.947 (0) uploads: over retain limit (2); will delete this file entity
+0149.947 (0) others: over retain limit (2); will delete this file entity
+0149.947 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-plugins.zip, service=googledrive
+0149.948 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-themes.zip, service=googledrive
+0149.949 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-uploads.zip, service=googledrive
+0149.952 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-uploads2.zip, service=googledrive
+0149.952 (0) Delete file: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-others.zip, service=googledrive
+0151.793 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-others.zip: Deletion successful
+0152.584 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-uploads2.zip: Deletion successful
+0153.246 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-uploads.zip: Deletion successful
+0153.899 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-themes.zip: Deletion successful
+0154.542 (0) Google Drive: backup_2022-05-01-0311_You_Are_Not_Alone_f29b0e0345e6-plugins.zip: Deletion successful
+0154.548 (0) This backup set is now empty; will remove from history
+0154.549 (0) Deleting log file (log.f29b0e0345e6.txt)
+0154.553 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0154.560 (0) Resume backup (941c415ad9b5, 0): finish run
+0154.564 (0) Decremented the semaphore (fd) by 1
+0154.568 (0) Semaphore (fd) unlocked
+0154.571 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0154.577 (0) No email will/can be sent - the user has not configured an email address.
+0154.579 (0) The backup apparently succeeded and is now complete
