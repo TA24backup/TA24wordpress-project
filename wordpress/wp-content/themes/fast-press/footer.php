@@ -39,13 +39,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 		}
 		else { ?>
 			<a class="powered" href="<?php echo esc_url( __( 'https://wordpress.org/', 'fast-press' ) ); ?>">
-				<?php
-				esc_html_e( 'Powered by WordPress', 'fast-press' );
-				?>
+				
 			</a>
 			<p>
-				<?php esc_html_e( 'All rights reserved', 'fast-press' ); ?>  &copy; <?php bloginfo( 'name' ); ?>			
-				<a title="Seos Theme - Fast Press" href="<?php echo esc_url( 'https://seosthemes.com/', 'fast-press' ); ?>" target="_blank"><?php esc_html_e( 'Fast Press Theme by Seos Themes', 'fast-press' ); ?></a>
+				<?php esc_html_e( 'All rights reserved', 'fast-press' ); ?>  &copy; <?php esc_html_e( '2022 antilonelylonelyalliance.com', 'fast-press' ); ?> 
 			</p>
 		<?php } ?>
 		</div><!-- .site-info -->

@@ -1,0 +1,2763 @@
+# Translation of Plugins - WP Google Maps - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - WP Google Maps - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-29 16:15:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Google Maps - Development (trunk)\n"
+
+#: includes/class.strings.php:60
+msgid "This address could not be found. WP Google Maps uses a 3rd party service (eg Google) to convert addresses to geographic coordinates. Unfortunately, the service has no records for this address at present. Please try an alternative format, or manually position the marker using right click."
+msgstr "この住所は見つかりませんでした。WP Google マップは、住所を位置座標情報に変換するために第三者製のサービス (例 Google) を使用します。申し訳ありませんが、このサービスには現在この住所の記録はありません。別の形式をお試しになるか、手動で右クリックしてマーカーを配置してください。"
+
+#: html/store-locator.html.php:17
+msgid "Radius:"
+msgstr "半径:"
+
+#: html/store-locator.html.php:9
+msgid "Enter a location"
+msgstr "場所を入力"
+
+#: includes/class.strings.php:102
+msgid "Are you sure you want to delete these maps?"
+msgstr "本当にこれらの地図を削除しますか ?"
+
+#: includes/class.strings.php:101
+msgid "Are you sure you want to delete this map?"
+msgstr "本当にこの地図を削除しますか ?"
+
+#: includes/class.strings.php:27
+msgid "You have not entered a <b>Google Maps API Key</b>.<br /><br />Please go to the your admin area, then Maps, then Settings, then the Advanced tab to <a href=\"%s\">enter your Google Maps API key</a>.<br /><br />Alternatively, <a href=\"%s\">choose the Open Layers engine</a> to avoid getting an API key."
+msgstr "<b>Google Maps API キー</b>が入力されていません。<br /><br />管理画面 -> 地図 -> 設定 -> 高度な設定タブから<a href=\"%s\">お使いになる Google Maps API キー</a>を入力してください。<br /><br />または API キーを用いない代替手段として、<a href=\"%s\">OpenLayers エンジン</a>が選択できます。"
+
+#: html/map-edit-page/map-edit-page.html.php:2489
+msgid "Please ensure you <a href=\"%s\">enter a Google Maps API key</a> to continue using Google Maps. Alternatively, swap over to Open Layers by clicking <a id=\"wpgm-swap-to-open-layers\" href=\"%s\">here</a>."
+msgstr "Google マップの使用を続行するには、<a href=\"%s\">Google Maps API キー</a>を入力してください。あるいは、<a id=\"wpgm-swap-to-open-layers\" href=\"%s\">ここをクリック</a>して OpenLayers へも切り替えられらます。"
+
+#: html/map-edit-page/map-edit-page.html.php:236
+#: html/ol-feature-unavailable.html.php:9
+msgid "Not available while using the OpenLayers engine."
+msgstr "OpenLayers エンジンの使用中は利用できません。"
+
+#: html/map-list-page.html.php:70 legacy-core.php:1067
+msgid "once off!"
+msgstr "です !"
+
+#: includes/class.strings.php:99
+msgid "Geocoding this address failed. Please check you have enabled the Geocoding API for your Google Maps API project."
+msgstr "この住所の座標変換に失敗しました。あなたの Google Maps API プロジェクトにて Geocoding API が有効になっているか確認してください。"
+
+#: includes/class.strings.php:98
+msgid "Geocode was not successful for the following reason: "
+msgstr "ジオコードは以下の理由により成功しませんでした:"
+
+#: includes/class.strings.php:94
+msgid "Re-Enable Interactions"
+msgstr "操作ボタン再有効化"
+
+#: includes/class.strings.php:93
+msgid "Interactions Enabled"
+msgstr "操作の有効化"
+
+#: includes/class.strings.php:90
+msgid "Duplicate custom field names, please ensure you only add unique custom field names."
+msgstr "独自入力欄の名前が重複しています。固有の名前を追加してください。"
+
+#: html/map-edit-page/map-edit-page.html.php:2241
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+#: html/map-edit-page/map-edit-page.html.php:2227
+msgid "Free updates and support forever"
+msgstr "無料更新と永久サポート"
+
+#: html/map-edit-page/map-edit-page.html.php:2228
+msgid "Once you're a pro user, you'll receive free updates and support forever! You'll also receive amazing specials on any future plugins we release."
+msgstr "一度プロ版を購入すると、無料の更新と永久的なサポートを受けることができます! また、今後リリースされるプラグインの特別なお知らせも受け取れます。"
+
+#: html/map-edit-page/map-edit-page.html.php:2218
+msgid "Easy Upgrade"
+msgstr "簡単なアップグレード"
+
+#: html/map-edit-page/map-edit-page.html.php:2219
+msgid "You'll receive a download link immediately. Simply upload and activate the Pro plugin to your WordPress admin area and you're done!"
+msgstr "ダウンロードリンクがすぐに届きます。プロ版のプラグインを WordPress 管理画面にアップロードして有効化するだけで完了します !"
+
+#: html/map-edit-page/map-edit-page.html.php:2210
+msgid "We pride ourselves on providing quick and amazing support. <a target=\"_BLANK\" href=\"http://wordpress.org/support/view/plugin-reviews/wp-google-maps?filter=5\">Read what some of our users think of our support</a>."
+msgstr "迅速で素晴らしいサポートを提供することに誇りにしています。<a target=\"_BLANK\" href=\"http://wordpress.org/support/view/plugin-reviews/wp-google-maps?filter=5\">サポートに関するユーザーの感想をご覧ください</a>。"
+
+#: html/map-edit-page/map-edit-page.html.php:2209
+msgid "Amazing Support"
+msgstr "すばらしいサポート"
+
+#: html/map-edit-page/map-edit-page.html.php:2201
+msgid "Add custom polygons and polylines to your map by simply clicking on the map. Perfect for displaying routes and serviced areas."
+msgstr "地図のクリックだけで、自由に多角形や多折線を追加できます。道順やサービス提供範囲の表示に最適です。"
+
+#: html/map-edit-page/map-edit-page.html.php:2200
+msgid "Polygons and Polylines"
+msgstr "多角形と多折線"
+
+#: html/map-edit-page/map-edit-page.html.php:2183
+msgid "Export your markers to a CSV file for quick and easy editing. Import large quantities of markers at once."
+msgstr "作成したマーカーを CSV ファイルにエクスポートし、すばやく簡単に編集できます。一度に大量のマーカーをインポートします。"
+
+#: html/map-edit-page/map-edit-page.html.php:2192
+msgid "Add your own KML layers or Fusion Table data to your map"
+msgstr "独自の KML レイヤーや Fusion Table のデータを地図に追加します。"
+
+#: html/map-edit-page/map-edit-page.html.php:2182
+msgid "Import / Export"
+msgstr "インポート / エクスポート"
+
+#: html/map-edit-page/map-edit-page.html.php:2173
+msgid "Advanced options"
+msgstr "高度なオプション"
+
+#: html/map-edit-page/map-edit-page.html.php:2174
+msgid "Enable advanced options such as showing your visitor's location, marker sorting, bicycle layers, traffic layers and more!"
+msgstr "訪問者の地域の表示、マーカーの並べ替え、自転車レイヤー、交通状況レイヤーなどの高度なオプションを有効にします !"
+
+#: html/map-edit-page/map-edit-page.html.php:2165
+msgid "Create and assign categories to your markers which can then be filtered on your map."
+msgstr "カテゴリを作成してマーカーに割り当て、地図上のマーカーを絞り込みできます。"
+
+#: html/map-edit-page/map-edit-page.html.php:2164
+msgid "Add categories to your markers"
+msgstr "マーカーにカテゴリを追加"
+
+#: html/map-edit-page/map-edit-page.html.php:2147
+msgid "Create as many maps as you like."
+msgstr "好きなだけマップを作成してください。"
+
+#: html/map-edit-page/map-edit-page.html.php:2138
+msgid "Allow your visitors to get directions to your markers. Either use their location as the starting point or allow them to type in an address."
+msgstr "訪問者がマーカーへの道順を取得できるようにします。それらの場所を出発点として使用するか、住所の入力を許可します。"
+
+#: html/map-edit-page/map-edit-page.html.php:2129
+msgid "Add titles, descriptions, HTML, images, animations and custom icons to your markers."
+msgstr "タイトル、説明、HTML、画像、アニメーション、カスタムアイコンをマーカーに追加してください。"
+
+#: html/map-edit-page/map-edit-page.html.php:2156
+msgid "Choose between three methods of listing your markers."
+msgstr "マーカーを一覧にする方法を3つから選択してください。"
+
+#: html/map-edit-page/map-edit-page.html.php:2128
+msgid "Create custom markers with detailed info windows"
+msgstr "詳細情報ウィンドウでカスタムマーカーを作成"
+
+#: includes/class.strings.php:96
+msgid "Use two fingers to move the map"
+msgstr "地図の移動に2本指を使用"
+
+#: includes/class.strings.php:97
+msgid "Use ctrl + scroll to zoom the map"
+msgstr "地図の拡大に CTRL+スクロールを使用"
+
+#: includes/class.strings.php:88
+msgid "Invalid theme data"
+msgstr "無効なテーマのデータ"
+
+#: includes/class.strings.php:86
+msgid "This operation is not reversable. We recommend you take a backup before proceeding. Would you like to continue?"
+msgstr "この操作は元に戻せません。続行する前にバックアップを推奨します。続行しますか ?"
+
+#: includes/class.plugin.php:159
+msgid "<strong>WP Google Maps:</strong> Allowed memory size was reached whilst generating XML cache. This has been switched back to the Database method in Maps -> Settings -> Advanced"
+msgstr "<strong>WP Google マップ:</strong> XML キャッシュの生成中に許容メモリサイズに達しました。データベース方式に切り替えられました。(地図 -> 設定 -> 高度)"
+
+#: includes/class.plugin.php:150
+msgid "<strong>WP Google Maps:</strong> Execution time limit was reached whilst generating XML cache. This has been switched back to the Database method in Maps -> Settings -> Advanced"
+msgstr "<strong>WP Google マップ:</strong> XML キャッシュの生成中に実行時間制限に達しました。データベース方式に切り替えられました。 (地図 -> 設定 -> 高度)"
+
+#: html/settings-page.html.php:1392
+msgid "Miscellaneous Settings"
+msgstr "その他の設定"
+
+#: html/settings-page.html.php:1310
+msgid "Other Caching"
+msgstr "その他のキャッシュ"
+
+#: html/settings-page.html.php:1443
+msgid "Always rebuilds combined script files and script cache, does not load combined and minified scripts. Includes database query SQL with REST API responses."
+msgstr "結合されたスクリプトファイルとスクリプトのキャッシュを常に再構築し、結合と最小化されたスクリプトを読み込まない。REST API の応答を含む SQL のデータベースクエリが含まれます。"
+
+#: html/settings-page.html.php:1317
+msgid "Flush"
+msgstr "フラッシュする"
+
+#: html/settings-page.html.php:498
+msgid "Subscriber"
+msgstr "購読者"
+
+#: html/settings-page.html.php:497
+msgid "Contributor"
+msgstr "寄稿者"
+
+#: html/theme-panel.html.php:385
+msgid "Invert Lightness"
+msgstr "明度を反転"
+
+#: html/theme-panel.html.php:374
+msgid "Hue"
+msgstr "色相"
+
+#: html/theme-panel.html.php:350
+msgid "Lightness"
+msgstr "明度"
+
+#: html/theme-panel.html.php:332
+msgid "Gamma"
+msgstr "ガンマ"
+
+#: html/theme-panel.html.php:298
+msgid "Simplified"
+msgstr "簡略"
+
+#: html/theme-panel.html.php:268
+msgid "Feature"
+msgstr "特徴"
+
+#: html/theme-panel.html.php:254
+msgid "Open Theme Editor"
+msgstr "テーマエディターを開く"
+
+#: html/theme-panel.html.php:212
+msgid "Night Mode"
+msgstr "夜間モード"
+
+#: html/theme-panel.html.php:190
+msgid "Old Fashioned"
+msgstr "古風"
+
+#: html/theme-panel.html.php:146
+msgid "Dark Grey"
+msgstr "濃い灰色"
+
+#: html/theme-panel.html.php:80
+msgid "Grayscale"
+msgstr "グレースケール"
+
+#: html/settings-page.html.php:496
+msgid "Author"
+msgstr "投稿者"
+
+#: html/theme-panel.html.php:293
+msgid "Off"
+msgstr "オフ"
+
+#: html/settings-page.html.php:494
+msgid "Admin"
+msgstr "管理者"
+
+#: html/theme-panel.html.php:288
+msgid "Inherit"
+msgstr "継承"
+
+#: html/theme-panel.html.php:312
+msgid "Label"
+msgstr "ラベル"
+
+#: html/theme-panel.html.php:124
+msgid "Red"
+msgstr "赤"
+
+#: html/theme-panel.html.php:241
+msgid "Theme Editor"
+msgstr "テーマエディター"
+
+#: html/theme-panel.html.php:282
+msgid "Visibility"
+msgstr "表示状態"
+
+#: html/map-edit-page/heatmap-panel.html.php:57 html/theme-panel.html.php:36
+msgid "Blue"
+msgstr "青"
+
+#: html/settings-page.html.php:1143
+msgid "API Keys"
+msgstr "API キー"
+
+#: html/theme-panel.html.php:303
+msgid "On"
+msgstr "オン"
+
+#: html/settings-page.html.php:734
+msgid "Hover"
+msgstr "マウスオーバー (ホバー)"
+
+#: html/theme-panel.html.php:27 html/theme-panel.html.php:49
+#: html/theme-panel.html.php:71 html/theme-panel.html.php:93
+#: html/theme-panel.html.php:115 html/theme-panel.html.php:137
+#: html/theme-panel.html.php:159 html/theme-panel.html.php:181
+#: html/theme-panel.html.php:203 html/theme-panel.html.php:225
+msgid "Select Preset"
+msgstr "プリセットの選択"
+
+#: html/settings-page.html.php:282
+msgid "Tile Server URL"
+msgstr "タイル用サーバー URL"
+
+#: html/settings-page.html.php:53
+msgid "Maps Engine"
+msgstr "マップエンジン"
+
+#: html/settings-page.html.php:269
+msgid "Use FontAwesome"
+msgstr "アイコンフォント (FontAwesome)"
+
+#: html/theme-panel.html.php:413
+msgid "Theme Data"
+msgstr "テーマ用データ"
+
+#: html/theme-panel.html.php:341
+msgid "Saturation"
+msgstr "彩度"
+
+#: html/theme-panel.html.php:5
+msgid "Theme Presets"
+msgstr "テーマのプリセット"
+
+#: html/theme-panel.html.php:58
+msgid "Apple Maps"
+msgstr "Apple マップ"
+
+#: html/theme-panel.html.php:102
+msgid "Pale"
+msgstr "薄い"
+
+#: html/theme-panel.html.php:168
+msgid "Monochrome"
+msgstr "白黒"
+
+#: html/theme-panel.html.php:248
+msgid "Customise Theme"
+msgstr "テーマのカスタマイズ"
+
+#: html/theme-panel.html.php:320
+msgid "Weight"
+msgstr "太さ"
+
+#: html/settings-page.html.php:472
+msgid "Always include engine API on pages"
+msgstr "常にページにエンジン API を含める"
+
+#: html/settings-page.html.php:477
+msgid "Always exclude engine API on pages"
+msgstr "常にページからエンジン API を除外"
+
+#: html/settings-page.html.php:440
+msgid "Load Maps Engine API"
+msgstr "Maps Engine API の読み込み"
+
+#: html/settings-page.html.php:495
+msgid "Editor"
+msgstr "編集者"
+
+#: html/settings-page.html.php:482
+msgid "Prevent other plugins and theme loading API"
+msgstr "他のプラグインとテーマによる API を読み込みを防止"
+
+#: html/settings-page.html.php:135
+msgid "User Interface Style"
+msgstr "ユーザーインターフェースの外観"
+
+#: html/map-edit-page/map-edit-page.html.php:359
+msgid "Looking for styling settings? Try our new <a href='%s' target='_blank'>User Interface Style</a> setting."
+msgstr "見た目の設定をお探しですか ? 新しい<a href='%s' target='_blank'>ユーザーインターフェースの外観</a>の設定をお試しください。"
+
+#: html/map-edit-page/heatmap-panel.html.php:50
+#: html/map-edit-page/map-edit-page.html.php:1404
+#: html/map-edit-page/map-edit-page.html.php:1421
+#: html/map-edit-page/map-edit-page.html.php:1438
+#: html/map-edit-page/map-edit-page.html.php:1455
+#: html/map-edit-page/map-edit-page.html.php:1959
+#: html/settings-page.html.php:560 html/settings-page.html.php:577
+#: html/settings-page.html.php:594 html/settings-page.html.php:611
+#: html/theme-panel.html.php:14
+msgid "Default"
+msgstr "デフォルト"
+
+#: html/map-edit-page/marker-panel.html.php:194
+#: includes/tables/class.admin-marker-datatable.php:42
+msgid "Sticky"
+msgstr "先頭に固定表示"
+
+#: includes/class.map.php:286
+msgid "The plugin couldn't find the directory %s, which is the directory your settings specify to use for XML caching. Please make sure the directory exists, and that you assign file permissions of 755 to this directory."
+msgstr "プラグインはディレクトリ %s を見つけられませんでした。これは XML のキャッシュに使用するために設定で指定したディレクトリです。ディレクトリーが存在すること、またこのディレクトリーに755のアクセス権が割り当てられているかご確認ください。"
+
+#: html/settings-page.html.php:1401
+msgid "We recommend using this setting if you frequently experience HTTP 414 - Request URI too long. We do not recommend using this setting if your site uses REST caching or a CDN."
+msgstr "「HTTP 414 - 要求された URI が長すぎます」が頻繁に発生する場合、この設定の使用をお勧めします。このサイトで REST のキャッシュや CDN を使用していれば、この設定の使用はお勧めしません。"
+
+#: includes/class.strings.php:74
+msgid "Upload Complete"
+msgstr "アップロード完了"
+
+#: includes/class.strings.php:71
+msgid "No picture found"
+msgstr "画像が見つかりません"
+
+#: includes/class.strings.php:75
+msgid "Uploading file"
+msgstr "ファイルのアップロード中"
+
+#: includes/class.strings.php:76
+msgid "WP Google Maps - Bulk JPEG Upload"
+msgstr "WP Google マップ - JPEG 一括アップロード"
+
+#: includes/class.strings.php:72
+msgid "Are you sure you want to overwrite the existing theme data?"
+msgstr "既存のテーマのデータを上書きしてもよろしいですか ?"
+
+#: includes/class.strings.php:68
+msgid "Unknown directions service status"
+msgstr "不明な道順サービスの状態"
+
+#: includes/class.strings.php:67
+msgid "Fetching directions..."
+msgstr "道順を取得中..."
+
+#: includes/class.strings.php:65
+msgid "No GPS coordinates found"
+msgstr "GPS 座標が見つかりません"
+
+#: includes/class.map.php:283
+msgid "WP Google Maps:"
+msgstr "WP Google マップ:"
+
+#: includes/class.strings.php:84
+msgid "Requires WP Google Maps - Gold add-on 5.0.0 or above"
+msgstr "WP Google マップ - Gold アドオン 5.0.0以上が必要"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2477
+msgid "<strong>WP Google Maps:</strong> The Pro add-on is not compatible with this version of WP Google Maps. Please update your Pro addon to 5.24 or above"
+msgstr "<strong>WP Google マップ:</strong> Pro アドオンは、このバージョンのWP Google マップと互換性がありません。Pro アドオンを5.24以上に更新してください。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1821
+#: includes/compat/class.pro-below-8.1-compatibility.php:1957
+#: includes/compat/class.pro-below-8.1-compatibility.php:1991
+#: includes/compat/class.pro-below-8.1-compatibility.php:2054
+#: includes/compat/class.pro-below-8.1-compatibility.php:2120
+#: includes/compat/class.pro-below-8.1-compatibility.php:2170
+#: includes/compat/class.pro-below-8.1-compatibility.php:2218
+#: includes/compat/class.pro-below-8.1-compatibility.php:2268
+msgid "You do not have permission to perform this function"
+msgstr "この機能を実行する権限がありません"
+
+#: html/settings-page.html.php:1415
+msgid "Use this setting if you are experiencing issues with Autoptimize's CSS aggregation. This may cause issues on setups with a large amount of marker data."
+msgstr "Autoptimize の CSS 連結に問題が発生している場合は、この設定を使用してください。これにより、大量のマーカーのデータを使用した設置に問題が発生する場合があります。"
+
+#: html/settings-page.html.php:1314
+msgid "Flush Geocode Cache"
+msgstr "ジオコードのキャッシュをフラッシュ"
+
+#: includes/class.strings.php:63
+msgid "You must check the GDPR consent box to continue"
+msgstr "続行するには、GDPR の同意にチェックする必要があります"
+
+#: wpGoogleMaps.php:1720
+msgid "The plugin failed to load due to a fatal error. This is usually due to missing files, or incompatible software. Please re-install the plugin. We recommend you use PHP 5.6 or above. Technical details are as follows: "
+msgstr "致命的なエラーのためプラグインの読み込みに失敗しました。これは通常、ファイルがないか、互換性のないソフトウェアが原因です。プラグインを再インストールしてください。 PHP 5.6以降の使用を推奨します。技術的な詳細:"
+
+#: includes/class.plugin.php:976
+msgid "The plugin cannot initialise due to a fatal error. This is usually due to missing files or incompatible software. Please re-install the plugin and any relevant add-ons. We recommend that you use at least PHP 5.6. Technical details are as follows: "
+msgstr "致命的なエラーのためプラグインを初期化できません。これは通常、ファイルがないか、互換性のないソフトウェアが原因です。プラグインおよび関連するアドオンを再インストールしてください。PHP 5.6以降の使用を推奨します。技術的な詳細:"
+
+#: includes/class.auto-loader.php:225
+msgid "The plugins autoloader failed to register one or more modules. This is usually due to missing files. Please re-install the plugin and any relevant add-ons. Technical details are as follows: "
+msgstr "プラグインのオートローダーが1つ以上のモジュールを登録できませんでした。これは通常、ファイルがないことが原因です。プラグインおよび関連するアドオンを再インストールしてください。技術的な詳細:"
+
+#: includes/class.plugin.php:141
+msgid "<strong>WP Google Maps:</strong> Cannot find the specified XML folder. This has been switched back to the Database method in Maps -> Settings -> Advanced"
+msgstr "<strong>WP Google マップ:</strong> 指定された XML のフォルダーが見つかりません。データベース方式に切り替えました。(地図 > 設定 > 高度)"
+
+#: includes/class.strings.php:61
+msgid "Geocode failed due to technical reasons"
+msgstr "技術的な理由によりジオコードが失敗しました"
+
+#: includes/class.strings.php:55
+msgid "No address specified"
+msgstr "住所が指定されていません"
+
+#: includes/class.strings.php:58
+msgid "Please Wait..."
+msgstr "しばらくお待ちください…"
+
+#: includes/class.script-loader.php:426
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>WP Google Maps:</strong> Failed to build combined script file, the resulting file would be blank.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Developers:</strong> Please check that the file is writable and that all script dependencies are resolved.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Users:</strong> Please disable \"Developer Mode\" in Maps &rarr; Settings &rarr; Advanced.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"<p>\n"
+"\t\t\t\t\t\t\t\t<strong>WP Google マップ:</strong> 結合されたスクリプトファイルの構築に失敗しました。出力されるファイルは空白になります。\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>開発者:</strong> ファイルが書き込み可能であり、すべてのスクリプト依存関係が解決されていることを確認してください。\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>ユーザー:</strong> 「開発モード」を無効にしてください。(地図 &rarr; 設定 &rarr; 高度)\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t"
+
+#: html/gdpr-compliance-settings.html.php:14 html/settings-page.html.php:1461
+msgid "Our GDPR notice will be displayed whenever the agreement cookie is not set. Agreeing to the notice will set this cookie."
+msgstr "GDPR の通知は、同意を意味する Cookie が設定されていない場合に表示されます。通知から同意するとこの Cookie が設定されます。"
+
+#: html/gdpr-compliance-settings.html.php:19 html/settings-page.html.php:1466
+msgid "Some caching and optimization plugins will continue to serve your map page with the GDPR agreement, disregarding this cookie. In this instance, clicking \"I Agree\" will reload the page and appear to have no effect. To solve this issue, we recommend you exclude your map page from caching and optimization."
+msgstr "一部のキャッシュ/最適化プラグインは、この Cookie を無視して GDPR 同意が表示される地図ページを提供し続けます。この場合、「同意する」をクリックしてもページが再読み込みされるだけで、意味がないようになります。この問題を解決するには、地図ページをキャッシュと最適化から除外することをお勧めします。"
+
+#: includes/class.strings.php:52
+msgid "Import completed."
+msgstr "インポート完了。"
+
+#: includes/class.strings.php:53
+msgid "Importing, this may take a moment..."
+msgstr "インポート中、時間がかかることがあります..."
+
+#: includes/class.strings.php:45
+msgid "Failed to create marker %d - this marker cannot be placed on the map."
+msgstr "マーカー %d の作成に失敗 - このマーカーは地図に配置できません。"
+
+#: html/tile-server-fieldset.html.php:127
+msgid "Caltopo"
+msgstr "Caltopo"
+
+#: includes/tables/class.admin-map-datatable.php:23
+#: includes/tables/class.admin-marker-datatable.php:26
+msgid "Bulk Delete"
+msgstr "一括削除"
+
+#: includes/tables/class.admin-map-datatable.php:22
+#: includes/tables/class.admin-marker-datatable.php:25
+msgid "Select All"
+msgstr "すべて選択"
+
+#: legacy-core.php:37 wpGoogleMaps.php:1593
+msgid "<strong>WP Google Maps:</strong> This plugin requires the WordPress REST API, which does not appear to be present on this installation. Please update WordPress to version 4.7 or above."
+msgstr "<strong>WP Google マップ:</strong> 本プラグインには WordPress REST API が必要ですが、この WordPress インストールには存在しないようです。WordPress をバージョン4.7以上に更新してください。"
+
+#: wpGoogleMaps.php:1577
+msgid "<strong>WP Google Maps:</strong> This plugin uses the DOMDocument class, which is unavailable on this server. Please contact your host to request they enable this library."
+msgstr "<strong>WP Google マップ:</strong> 本プラグインは、このサーバーでは利用できない DOMDocument クラスを使用します。ウェブホスティング業者に、このライブラリを有効にするようお問い合わせください。"
+
+#: html/gdpr-default-notice.html.php:6
+msgid ""
+"I agree for my personal data to be processed by {COMPANY_NAME}.\n"
+"\t\t\n"
+"I agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and generating directions.\n"
+"\n"
+"Some visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n"
+"\n"
+"WP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is help in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n"
+"\n"
+"Please <a href=\"https://developers.google.com/maps/terms\">see here</a> and <a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for Google's terms. Please also see <a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n"
+"\n"
+"Where this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again."
+msgstr ""
+"{COMPANY_NAME}により、私の個人データが処理されることに同意します。\n"
+"\n"
+"私は、提供された私の個人データが、地図 API の呼び出しを通じて、ジオコーディング (住所から座標情報への変換)、その逆の変換、また道順の生成のために API の提供者によって処理されることに同意します。\n"
+"\n"
+"WP Google マップで使われる一部の表示用の構成部品は、ネットワーク経由で読み込まれる第三者製のライブラリを使用しています。現在、Google マップ、Open Street Map、jQuery DataTables、また FontAwesome のライブラリを使用します。ネットワーク経由でリソースを読み込むと、これら第三者のサーバーはあなたの IP アドレスとユーザーエージェントの文字列などの詳細情報を受け取ります。GDPR の法律に基づくデータの使われ方と権利を行使するためのプロセスの詳細については、各ライブラリの個人情報保護方針を参照してください。\n"
+"\n"
+"WP Google マップは、jQuery DataTables を使用して、高度なマーカー一覧や、地図編集ページに表示されるような、並び替えと検索が可能な表を表示します。特定の状況でjQuery DataTables は、特定の状況で Cookie を用いて、指定されたテーブルの「状態」、つまり検索語句、並び替えの列と順序、現在のページを保存し後で呼び出します。このデータは、お使いの端末の保存領域で使われ、手動で消去されるまで保持されます。WP Google マップで使われるライブラリはこの情報を送信していません。\n"
+"\n"
+"Google の規約については<a href=\"https://developers.google.com/maps/terms\">こちら</a>と<a href=\"https://maps.google.com/help/terms_maps.html\">こちら</a>をご覧ください。<a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google のプライバシーポリシー</a>もご覧ください。私たちは API 提供者に対し、個人を特定する情報、またはお使いの端末を特定できる情報は送信しません。\n"
+"\n"
+"この通知が地図の代わりに表示される場合、この通知に同意することであなたの同意についての Cookie が保存されるため、再度表示されることはありません。"
+
+#: includes/class.strings.php:44
+msgid "Failed to get address"
+msgstr "住所取得に失敗"
+
+#: html/tile-server-fieldset.html.php:121
+msgid "Klokantech 3d"
+msgstr "Klokantech 3d"
+
+#: html/settings-page.html.php:376 html/tile-server-fieldset.html.php:102
+msgid "OpenPtMap"
+msgstr "OpenPtMap"
+
+#: html/settings-page.html.php:369 html/tile-server-fieldset.html.php:95
+msgid "Öpnvkarte"
+msgstr "Öpnvkarte"
+
+#: html/tile-server-fieldset.html.php:88
+msgid "Thunderforest Outdoors"
+msgstr "Thunderforest Outdoors"
+
+#: html/tile-server-fieldset.html.php:81
+msgid "Thunderforest Landscape"
+msgstr "Thunderforest Landscape"
+
+#: html/tile-server-fieldset.html.php:74
+msgid "Transport Map"
+msgstr "Transport Map"
+
+#: html/settings-page.html.php:341 html/tile-server-fieldset.html.php:67
+msgid "Stamen Watercolor"
+msgstr "Stamen Watercolor"
+
+#: html/settings-page.html.php:334 html/tile-server-fieldset.html.php:60
+msgid "Stamen Toner"
+msgstr "Stamen Toner"
+
+#: html/settings-page.html.php:320 html/tile-server-fieldset.html.php:46
+msgid "Mapnik OSM B&amp;W"
+msgstr "Mapnik OSM B&amp;W"
+
+#: html/settings-page.html.php:313 html/tile-server-fieldset.html.php:39
+msgid "Humanitarian"
+msgstr "Humanitarian"
+
+#: html/tile-server-fieldset.html.php:32
+msgid "OpenCycleMap"
+msgstr "OpenCycleMap"
+
+#: html/settings-page.html.php:290 html/tile-server-fieldset.html.php:16
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: html/settings-page.html.php:299 html/tile-server-fieldset.html.php:25
+msgid "Wikimedia Maps"
+msgstr "Wikimedia Maps"
+
+#: html/settings-page.html.php:327 html/tile-server-fieldset.html.php:53
+msgid "Mapnik OSM No Labels"
+msgstr "Mapnik OSM 名札なし"
+
+#: html/tile-server-fieldset.html.php:108
+msgid "Carto Light (Positron)"
+msgstr "Carto Light (ポジトロン)"
+
+#: html/tile-server-fieldset.html.php:115
+msgid "Carto Dark (Dark Matter)"
+msgstr "Carto Dark (ダークマター)"
+
+#: html/tile-server-fieldset.html.php:7
+msgid "Tile Server URL:"
+msgstr "タイル用サーバーURL:"
+
+#: html/map-edit-page/map-edit-page.html.php:1076
+msgid "Get the rest of these advanced features with the Pro version for only <a href=\"%s\" target=\"_BLANK\">$39.99 once off</a>. Support and updates included forever."
+msgstr "わずか<a href=\"%s\" target=\"_BLANK\">39.99ドルのプロ版</a>では、残りの高度な機能が使えます。永久サポートと更新が含まれます。"
+
+#. translators: %s: WP Google Maps Settings Link
+#: legacy-core.php:1056 legacy-core.php:1082
+msgid "We have detected a conflict between your current theme's version and our plugin. Should you be experiencing issues with your maps displaying, please update Avada to version 3.9.4 or go to <a href='%s'>settings page</a> and check the highlighted checkbox."
+msgstr "現在のテーマのバージョンと、本プラグインとでの競合が検出されました。地図の表示に問題がある場合、Avada をバージョン3.9.4に更新するか、<a href='%s'>設定ページ</a>から、強調表示されたチェックボックスを有効にしてください。"
+
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:155
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:165
+#: js/v8/wp-google-maps.combined.js:9446
+msgid "Your map will appear here on your websites front end"
+msgstr "地図がサイトのフロントエンドに表示されます"
+
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:124
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:126
+#: js/v8/wp-google-maps.combined.js:9415
+msgid "View Documentation"
+msgstr "解説文書を表示"
+
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:112
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:117
+#: js/v8/wp-google-maps.combined.js:9403
+msgid "Go to Map Editor"
+msgstr "地図エディターに移動"
+
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:151
+#: js/v8/wp-google-maps.combined.js:9435
+msgid "Google"
+msgstr "Google"
+
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:149
+#: js/v8/wp-google-maps.combined.js:9435
+msgid "Map"
+msgstr "地図"
+
+#: includes/class.strings.php:24
+msgid "The map cannot be initialized because the Maps API has not been loaded. Please check your settings."
+msgstr "Maps API が読み込まれていないため、地図を初期化できません。設定を確認してください。"
+
+#: html/google-maps-api-error-dialog.html.php:84
+msgid "This dialog is only visible to administrators"
+msgstr "このダイアログは管理者にのみ表示されます"
+
+#: html/google-maps-api-error-dialog.html.php:8
+msgid "Maps API Error"
+msgstr "Maps API エラー"
+
+#: html/google-maps-api-error-dialog.html.php:90
+msgid "Dismiss"
+msgstr "非表示"
+
+#: html/google-maps-api-error-dialog.html.php:14
+msgid "One or more error(s) have occured attempting to initialize the Maps API:"
+msgstr "Maps API の初期化中に1つ以上のエラーが発生しました:"
+
+#: includes/class.strings.php:36
+msgid "Verify Project"
+msgstr "プロジェクトを確認"
+
+#: includes/class.strings.php:35
+msgid "API Dashboard"
+msgstr "API ダッシュボード"
+
+#: html/map-edit-page/map-edit-page.html.php:2628
+msgid "Thank you for using <a href='https://www.wpgmaps.com'>WP Google Maps</a>! Please <a href='https://wordpress.org/support/plugin/wp-google-maps/reviews/'>rate us on WordPress.org</a>"
+msgstr "<a href='https://www.wpgmaps.com'> WP Google マップ</a>のご利用ありがとうございます ! <a href='https://wordpress.org/support/plugin/wp-google-maps/reviews/'> WordPress.org での評価をお願いしています</a>"
+
+#: html/map-edit-page/map-edit-page.html.php:2639
+msgid "Please refer to our <a href='https://www.wpgmaps.com/privacy-policy' target='_blank'>Privacy Policy</a> for information on Data Processing"
+msgstr "データ処理の詳細は<a href='https://www.wpgmaps.com/privacy-policy' target='_blank'>弊社の個人情報保護方針</a>をご覧ください"
+
+#: html/gdpr-compliance-settings.html.php:120 html/settings-page.html.php:1593
+msgid "For more information about WPGM and GDPR compliance, please refer to our <a href=\"https://www.wpgmaps.com/gdpr/\">GDPR information page</a> and our <a href=\"https://www.wpgmaps.com/privacy-policy/\">Privacy Policy</a>"
+msgstr "WPGM および GDPR 遵守の詳細は、弊社の<a href=\"https://www.wpgmaps.com/gdpr/\">GDPR 情報ページ</a>と<a href=\"https://www.wpgmaps.com/privacy-policy/\">個人情報保護方針</a>をご覧ください。"
+
+#: html/gdpr-compliance-settings.html.php:92 html/settings-page.html.php:1562
+msgid "Override GDPR Notice"
+msgstr "GDPR 通知を上書きする"
+
+#: html/gdpr-compliance-settings.html.php:100 html/settings-page.html.php:1571
+msgid "By checking this box, you agree to take sole responsibility for GDPR Compliance with regards to this plugin."
+msgstr "この確認ボックスにチェックすることで、このプラグインに関する GDPR 遵守の責任を単独で負うことに同意します。"
+
+#: html/gdpr-compliance-settings.html.php:109 html/settings-page.html.php:1579
+msgid "Override Text"
+msgstr "上書する文章"
+
+#: html/gdpr-compliance-settings.html.php:83 html/settings-page.html.php:1551
+msgid "The GDPR regulates that you need to state why you are processing data."
+msgstr "GDPR には、データを処理する理由を述べる必要があるという規制があります。"
+
+#: html/gdpr-compliance-settings.html.php:47 html/settings-page.html.php:1507
+msgid "GDPR Consent Notice"
+msgstr "GDPR 同意の通知"
+
+#: html/gdpr-compliance-settings.html.php:34 html/settings-page.html.php:1483
+msgid "Require consent before loading Maps API"
+msgstr "地図用 API を読み込む前に同意を要求"
+
+#: html/gdpr-compliance-settings.html.php:27 html/settings-page.html.php:1475
+msgid "General Complicance"
+msgstr "全般的な遵守"
+
+#: html/gdpr-compliance-settings.html.php:37 html/settings-page.html.php:1486
+msgid "The GDPR views IP Addresses as Personal Data, which requires consent before being processed. Loading the Google Maps API stores some user information, such as IP Addresses. WP Google Maps endeavours to uphold the spirit of data protection as per the GDPR. Enable this to option to prevent the Maps API from loading, until a user has consented to it."
+msgstr "GDPR は IP アドレスを個人データと見なし、これを処理する前に同意が必要です。 Google Maps API の読み込みにより、IPアドレスなどの一部の利用者の情報が保存されます。 WP Google マップは、GDPR の通りにデータ保護の精神を守るよう努めています。利用者が同意するまで、地図用 API が読み込まれないようにするには、これを有効にします。"
+
+#: includes/class.gdpr-compliance.php:38
+msgid ""
+"<p>\n"
+"\tI agree for my personal data to be processed by <span name=\"wpgmza_gdpr_company_name\"></span>, for the purpose(s) of <span name=\"wpgmza_gdpr_retention_purpose\"></span>.\n"
+"</p>\n"
+"\n"
+"<p>\t\n"
+"\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\n"
+"</p>\n"
+"<p>\n"
+"\tSome visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n"
+"</p>\n"
+"<p>\n"
+"\tWP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n"
+"</p>\n"
+"<p>\n"
+"\tPlease <a href=\"https://developers.google.com/maps/terms\">see here</a> and <a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for Google's terms. Please also see <a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n"
+"</p>\n"
+"<p>\n"
+"\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\n"
+"</p>"
+msgstr ""
+"<p>\n"
+"<span name=\"wpgmza_gdpr_retention_purpose\"></span>の目的で、<span name=\"wpgmza_gdpr_company_name\"></span>により、私の個人データが処理されることに同意します。\n"
+"</p>\n"
+"<p>\n"
+"私は、提供された私の個人データが、地図 API の呼び出しを通じて、ジオコーディング (住所から座標情報への変換)、その逆の変換、また道順の生成のために API の提供者によって処理されることに同意します。\n"
+"</p>\n"
+"<p>\n"
+"WP Google マップで使われる一部の表示用の構成部品は、ネットワーク経由で読み込まれる第三者製のライブラリを使用しています。現在、Google マップ、Open Street Map、jQuery DataTables、また FontAwesome のライブラリを使用します。ネットワーク経由でリソースを読み込むと、これら第三者のサーバーはあなたの IP アドレスとユーザーエージェントの文字列などの詳細情報を受け取ります。GDPR の法律に基づくデータの使われ方と権利を行使するためのプロセスの詳細については、各ライブラリの個人情報保護方針を参照してください。\n"
+"</p>\n"
+"<p>\n"
+"WP Google マップは、jQuery DataTables を使用して、高度なマーカー一覧や、地図編集ページに表示されるような、並び替えと検索が可能な表を表示します。特定の状況でjQuery DataTables は、特定の状況で Cookie を用いて、指定されたテーブルの「状態」、つまり検索語句、並び替えの列と順序、現在のページを保存し後で呼び出します。このデータは、お使いの端末の保存領域で使われ、手動で消去されるまで保持されます。WP Google マップで使われるライブラリはこの情報を送信していません。\n"
+"</p>\n"
+"<p>\n"
+"Google の規約については<a href=\"https://developers.google.com/maps/terms\">こちら</a>と<a href=\"https://maps.google.com/help/terms_maps.html\">こちら</a>をご覧ください。<a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google のプライバシーポリシー</a>もご覧ください。私たちは API 提供者に対し、個人を特定する情報、またはお使いの端末を特定できる情報は送信しません。\n"
+"</p>\n"
+"<p>\n"
+"この通知が地図の代わりに表示される場合、この通知に同意することであなたの同意についての Cookie が保存されるため、再度表示されることはありません。\n"
+"</p>"
+
+#: html/google-maps-api-settings.html.php:58
+msgid "Prevent other plugins and theme loading API:"
+msgstr "他のプラグインとテーマによる API を読み込みを防止:"
+
+#: includes/class.gdpr-compliance.php:160
+msgid "I agree"
+msgstr "同意する"
+
+#: html/settings-page.html.php:1437
+msgid "Developer Mode"
+msgstr "開発者モード"
+
+#: includes/class.maps-engine-dialog.php:119
+msgid "Full functionality"
+msgstr "完全な機能"
+
+#: includes/class.maps-engine-dialog.php:78
+msgid "No API keys required"
+msgstr "APIキーは不要"
+
+#: html/settings-page.html.php:57 includes/class.maps-engine-dialog.php:70
+msgid "OpenLayers"
+msgstr "OpenLayers"
+
+#: html/google-maps-api-settings.html.php:29 html/settings-page.html.php:460
+msgid "Only Back End"
+msgstr "バックエンドのみ"
+
+#: html/google-maps-api-settings.html.php:24 html/settings-page.html.php:455
+msgid "Only Front End"
+msgstr "フロントエンドのみ"
+
+#: html/google-maps-api-settings.html.php:19 html/settings-page.html.php:450
+msgid "Always"
+msgstr "常に"
+
+#: html/google-maps-api-settings.html.php:34 html/settings-page.html.php:465
+msgid "Never"
+msgstr "なし"
+
+#: html/google-maps-api-settings.html.php:45
+#: html/google-maps-api-settings.html.php:53 html/settings-page.html.php:473
+#: html/settings-page.html.php:478
+msgid "Page IDs"
+msgstr "ページ ID"
+
+#: legacy-core.php:1640
+msgid "<strong>Alternatively, please switch to the OpenLayers map engine</strong> on the maps settings page"
+msgstr "<strong>別の方法として</strong>、地図の設定ページからマップエンジンを<strong>OpenLayers に切り替え</strong>てください"
+
+#: includes/class.maps-engine-dialog.php:125
+msgid "API Key required"
+msgstr "API キーが必要"
+
+#: html/settings-page.html.php:56 includes/class.maps-engine-dialog.php:111
+msgid "Google Maps"
+msgstr "Google マップ"
+
+#: includes/class.maps-engine-dialog.php:133
+msgid "Use Google Maps"
+msgstr "Google マップを使用"
+
+#: includes/class.maps-engine-dialog.php:86
+msgid "Use OpenLayers"
+msgstr "OpenLayers を使用"
+
+#: legacy-core.php:1629
+msgid "Create an API key now"
+msgstr "今すぐ API キーを作成"
+
+#: html/ol-feature-coming-soon.html.php:9
+msgid "<strong>Coming soon</strong> to OpenLayers. If you need to use this feature, please go to settings then select and configure Google Maps to enable it."
+msgstr "OpenLayers でも<strong>機能の追加予定</strong>。この機能を使用するには、設定から、Google マップを選択し有効にしてください。"
+
+#: includes/class.maps-engine-dialog.php:55
+msgid "Choose a maps engine"
+msgstr "地図エンジンの選択"
+
+#: html/google-maps-api-settings.html.php:8
+msgid "Load Maps Engine API:"
+msgstr "Maps Engine API の読み込み:"
+
+#: html/google-maps-api-settings.html.php:14 html/settings-page.html.php:445
+msgid "Where required"
+msgstr "必要な場合に"
+
+#: html/google-maps-api-settings.html.php:42
+msgid "Always include engine API on pages:"
+msgstr "常にページにエンジン API を含める:"
+
+#: html/google-maps-api-settings.html.php:50
+msgid "Always exclude engine API on pages:"
+msgstr "常にページからエンジン API を除外:"
+
+#: includes/class.maps-engine-dialog.php:151
+msgid "Select Engine"
+msgstr "エンジンの選択"
+
+#: wpGoogleMaps.php:1561
+msgid "<strong>WP Google Maps:</strong> This plugin does not support PHP version 5.2 or below. Please use your cPanel or contact your host to switch version."
+msgstr "<strong> WP Google マップ:</strong> このプラグインは、PHPバージョン5.2以下に対応しません。 cPanel (サーバーの管理画面) を使用するか、お使いのウェブホスティング業者に連絡してバージョンを切り替えてください。"
+
+#: includes/class.strings.php:21
+msgid "Many browsers are no longer allowing geolocation from unsecured origins. You will need to secure your site with an SSL certificate (HTTPS) or this feature may not work for your visitors"
+msgstr "多くのブラウザは、安全でない通信による位置情報の要求を許可しなくなりました。 SSL 証明書 (HTTPS) を使いサイトを安全にする必要があります。そうしないと、この機能が訪問者に対して動作しない可能性があります"
+
+#: html/gdpr-compliance-settings.html.php:75 html/settings-page.html.php:1541
+msgid "Retention Purpose(s)"
+msgstr "保持の目的"
+
+#: html/gdpr-compliance-settings.html.php:65 html/settings-page.html.php:1527
+msgid "Company Name"
+msgstr "会社名"
+
+#: html/gdpr-compliance-settings.html.php:11 html/settings-page.html.php:44
+#: html/settings-page.html.php:1458 includes/class.gdpr-compliance.php:170
+msgid "GDPR Compliance"
+msgstr "GDPR 遵守"
+
+#: includes/class.gdpr-compliance.php:149
+msgid "In light of recent EU GDPR regulation, we strongly recommend reviewing the <a target=\"_blank\" href=\"https://www.wpgmaps.com/privacy-policy\">WP Google Maps Privacy Policy</a>"
+msgstr "近年の欧州の GDPR (一般データ保護規則) の規制を踏まえて、<a target=\"_blank\" href=\"https://www.wpgmaps.com/privacy-policy\">WP Google マップの個人情報保護方針</a>の確認を強く推奨します"
+
+#: html/gdpr-compliance-settings.html.php:56 html/settings-page.html.php:1517
+msgid "Users will be asked to accept the notice shown here, in the form of a check box."
+msgstr "チェックボックスの形で、ここに示される内容にユーザーが同意するよう求められます。"
+
+#: html/gdpr-compliance-settings.html.php:53 html/settings-page.html.php:1514
+msgid "GDPR Notice"
+msgstr "GDPR 通知"
+
+#: includes/legacy/functions.rectangle.php:170
+msgid "Show Rectangle"
+msgstr "四角形を表示"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:759
+msgid "Show Polyline"
+msgstr "多折線を表示"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:213
+msgid "Show Polygon"
+msgstr "多角形を表示"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:218
+#: includes/compat/class.pro-below-8.1-compatibility.php:765
+#: includes/legacy/functions.circle.php:173
+#: includes/legacy/functions.rectangle.php:176
+msgid "Fit map bounds to shape"
+msgstr "地図の境界に形に合わせる"
+
+#: includes/legacy/functions.rectangle.php:84
+#: includes/legacy/functions.rectangle.php:192
+msgid "Save rectangle"
+msgstr "四角形を保存"
+
+#: includes/legacy/functions.rectangle.php:136
+msgid "Edit rectangle"
+msgstr "四角形を編集"
+
+#: includes/legacy/functions.rectangle.php:41
+msgid "Add rectangle"
+msgstr "四角形を追加"
+
+#: includes/legacy/functions.circle.php:146
+msgid "Edit circle"
+msgstr "円を編集"
+
+#: includes/legacy/functions.rectangle.php:285
+msgid "Delete this rectangle"
+msgstr "この四角形を削除"
+
+#: html/settings-page.html.php:1294
+msgid "Custom Scripts"
+msgstr "カスタムスクリプト"
+
+#: includes/class.store-locator.php:143
+#: includes/map-edit-page/class.map-edit-page.php:75
+msgid "km"
+msgstr "km"
+
+#: includes/compat/backwards_compat_v6.php:73
+#: includes/compat/backwards_compat_v6.php:75
+msgid "Add a Rectangle"
+msgstr "四角形を追加"
+
+#: html/map-edit-page/map-edit-page.html.php:2325
+#: includes/compat/backwards_compat_v6.php:61
+msgid "Rectangles"
+msgstr "四角形"
+
+#: html/theme-panel.html.php:362 includes/legacy/functions.circle.php:58
+#: includes/legacy/functions.circle.php:181
+#: includes/legacy/functions.rectangle.php:58
+#: includes/legacy/functions.rectangle.php:154
+msgid "Color"
+msgstr "色"
+
+#: html/settings-page.html.php:1135
+msgid "Use a comma to separate values, eg: 1, 5, 10, 50, 100"
+msgstr "値の区切りには半角コンマを使ってください。例: 1, 5, 10, 50, 100"
+
+#: includes/compat/backwards_compat_v6.php:65
+#: includes/compat/backwards_compat_v6.php:67
+msgid "Add a Circle"
+msgstr "円を追加"
+
+#: includes/legacy/functions.circle.php:41
+msgid "Add circle"
+msgstr "円形を追加"
+
+#: html/map-edit-page/map-edit-page.html.php:2319 html/welcome.html.php:92
+#: includes/compat/backwards_compat_v6.php:60
+msgid "Circles"
+msgstr "円"
+
+#: html/welcome.html.php:92
+msgid "and Squares"
+msgstr "と四角"
+
+#: html/welcome.html.php:93
+msgid "Add custom shapes such as polygons, polylines, circles and squares!"
+msgstr "多角形、多折線、円、四角のように自由に形を追加できます !"
+
+#: includes/class.store-locator.php:150
+#: includes/map-edit-page/class.map-edit-page.php:75
+msgid "mi"
+msgstr "マイル"
+
+#: html/settings-page.html.php:1130
+msgid "Store Locator Radii"
+msgstr "店舗検索の半径"
+
+#: html/settings-page.html.php:1305
+msgid "Custom JS"
+msgstr "カスタム JS"
+
+#: includes/legacy/functions.circle.php:132
+msgid "Invalid circle ID"
+msgstr "無効な円 ID"
+
+#: html/map-edit-page/circle-panel.html.php:96
+#: includes/legacy/functions.circle.php:99
+#: includes/legacy/functions.circle.php:221
+msgid "Save Circle"
+msgstr "円を保存"
+
+#: includes/legacy/functions.circle.php:93
+msgid "Click on the map to insert a circle."
+msgstr "地図のクリックで円を挿入"
+
+#: includes/legacy/functions.circle.php:316
+msgid "Delete this circle"
+msgstr "この円を削除"
+
+#: includes/legacy/functions.circle.php:84
+#: includes/legacy/functions.circle.php:207
+msgid "Please note your circle may be too small to be visible at this zoom level"
+msgstr "現在の拡大状態に表示するには円が小さすぎます !"
+
+#: includes/legacy/functions.circle.php:94
+#: includes/legacy/functions.circle.php:216
+msgid "Click or drag the circle to move it."
+msgstr "円をクリックかドラッグし移動"
+
+#: html/map-edit-page/map-edit-page.html.php:330
+#: html/map-edit-page/map-edit-page.html.php:452
+msgid "Legacy"
+msgstr "伝統的"
+
+#: includes/legacy/functions.rectangle.php:78
+msgid "Click on the map to insert a rectangle."
+msgstr "地図のクリックで四角形を挿入"
+
+#: includes/legacy/functions.rectangle.php:79
+#: includes/legacy/functions.rectangle.php:187
+msgid "Click or drag the rectangle to move it."
+msgstr "四角形をクリックかドラッグし移動"
+
+#: includes/legacy/functions.rectangle.php:117
+msgid "Invalid rectangle ID"
+msgstr "無効な四角形 ID"
+
+#: html/map-edit-page/map-edit-page.html.php:2643
+msgid "WP Google Maps encourages you to make use of the amazing icons at "
+msgstr "WP Google マップは、以下のすばらしいアイコンの使用をお勧めします:"
+
+#: html/map-edit-page/map-edit-page.html.php:439
+msgid "Radius Style"
+msgstr "半径の外観"
+
+#: html/map-edit-page/map-edit-page.html.php:317
+#: html/map-edit-page/map-edit-page.html.php:352
+msgid "Store Locator Style"
+msgstr "店舗検索の外観"
+
+#: html/map-edit-page/map-edit-page.html.php:342
+#: html/map-edit-page/map-edit-page.html.php:463
+#: html/map-edit-page/map-edit-page.html.php:1620
+msgid "Modern"
+msgstr "モダン"
+
+#: html/credits.html.php:85 html/credits.html.php:97
+msgid "Support &amp; Developer"
+msgstr "サポート &amp; 開発者"
+
+#: html/credits.html.php:6 html/welcome.html.php:17
+msgid "Welcome to WP Google Maps version %s"
+msgstr "WP Google Maps バージョン %s へようこそ"
+
+#: lib/codecabin/deactivate-feedback-form.php:58
+msgid "I don't need this plugin any more"
+msgstr "このプラグインはもう必要ありません"
+
+#: lib/codecabin/deactivate-feedback-form.php:47
+msgid "Please wait"
+msgstr "お待ちください"
+
+#: lib/codecabin/deactivate-feedback-form.php:56
+msgid "The plugin suddenly stopped working"
+msgstr "プラグインが突然動作を停止した"
+
+#: lib/codecabin/deactivate-feedback-form.php:59
+msgid "I found a better plugin"
+msgstr "もっと良いプラグインを見つけた"
+
+#: lib/codecabin/deactivate-feedback-form.php:37
+msgid "If you would be kind enough, please tell us why you're deactivating?"
+msgstr "よろしければ、無効化している理由を教えてください。"
+
+#: lib/codecabin/deactivate-feedback-form.php:38
+msgid "Please tell us which plugin?"
+msgstr "どのプラグインですか ?"
+
+#: lib/codecabin/deactivate-feedback-form.php:39
+msgid "Please tell us the reason so we can improve the plugin"
+msgstr "本プラグインを改善できるよう理由を教えてください"
+
+#: lib/codecabin/deactivate-feedback-form.php:36
+msgid "Quick Feedback"
+msgstr "クイックアンケート"
+
+#: lib/codecabin/deactivate-feedback-form.php:42
+msgid "Please give us any feedback that could help us improve"
+msgstr "改善に役立つようなご意見をお寄せください"
+
+#: lib/codecabin/deactivate-feedback-form.php:40
+msgid "Do not send my e-mail address with this feedback"
+msgstr "このアンケートで私のメールアドレスを送信しないでください"
+
+#: lib/codecabin/deactivate-feedback-form.php:45
+msgid "Skip &amp; Deactivate"
+msgstr "これを省略し無効化"
+
+#: lib/codecabin/deactivate-feedback-form.php:46
+msgid "Submit &amp; Deactivate"
+msgstr "送信し無効化"
+
+#: lib/codecabin/deactivate-feedback-form.php:48
+msgid "Thank you!"
+msgstr "ありがとうございました。"
+
+#: lib/codecabin/deactivate-feedback-form.php:57
+msgid "The plugin broke my site"
+msgstr "プラグインがこのサイトを壊した"
+
+#: lib/codecabin/deactivate-feedback-form.php:60
+msgid "It's a temporary deactivation, I'm troubleshooting"
+msgstr "トラブル対策のための一時的な無効化です"
+
+#: html/settings-page.html.php:741
+msgid "Disable InfoWindows"
+msgstr "情報ウィンドウを無効にする"
+
+#: html/map-edit-page/map-edit-page.html.php:473
+msgid "Default radius"
+msgstr "半径の初期値"
+
+#: includes/class.store-locator.php:95 includes/class.strings.php:59
+msgid "No results found in this location. Please try again."
+msgstr "この場所にはありません。再度お試しください。"
+
+#: html/map-edit-page/map-edit-page.html.php:725
+msgid "Not found message"
+msgstr "見つからない際の文字列"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1503
+#: includes/tables/class.admin-marker-datatable.php:33
+msgid "Mark"
+msgstr "X 印"
+
+#: legacy-core.php:195
+msgid "Get Pro Version"
+msgstr "プロ版を入手"
+
+#: legacy-core.php:191
+msgid "Map Editor"
+msgstr "地図エディター"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:141
+#: includes/compat/class.pro-below-8.1-compatibility.php:241
+#: includes/compat/class.pro-below-8.1-compatibility.php:677
+#: includes/compat/class.pro-below-8.1-compatibility.php:787
+#: includes/legacy/functions.circle.php:99
+#: includes/legacy/functions.circle.php:221
+#: includes/legacy/functions.rectangle.php:84
+#: includes/legacy/functions.rectangle.php:192
+#: lib/codecabin/deactivate-feedback-form.php:44
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: html/settings-page.html.php:70
+msgid "Disable Full Screen Control"
+msgstr "全画面の制御を無効化"
+
+#: html/map-edit-page/map-edit-page.html.php:682
+msgid "Default address"
+msgstr "住所の初期値"
+
+#: legacy-core.php:1701
+msgid "One or more markers have been added or changed, please <a href='%s' class='button'>clear your cache.</a>"
+msgstr "1つ以上のマーカーが追加または変更されました。<a href='%s' class='button'>キャッシュを削除</a>してください。"
+
+#: legacy-core.php:1703
+msgid "We have detected that you are using %s on your website. Please <a href='%s' class='button'>clear your cache</a> to ensure that your map is updated."
+msgstr "このサイト上に %s の使用を検出しました。地図の更新を確かにするには、<a href='%s' class='button'>キャッシュを削除</a>してください。"
+
+#: html/welcome.html.php:23
+msgid "Skip intro and create a map"
+msgstr "紹介を省略して地図を作成"
+
+#: html/welcome.html.php:134
+msgid "Submit and create a map"
+msgstr "送信して地図を作成"
+
+#: html/welcome.html.php:21
+msgid "Build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr "世界に通用するサポートと共に、シンプルなインターフェースと強力な機能によって、すばらしいマップを作成します。"
+
+#: legacy-core.php:1632
+msgid "Paste your API key here and press save:"
+msgstr "ここに API キーを貼り付け、「保存」を押します:"
+
+#: legacy-core.php:1633
+msgid "paste your Google Maps JavaScript API Key here"
+msgstr "ここに Google Maps JavaScript API キーを貼り付け"
+
+#: legacy-core.php:1626
+msgid "Before creating a map please follow these steps:"
+msgstr "地図を作成する前に、次の手順に従ってください:"
+
+#: legacy-core.php:1624
+msgid "*ALL* Google Maps now require an API key to function."
+msgstr "*すべての* Google マップの機能に API キーが必要になりました。"
+
+#: html/credits.html.php:109
+msgid "Marketing"
+msgstr "マーケティング"
+
+#: html/welcome.html.php:150
+msgid "Support Desk"
+msgstr "サポートデスク"
+
+#: html/welcome.html.php:69
+msgid "Unlimited Markers"
+msgstr "無制限のマーカー"
+
+#: html/credits.html.php:72
+msgid "Contributors"
+msgstr "貢献者"
+
+#: html/credits.html.php:29
+msgid "Project Leaders"
+msgstr "プロジェクトリーダー"
+
+#: html/credits.html.php:42
+msgid "Founder &amp; Lead Developer"
+msgstr "創設者&amp;主任開発者"
+
+#: html/credits.html.php:54 html/credits.html.php:66
+msgid "Lead Developer &amp; Support"
+msgstr "主任開発者&amp;サポート"
+
+#: html/credits.html.php:155
+msgid "Get involved on GitHub."
+msgstr "GitHub にご参加ください。"
+
+#: html/credits.html.php:153
+msgid "Want to see your name on this page?"
+msgstr "このページにあなたの名前を表示したいですか ?"
+
+#: html/welcome.html.php:70
+msgid "Create as many markers as you like"
+msgstr "好きなだけマーカーを作成"
+
+#: html/welcome.html.php:86
+msgid "Select from various <a href='http://wpgmaps.com/map-themes/' target='_BLANK'>map themes</a>, or make your own."
+msgstr "さまざまな<a href='https://wpgmaps.com/map-themes/' target='_BLANK'>地図のテーマ</a>から選択するか、自分で作成します。"
+
+#: html/credits.html.php:17 html/welcome.html.php:28
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: html/credits.html.php:20 html/welcome.html.php:29
+msgid "Credits"
+msgstr "クレジット"
+
+#: html/credits.html.php:26
+msgid "WP Google Maps is created by an international team of developers."
+msgstr "WP Google Maps は、開発者たちの国際的なチームによって作成されています。"
+
+#: html/credits.html.php:11
+msgid "Thank you for updating! WP Google Maps helps you build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr "更新していただきありがとうございます! WP Google マップは、世界に通用するサポートと共に、シンプルなインターフェースと強力な機能によって、すばらしいマップを作成します。"
+
+#: html/settings-page.html.php:262
+msgid "Do not load the Google Maps API (Only check this if your theme loads the Google Maps API by default)"
+msgstr "Google Maps API を読み込まない (標準でテーマが Google Maps API を読み込む場合のみ有効にしてください)"
+
+#: html/map-edit-page/map-edit-page.html.php:2313
+msgid "Heatmaps"
+msgstr "ヒートマップ"
+
+#: legacy-core.php:1622
+msgid "Important Notification"
+msgstr "重要なお知らせ"
+
+#: legacy-core.php:1621
+msgid "Read the documentation"
+msgstr "解説文書を読む"
+
+#: legacy-core.php:1620
+msgid "View the instruction video"
+msgstr "説明動画を見る"
+
+#: legacy-core.php:1642
+msgid "Need help? %s or %s."
+msgstr "ヘルプが必要ですか ? %sか%sことができます。"
+
+#: legacy-core.php:1623
+msgid "You can read more about that here."
+msgstr "ここで詳細をご覧ください。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1336
+#: includes/tables/class.admin-map-datatable.php:39
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: html/map-list-page.html.php:18 legacy-core.php:1041
+msgid "Wizard"
+msgstr "ウィザード"
+
+#: legacy-core.php:1633
+msgid "Save"
+msgstr "保存"
+
+#: legacy-core.php:1604
+msgid "United States of America"
+msgstr "アメリカ合衆国"
+
+#: html/settings-page.html.php:1146
+msgid "Google Maps API Key (required)"
+msgstr "Google Maps APIキー (必須)"
+
+#: html/map-edit-page/map-edit-page.html.php:12
+msgid "Create your Map"
+msgstr "地図の作成"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1480
+#: includes/tables/class.admin-marker-datatable.php:56
+msgid "Edit this marker location"
+msgstr "このマーカーの位置を編集"
+
+#: html/settings-page.html.php:255
+msgid "Over-ride current jQuery with version 1.11.3 (Tick this box if you are receiving jQuery related errors after updating to WordPress 4.5)"
+msgstr "お使いの jQuery をバージョン1.11.3に上書きします (WordPress 4.5への更新後に jQuery 関連のエラーがあれば有効にしてください)"
+
+#: html/map-list-page.html.php:41 legacy-core.php:1021
+msgid "Close"
+msgstr "閉じる"
+
+#: html/map-list-page.html.php:39 legacy-core.php:1021
+msgid "We will not nag you again, promise!"
+msgstr "再び表示されることはありません !"
+
+#: html/map-list-page.html.php:32 legacy-core.php:1016
+msgid "<h3>We need your love!</h3><p>If you are enjoying our plugin, please consider <a href=\"%1$s\" target=\"_blank\" class=\"button-border button-border__green\">reviewing WP Google Maps</a>. It would mean the world to us! If you are experiencing issues with the plugin, please <a href=\"%2$s\" target=\"_blank\"  class=\"button-border button-border__green\">contact us</a> and we will help you as soon as humanly possible!</p>"
+msgstr "<h3>ご愛顧に感謝します</h3><p>私たちのプラグインに満足していただけましたら、<a href=\"%1$s\" target=\"_blank\" class=\"button-border button-border__green\">WP Google マップ</a>の評価をお考えください。それは私たちにとって宝物となります。もしプラグインに問題があれば、<a href=\"%2$s\" target=\"_blank\"  class=\"button-border button-border__green\">お問い合わせ</a>ください。人事を尽くしてお手伝いします !</p>"
+
+#: html/map-edit-page/map-edit-page.html.php:1689
+#: html/map-edit-page/marker-panel.html.php:97
+#: html/map-edit-page/polygon-panel.html.php:72
+#: html/map-edit-page/polyline-panel.html.php:63
+#: includes/compat/class.pro-below-8.1-compatibility.php:186
+#: includes/compat/class.pro-below-8.1-compatibility.php:1509
+#: includes/compat/class.pro-below-8.1-compatibility.php:1528
+#: includes/tables/class.admin-marker-datatable.php:39
+#: includes/tables/class.marker-datatable.php:23
+#: includes/tables/class.polygon-datatable.php:22
+msgid "Description"
+msgstr "説明"
+
+#: html/map-edit-page/map-edit-page.html.php:897
+#: includes/legacy/functions.circle.php:166
+msgid "Center"
+msgstr "中央"
+
+#: html/map-edit-page/map-edit-page.html.php:902
+msgid "Right"
+msgstr "右"
+
+#: html/map-edit-page/map-edit-page.html.php:637
+#: html/map-edit-page/map-edit-page.html.php:907
+#: html/map-edit-page/marker-panel.html.php:139 html/settings-page.html.php:274
+msgid "None"
+msgstr "なし"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1347
+#: includes/tables/class.admin-map-datatable.php:102
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: html/map-edit-page/map-edit-page.html.php:45 html/settings-page.html.php:19
+msgid "General Settings"
+msgstr "一般設定"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1505
+#: includes/tables/class.admin-marker-datatable.php:35 legacy-core.php:1127
+msgid "Icon"
+msgstr "アイコン"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1510
+#: includes/tables/class.admin-marker-datatable.php:40
+msgid "Image"
+msgstr "画像"
+
+#: html/map-edit-page/map-edit-page.html.php:1717
+msgid "Ascending"
+msgstr "昇順"
+
+#: html/map-edit-page/map-edit-page.html.php:1722
+msgid "Descending"
+msgstr "降順"
+
+#: html/map-edit-page/marker-panel.html.php:211 includes/class.strings.php:56
+msgid "Add Marker"
+msgstr "マーカーを追加"
+
+#: html/map-edit-page/map-edit-page.html.php:1684
+#: includes/compat/class.pro-below-8.1-compatibility.php:1508
+#: includes/compat/class.pro-below-8.1-compatibility.php:1527
+#: includes/tables/class.admin-marker-datatable.php:38
+#: includes/tables/class.marker-datatable.php:22 legacy-core.php:1130
+msgid "Address"
+msgstr "住所"
+
+#: html/map-edit-page/marker-panel.html.php:65
+msgid "Address/GPS"
+msgstr "住所/GPS"
+
+#: html/map-edit-page/map-edit-page.html.php:1864
+msgid "Allow users to filter by category?"
+msgstr "ユーザーがカテゴリーで絞り込めるようにしますか ?"
+
+#: html/map-edit-page/marker-panel.html.php:134
+msgid "Animation"
+msgstr "アニメーション"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1482
+msgid "Approve this marker"
+msgstr "このマーカーを承認"
+
+#: html/map-edit-page/map-edit-page.html.php:1804
+msgid "Bottom Left"
+msgstr "左下"
+
+#: html/map-edit-page/map-edit-page.html.php:1809
+msgid "Bottom Right"
+msgstr "右下"
+
+#: html/map-edit-page/map-edit-page.html.php:1606
+msgid "Carousel"
+msgstr "カルーセル"
+
+#: html/support.html.php:40 html/support.html.php:42
+msgid "Changing the Google Maps language"
+msgstr "Google マップの言語を変更"
+
+#: html/map-edit-page/map-edit-page.html.php:2546
+#: html/map-edit-page/map-edit-page.html.php:2579
+#: html/map-edit-page/map-edit-page.html.php:2610
+#: html/settings-page.html.php:728
+msgid "Click"
+msgstr "クリック"
+
+#: html/support.html.php:97
+msgid "Contact us"
+msgstr "お問い合わせ"
+
+#: html/map-edit-page/marker-panel.html.php:124
+msgid "Custom Marker"
+msgstr "カスタムマーカー"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1484
+#: includes/tables/class.admin-marker-datatable.php:63
+msgid "Delete this marker"
+msgstr "このマーカーを削除"
+
+#: html/map-edit-page/map-edit-page.html.php:59
+msgid "Directions"
+msgstr "道順"
+
+#: legacy-core.php:1178
+msgid "Edit Marker Location"
+msgstr "マーカーの位置を編集"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1479
+msgid "Edit this marker"
+msgstr "このマーカーを編集"
+
+#: legacy-core.php:1131
+msgid "GPS"
+msgstr "GPS"
+
+#: html/map-edit-page/map-edit-page.html.php:1333
+msgid "KML/GeoRSS URL"
+msgstr "KML/GeoRSS URL"
+
+#: html/map-edit-page/map-edit-page.html.php:515
+msgid "Kilometers"
+msgstr "キロメーター"
+
+#: html/map-edit-page/map-edit-page.html.php:1789
+msgid "Left Bottom"
+msgstr "左下"
+
+#: html/map-edit-page/map-edit-page.html.php:1774
+msgid "Left Center"
+msgstr "左中央"
+
+#: html/map-edit-page/marker-panel.html.php:119
+msgid "Link URL"
+msgstr "リンク URL"
+
+#: html/map-edit-page/map-edit-page.html.php:166
+msgid "Map Name"
+msgstr "地図名"
+
+#: legacy-core.php:1188
+msgid "Marker Latitude"
+msgstr "マーカーの緯度"
+
+#: legacy-core.php:1192
+msgid "Marker Longitude"
+msgstr "マーカーの経度"
+
+#: html/map-edit-page/map-edit-page.html.php:2287
+msgid "Markers"
+msgstr "マーカー"
+
+#: html/map-edit-page/map-edit-page.html.php:514
+msgid "Miles"
+msgstr "マイル"
+
+#: html/map-edit-page/map-edit-page.html.php:2582
+#: html/map-edit-page/map-edit-page.html.php:2613
+msgid "Pro Edition"
+msgstr "プロ版"
+
+#: html/map-edit-page/map-edit-page.html.php:94
+msgid "Pro Upgrade"
+msgstr "プロ版へアップグレード"
+
+#: html/map-edit-page/map-edit-page.html.php:1794
+msgid "Right Bottom"
+msgstr "右下"
+
+#: html/map-edit-page/map-edit-page.html.php:1784
+msgid "Right Center"
+msgstr "右中央"
+
+#: html/map-edit-page/map-edit-page.html.php:1779
+msgid "Right Top"
+msgstr "右上"
+
+#: html/map-edit-page/map-edit-page.html.php:2267
+msgid "Save Map"
+msgstr "地図を保存"
+
+#: html/map-edit-page/marker-panel.html.php:212 includes/class.strings.php:57
+msgid "Save Marker"
+msgstr "マーカーを保存"
+
+#: html/map-edit-page/map-edit-page.html.php:143
+msgid "Short code"
+msgstr "ショートコード"
+
+#: html/map-edit-page/map-edit-page.html.php:504
+msgid "Show distance in"
+msgstr "距離の表示:"
+
+#: legacy-core.php:1204
+msgid "The map could not load."
+msgstr "地図を読み込めませんでした。"
+
+#: html/map-edit-page/map-edit-page.html.php:52 html/welcome.html.php:85
+msgid "Themes"
+msgstr "テーマ"
+
+#: html/map-edit-page/map-edit-page.html.php:1754
+msgid "Top Left"
+msgstr "左上"
+
+#: html/map-edit-page/map-edit-page.html.php:1764
+msgid "Top Right"
+msgstr "右上"
+
+#: html/support.html.php:63
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1451
+msgid "View this link"
+msgstr "このリンクを表示"
+
+#: legacy-core.php:1197
+msgid "Save Marker Location"
+msgstr "マーカーの位置を保存"
+
+#: html/map-edit-page/map-edit-page.html.php:496
+msgid "Restrict to country"
+msgstr "国の制限"
+
+#: legacy-core.php:1132
+msgid "Pic"
+msgstr "画像"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpgmaps.com"
+msgstr "https://www.wpgmaps.com"
+
+#: html/map-edit-page/map-edit-page.html.php:892
+msgid "Left"
+msgstr "左"
+
+#: legacy-core.php:1198
+msgid "Tip: Use your mouse to change the location of the marker. Simply click and drag it to your desired location."
+msgstr "ヒント: マーカーの位置を変更するには、マウスを使用します。クリックして希望の位置にドラッグするだけです。"
+
+#: html/map-edit-page/map-edit-page.html.php:1799
+msgid "Bottom Center"
+msgstr "下部中央"
+
+#: html/map-edit-page/map-edit-page.html.php:1759
+msgid "Top Center"
+msgstr "上部中央"
+
+#: html/support.html.php:8 includes/class.strings.php:34
+msgid "Documentation"
+msgstr "解説文書"
+
+#: html/map-edit-page/map-edit-page.html.php:818
+msgid "Store Locator Documentation"
+msgstr "店舗検索の解説文書"
+
+#: legacy-core.php:1284
+msgid "in order for this plugin to work! Please see "
+msgstr "プラグインが動作するようにしてください !"
+
+#: legacy-core.php:1288
+msgid "for help on how to do it."
+msgstr "で、その方法のヘルプをご覧ください。"
+
+#: legacy-core.php:1282
+msgid "The plugin directory does not have 'write' permissions. Please enable 'write' permissions (755) for "
+msgstr "本プラグインのディレクトリへの「書き込み」権限がありません。「書き込み」権限 (755) を有効にし、"
+
+#: legacy-core.php:1102
+msgid "My Markers"
+msgstr "作成したマーカー"
+
+#: legacy-core.php:1128
+msgid "Linked to"
+msgstr "リンク先"
+
+#: html/map-edit-page/map-edit-page.html.php:153
+msgid "copy this into your post or page to display the map"
+msgstr "投稿やページに、これをコピーして地図に表示"
+
+#: html/map-edit-page/map-edit-page.html.php:202
+msgid "Set to 100% for a responsive map"
+msgstr "レスポンシブな地図では100%に設定"
+
+#: html/map-edit-page/map-edit-page.html.php:225
+msgid "We recommend that you leave your height in PX. Depending on your theme, using % for the height may break your map."
+msgstr "高さは px のままにすることを推奨します。テーマによっては、高さに％を使用すると地図が壊れることがあります。"
+
+#: html/map-edit-page/map-edit-page.html.php:176
+#: html/map-edit-page/map-edit-page.html.php:1000
+#: html/map-edit-page/map-edit-page.html.php:1190
+#: html/map-edit-page/map-edit-page.html.php:1896
+msgid "Zoom Level"
+msgstr "拡大率"
+
+#: html/map-edit-page/map-edit-page.html.php:883
+msgid "Map Alignment"
+msgstr "地図の整列"
+
+#: html/map-edit-page/map-edit-page.html.php:850
+msgid "Map type"
+msgstr "地図の種類"
+
+#: html/map-edit-page/map-edit-page.html.php:257
+msgid "Enable Directions?"
+msgstr "道順の有効化"
+
+#: html/map-edit-page/map-edit-page.html.php:266
+msgid "Directions Box Open by Default?"
+msgstr "標準で道順情報ボックスを開く"
+
+#: html/map-edit-page/map-edit-page.html.php:271
+msgid "Yes, on the left"
+msgstr "左に開く"
+
+#: html/map-edit-page/map-edit-page.html.php:272
+msgid "Yes, on the right"
+msgstr "右に開く"
+
+#: html/map-edit-page/map-edit-page.html.php:273
+msgid "Yes, above"
+msgstr "上に開く"
+
+#: html/map-edit-page/map-edit-page.html.php:274
+msgid "Yes, below"
+msgstr "下に開く"
+
+#: html/map-edit-page/map-edit-page.html.php:280
+msgid "Directions Box Width"
+msgstr "道順情報ボックスの幅"
+
+#: html/map-edit-page/map-edit-page.html.php:298
+msgid "Enable Store Locator"
+msgstr "店舗検索の有効化"
+
+#: html/map-edit-page/map-edit-page.html.php:814
+msgid "View"
+msgstr "閲覧:"
+
+#: html/map-edit-page/map-edit-page.html.php:835
+msgid "Default Marker Image"
+msgstr "標準のマーカー用画像"
+
+#: html/map-edit-page/map-edit-page.html.php:916
+msgid "Show User's Location?"
+msgstr "ユーザーの位置を表示"
+
+#: html/map-edit-page/map-edit-page.html.php:1344
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr "KML/GeoRSS レイヤーは、地図の設定の大半を上書きします"
+
+#: html/map-edit-page/map-edit-page.html.php:1563
+msgid "Basic table"
+msgstr "普通のテーブル"
+
+#: html/map-edit-page/map-edit-page.html.php:1852
+msgid "Filter by Category"
+msgstr "カテゴリーで絞り込み"
+
+#: html/map-edit-page/map-edit-page.html.php:1667
+msgid "Order markers by"
+msgstr "マーカーの順序"
+
+#: html/map-edit-page/map-edit-page.html.php:1731
+msgid "Move list inside map"
+msgstr "地図内で一覧を移動"
+
+#: html/map-edit-page/map-edit-page.html.php:1748
+msgid "Placement: "
+msgstr "位置:"
+
+#: html/map-edit-page/map-edit-page.html.php:2272
+msgid "Tip: Use your mouse to change the layout of your map. When you have positioned the map to your desired location, press \"Save Map\" to keep your settings."
+msgstr "ヒント: マウスで地図の配置を変更します。地図を目的の場所に配置したら、「地図を保存」を押し設定を保存します。"
+
+#: html/map-edit-page/map-edit-page.html.php:642
+#: html/map-edit-page/marker-panel.html.php:144
+msgid "Bounce"
+msgstr "跳ねる"
+
+#: html/map-edit-page/map-edit-page.html.php:647
+#: html/map-edit-page/marker-panel.html.php:149
+msgid "Drop"
+msgstr "落ちる"
+
+#: html/map-edit-page/marker-panel.html.php:156
+msgid "InfoWindow open by default"
+msgstr "標準で情報ウィンドウを開く"
+
+#: html/map-edit-page/map-edit-page.html.php:2467
+msgid "Add advanced markers"
+msgstr "高度なマーカーの追加には"
+
+#: html/map-edit-page/map-edit-page.html.php:2469
+msgid "with the Pro version"
+msgstr "プロ版を入手"
+
+#: html/map-edit-page/map-edit-page.html.php:2501
+msgid "Remember to save your map!"
+msgstr "地図の保存をお忘れなく。"
+
+#: html/map-edit-page/map-edit-page.html.php:2542
+msgid "Add detailed information to your markers for only"
+msgstr "マーカーに詳細情報を追加するには、わずか"
+
+#: html/map-edit-page/map-edit-page.html.php:2553
+#: html/map-edit-page/map-edit-page.html.php:2585
+#: html/map-edit-page/map-edit-page.html.php:2616
+msgid "here"
+msgstr "して入手"
+
+#: html/map-edit-page/map-edit-page.html.php:2575
+msgid "Add different marker icons, or your own icons to make your map really stand out!"
+msgstr "マーカーのアイコンを変えたり独自のアイコンを追加して、地図に注目を引きます !"
+
+#: html/map-edit-page/map-edit-page.html.php:2533
+#: html/map-edit-page/map-edit-page.html.php:2566
+#: html/map-edit-page/map-edit-page.html.php:2567
+#: html/map-edit-page/map-edit-page.html.php:2598
+#: html/map-edit-page/map-edit-page.html.php:2599
+msgid "Add custom markers to your map!"
+msgstr "独自のマーカーを地図に追加できます !"
+
+#: html/map-edit-page/map-edit-page.html.php:2532
+msgid "Add detailed information to your markers!"
+msgstr "マーカーに詳細情報を追加できます !"
+
+#: html/map-edit-page/map-edit-page.html.php:2606
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "サイトへの訪問者にマーカーへの道順を表示できます !"
+
+#: legacy-core.php:1204
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists. If it persists, please contact nick@wpgmaps.com for support."
+msgstr "通常、別のプラグインとの競合や、本プラグインの Javascript の実行を妨げている JavaScript エラーが原因です。すべてのプラグインを個別に無効にすることを試し、この問題が継続するか確認してください。解決しなければ、nick@wpgmaps.com にサポートを依頼してください。"
+
+#: legacy-core.php:1570
+msgid "WP Google Maps does not have write permission to the marker location directory. This is required to store marker data. Please CHMOD the folder "
+msgstr "WP Google マップには、マーカーの位置用のディレクトリへの書き込み権限がありません。これはマーカーのデータを保存するのに必要です。CHMOD によりフォルダ"
+
+#: legacy-core.php:1570
+msgid " to 755 or 777, or change the directory in the Maps->Settings page. (Current file permissions are "
+msgstr "のアクセス権を755や777に変更するか、「地図 -> 設定」のページからディレクトリを変更してください。 (ファイルへの現在のアクセス権 "
+
+#: html/support.html.php:2
+msgid "WP Google Maps Support"
+msgstr "WP Google マップのサポート"
+
+#: html/support.html.php:11
+msgid "Getting started? Read through some of these articles to help you along your way."
+msgstr "始めてですか ? これらの記事をご覧ください。"
+
+#: html/support.html.php:15
+msgid "Documentation:"
+msgstr "文書:"
+
+#: html/support.html.php:22 html/support.html.php:24
+msgid "Creating your first map"
+msgstr "はじめての地図の作成"
+
+#: html/support.html.php:51
+msgid "View all documentation."
+msgstr "すべての解説文書を表示します。"
+
+#: html/support.html.php:49
+msgid "WP Google Maps Documentation"
+msgstr "WP Google マップの解説"
+
+#: html/support.html.php:68
+msgid "WP Google Maps has a diverse and wide range of features which may, from time to time, run into conflicts with the thousands of themes and other plugins on the market."
+msgstr "WP Google マップには多様で幅広い機能があり、時々、利用できる何千ものテーマや他のプラグインと競合する可能性があります。"
+
+#: html/support.html.php:73
+msgid "Common issues:"
+msgstr "よくある問題:"
+
+#: html/support.html.php:78
+msgid "My map is not showing on my website"
+msgstr "地図が私のサイトに表示されていません"
+
+#: html/support.html.php:81
+msgid "My markers are not showing on my map in the front-end"
+msgstr "フロントエンドの地図にマーカーが表示されない"
+
+#: html/support.html.php:84
+msgid "I'm getting jQuery errors showing on my website"
+msgstr "サイトに jQuery のエラーが発生します"
+
+#: html/support.html.php:92
+msgid "Still need help? Use one of these links below."
+msgstr "まだ助けが必要ですか ? 以下のリンクのいずれかをお使いください。"
+
+#: html/support.html.php:94 html/support.html.php:95 html/support.html.php:96
+msgid "Support forum"
+msgstr "サポート用掲示板"
+
+#: html/support.html.php:31 html/support.html.php:33
+msgid "Using your map as a Widget"
+msgstr "ウィジェットで地図を使う"
+
+#. Description of the plugin
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:141
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:145
+#: js/v8/wp-google-maps.combined.js:9432
+msgid "The easiest to use Google Maps plugin! Create custom Google Maps with high quality markers containing locations, descriptions, images and links. Add your customized map to your WordPress posts and/or pages quickly and easily with the supplied shortcode. No fuss."
+msgstr "最も使いやすい Google マップ用プラグインです！場所、説明、画像、リンクを含む高品質のマーカーであなた独自の Google マップを作成します。付与されたショートコードで、カスタマイズした地図をお使いの WordPress の投稿やページにすばやく簡単に追加できます。"
+
+#: includes/class.admin-ui.php:44
+#: includes/compat/class.pro-below-8.1-compatibility.php:1160
+#: legacy-core.php:193
+msgid "Settings"
+msgstr "設定"
+
+#: base/classes/widget_module.class.php:69
+#: html/map-edit-page/map-edit-page.html.php:1679
+#: html/map-edit-page/marker-panel.html.php:56
+#: html/map-edit-page/marker-panel.html.php:59
+#: html/map-edit-page/polygon-panel.html.php:63
+#: includes/compat/class.pro-below-8.1-compatibility.php:96
+#: includes/compat/class.pro-below-8.1-compatibility.php:183
+#: includes/compat/class.pro-below-8.1-compatibility.php:1331
+#: includes/compat/class.pro-below-8.1-compatibility.php:1506
+#: includes/compat/class.pro-below-8.1-compatibility.php:1525
+#: includes/tables/class.admin-map-datatable.php:34
+#: includes/tables/class.admin-marker-datatable.php:36
+#: includes/tables/class.marker-datatable.php:20 legacy-core.php:1129
+msgid "Title"
+msgstr "タイトル"
+
+#: html/settings-page.html.php:1606
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:520
+#: includes/compat/class.pro-below-8.1-compatibility.php:1034
+#: includes/compat/class.pro-below-8.1-compatibility.php:1353
+#: includes/compat/class.pro-below-8.1-compatibility.php:1357
+#: includes/legacy/functions.circle.php:310
+#: includes/legacy/functions.rectangle.php:279
+#: includes/tables/class.admin-map-datatable.php:96
+#: includes/tables/class.admin-map-datatable.php:117
+msgid "Edit"
+msgstr "編集"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:492
+#: includes/compat/class.pro-below-8.1-compatibility.php:1008
+#: includes/compat/class.pro-below-8.1-compatibility.php:1335
+#: includes/compat/class.pro-below-8.1-compatibility.php:1512
+#: includes/legacy/functions.circle.php:292
+#: includes/legacy/functions.rectangle.php:261
+#: includes/tables/class.admin-circle-datatable.php:22
+#: includes/tables/class.admin-heatmap-datatable.php:22
+#: includes/tables/class.admin-map-datatable.php:38
+#: includes/tables/class.admin-marker-datatable.php:43
+#: includes/tables/class.admin-polygon-datatable.php:22
+#: includes/tables/class.admin-polyline-datatable.php:22
+#: includes/tables/class.admin-rectangle-datatable.php:22
+msgid "Action"
+msgstr "操作"
+
+#: html/store-locator.html.php:24
+msgid "Search"
+msgstr "検索"
+
+#: html/map-edit-page/map-edit-page.html.php:1694
+#: html/map-edit-page/marker-panel.html.php:129
+#: includes/compat/class.pro-below-8.1-compatibility.php:1507
+#: includes/compat/class.pro-below-8.1-compatibility.php:1526
+#: includes/tables/class.admin-marker-datatable.php:37
+#: includes/tables/class.marker-datatable.php:21
+msgid "Category"
+msgstr "カテゴリー"
+
+#: html/settings-page.html.php:973
+msgid "White"
+msgstr "白"
+
+#: html/settings-page.html.php:978
+msgid "Black"
+msgstr "黒"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1135
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: html/map-edit-page/map-edit-page.html.php:308
+#: html/map-edit-page/map-edit-page.html.php:1025
+#: html/map-edit-page/map-edit-page.html.php:1099
+#: html/map-edit-page/map-edit-page.html.php:1118
+#: html/map-edit-page/map-edit-page.html.php:1137
+#: html/map-edit-page/map-edit-page.html.php:1156
+#: html/map-edit-page/map-edit-page.html.php:1177
+#: html/map-edit-page/map-edit-page.html.php:1883
+#: html/map-edit-page/marker-panel.html.php:165
+#: html/map-edit-page/marker-panel.html.php:180 includes/class.strings.php:81
+#: includes/compat/class.pro-below-8.1-compatibility.php:1208
+#: legacy-core.php:932
+msgid "Yes"
+msgstr "はい"
+
+#: html/map-edit-page/map-edit-page.html.php:211
+#: includes/compat/class.pro-below-8.1-compatibility.php:1333
+#: includes/tables/class.admin-map-datatable.php:36
+msgid "Height"
+msgstr "高さ"
+
+#: html/map-edit-page/map-edit-page.html.php:188
+#: includes/compat/class.pro-below-8.1-compatibility.php:1332
+#: includes/tables/class.admin-map-datatable.php:35
+msgid "Width"
+msgstr "幅"
+
+#: html/map-edit-page/map-edit-page.html.php:260
+#: html/map-edit-page/map-edit-page.html.php:270
+#: html/map-edit-page/map-edit-page.html.php:309
+#: html/map-edit-page/map-edit-page.html.php:1026
+#: html/map-edit-page/map-edit-page.html.php:1100
+#: html/map-edit-page/map-edit-page.html.php:1119
+#: html/map-edit-page/map-edit-page.html.php:1138
+#: html/map-edit-page/map-edit-page.html.php:1157
+#: html/map-edit-page/map-edit-page.html.php:1178
+#: html/map-edit-page/map-edit-page.html.php:1884
+#: html/map-edit-page/marker-panel.html.php:160
+#: html/map-edit-page/marker-panel.html.php:185 includes/class.strings.php:82
+#: includes/compat/class.pro-below-8.1-compatibility.php:1208
+#: legacy-core.php:932
+msgid "No"
+msgstr "いいえ"
+
+#: html/map-edit-page/map-edit-page.html.php:1674
+#: includes/compat/class.pro-below-8.1-compatibility.php:490
+#: includes/compat/class.pro-below-8.1-compatibility.php:1006
+#: includes/compat/class.pro-below-8.1-compatibility.php:1330
+#: includes/compat/class.pro-below-8.1-compatibility.php:1504
+#: includes/legacy/functions.circle.php:290
+#: includes/legacy/functions.rectangle.php:259
+#: includes/tables/class.admin-map-datatable.php:33
+#: includes/tables/class.admin-marker-datatable.php:34
+#: includes/tables/class.circle-datatable.php:20
+#: includes/tables/class.heatmap-datatable.php:20
+#: includes/tables/class.polygon-datatable.php:20
+#: includes/tables/class.polyline-datatable.php:20
+#: includes/tables/class.rectangle-datatable.php:20 legacy-core.php:1126
+#: legacy-core.php:1178
+msgid "ID"
+msgstr "ID"
+
+#: html/map-edit-page/polygon-panel.html.php:81
+#: includes/compat/class.pro-below-8.1-compatibility.php:99
+#: includes/compat/class.pro-below-8.1-compatibility.php:189
+#: includes/compat/class.pro-below-8.1-compatibility.php:1511
+#: includes/tables/class.admin-marker-datatable.php:41
+#: includes/tables/class.polygon-datatable.php:23 legacy-core.php:1133
+msgid "Link"
+msgstr "リンク"
+
+#: html/settings-page.html.php:1298
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: html/map-list-page.html.php:10 legacy-core.php:1041 legacy-core.php:1102
+msgid "Add New"
+msgstr "新規追加"
+
+#: html/map-list-page.html.php:50 html/map-list-page.html.php:63
+#: includes/compat/class.pro-below-8.1-compatibility.php:96
+#: includes/compat/class.pro-below-8.1-compatibility.php:183
+#: includes/compat/class.pro-below-8.1-compatibility.php:186
+#: legacy-core.php:1067
+msgid "Pro Version"
+msgstr "プロ版"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1208
+msgid "Are you sure you want to delete the map"
+msgstr "本当にこの地図を削除してもよいですか ?"
+
+#: legacy-core.php:932
+msgid "Are you sure you want to delete this marker:"
+msgstr "本当にこのマーカーを削除してもよいですか:"
+
+#: legacy-core.php:932
+msgid "Delete Marker"
+msgstr "マーカーを削除"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:521
+msgid "Delete this polygon"
+msgstr "この多角形を削除"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1208
+msgid "Delete your map"
+msgstr "地図を削除"
+
+#: html/settings-page.html.php:119
+msgid "Disable Mouse Dragging"
+msgstr "マウスのドラッグを無効化"
+
+#: html/settings-page.html.php:77
+msgid "Disable StreetView"
+msgstr "ストリートビューを無効化"
+
+#: html/settings-page.html.php:959
+msgid "Earth"
+msgstr "アース"
+
+#: html/map-edit-page/map-edit-page.html.php:2369
+#: includes/compat/class.pro-below-8.1-compatibility.php:172
+msgid "Edit Polygon"
+msgstr "多角形を編集"
+
+#: html/map-edit-page/map-edit-page.html.php:2390
+#: includes/compat/class.pro-below-8.1-compatibility.php:717
+msgid "Edit Polyline"
+msgstr "多折線を編集"
+
+#: html/settings-page.html.php:1041
+msgid "Enable autoheight"
+msgstr "自動高さ調整を有効化"
+
+#: html/settings-page.html.php:1037
+msgid "Enable lazyload of images"
+msgstr "画像の遅延読み込みを有効化"
+
+#: html/settings-page.html.php:1049
+msgid "Enable navigation"
+msgstr "ナビゲーションを有効化"
+
+#: legacy-core.php:688
+msgid "Error: The map ID"
+msgstr "エラー: マップ ID"
+
+#: html/settings-page.html.php:1010
+msgid "Hide the Description"
+msgstr "説明を非表示"
+
+#: html/settings-page.html.php:1018
+msgid "Hide the Directions Link"
+msgstr "道順リンクを非表示"
+
+#: html/settings-page.html.php:994
+msgid "Hide the Image"
+msgstr "画像を非表示"
+
+#: html/settings-page.html.php:1002
+msgid "Hide the Marker Icon"
+msgstr "マーカーアイコンを非表示"
+
+#: html/settings-page.html.php:1014
+msgid "Hide the Marker Link"
+msgstr "マーカーリンクを非表示"
+
+#: html/settings-page.html.php:998
+msgid "Hide the Title"
+msgstr "タイトルを非表示"
+
+#: html/settings-page.html.php:1106
+msgid "Items"
+msgstr "項目"
+
+#: html/map-edit-page/polyline-panel.html.php:95
+#: includes/compat/class.pro-below-8.1-compatibility.php:651
+#: includes/compat/class.pro-below-8.1-compatibility.php:749
+msgid "Line Thickness"
+msgstr "横の太さ"
+
+#: includes/class.admin-ui.php:34
+#: includes/compat/class.pro-below-8.1-compatibility.php:1124
+#: includes/compat/class.pro-below-8.1-compatibility.php:1129
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:150
+#: js/v8/wp-google-maps.combined.js:9435
+msgid "Maps"
+msgstr "地図"
+
+#: html/settings-page.html.php:964
+msgid "Monotone"
+msgstr "モノトーン"
+
+#: html/map-edit-page/circle-panel.html.php:80
+#: html/map-edit-page/heatmap-panel.html.php:66
+#: html/map-edit-page/polygon-panel.html.php:122
+#: html/map-edit-page/polyline-panel.html.php:81
+#: html/map-edit-page/rectangle-panel.html.php:66
+#: includes/compat/class.pro-below-8.1-compatibility.php:111
+#: includes/compat/class.pro-below-8.1-compatibility.php:201
+#: includes/compat/class.pro-below-8.1-compatibility.php:643
+#: includes/compat/class.pro-below-8.1-compatibility.php:741
+#: includes/legacy/functions.circle.php:66
+#: includes/legacy/functions.circle.php:189
+#: includes/legacy/functions.rectangle.php:66
+#: includes/legacy/functions.rectangle.php:162
+msgid "Opacity"
+msgstr "不透明度"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:96
+#: includes/compat/class.pro-below-8.1-compatibility.php:114
+#: includes/compat/class.pro-below-8.1-compatibility.php:117
+#: includes/compat/class.pro-below-8.1-compatibility.php:120
+#: includes/compat/class.pro-below-8.1-compatibility.php:183
+#: includes/compat/class.pro-below-8.1-compatibility.php:186
+#: includes/compat/class.pro-below-8.1-compatibility.php:204
+#: includes/compat/class.pro-below-8.1-compatibility.php:207
+#: includes/compat/class.pro-below-8.1-compatibility.php:210
+msgid "Pro version only"
+msgstr "プロ版のみ"
+
+#: html/map-edit-page/polygon-panel.html.php:179
+#: includes/compat/class.pro-below-8.1-compatibility.php:141
+#: includes/compat/class.pro-below-8.1-compatibility.php:241
+msgid "Save Polygon"
+msgstr "多角形を保存"
+
+#: html/map-edit-page/polyline-panel.html.php:115
+#: includes/compat/class.pro-below-8.1-compatibility.php:677
+#: includes/compat/class.pro-below-8.1-compatibility.php:787
+msgid "Save Polyline"
+msgstr "多折線を保存"
+
+#: base/classes/widget_module.class.php:74
+msgid "Select your map:"
+msgstr "地図を選択:"
+
+#: html/settings-page.html.php:949
+msgid "Sky"
+msgstr "空"
+
+#: html/map-edit-page/map-edit-page.html.php:872
+#: includes/compat/class.pro-below-8.1-compatibility.php:1345
+#: includes/tables/class.admin-map-datatable.php:80
+msgid "Terrain"
+msgstr "地形"
+
+#: legacy-core.php:928
+msgid "There was a problem deleting the marker."
+msgstr "マーカーを削除する際に問題が発生しました。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1227
+msgid "There was a problem duplicating the map."
+msgstr "地図を複製する際に問題が発生しました。"
+
+#: legacy-core.php:1567
+msgid "This folder does not exist. Please create it."
+msgstr "このフォルダーは存在しません。作成してください。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1998
+#: includes/compat/class.pro-below-8.1-compatibility.php:2063
+msgid "You cannot save a blank polygon"
+msgstr "空の多角形は保存できません"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2128
+#: includes/compat/class.pro-below-8.1-compatibility.php:2180
+msgid "You cannot save a blank polyline"
+msgstr "空の多折線は保存できません"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2045
+msgid "Your polygon has been created."
+msgstr "多角形を作成しました。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2110
+msgid "Your polygon has been saved."
+msgstr "多角形を保存しました。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2160
+msgid "Your polyline has been created."
+msgstr "多折線を作成しました。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:2209
+msgid "Your polyline has been saved."
+msgstr "多折線を保存しました。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1947
+msgid "Your settings have been saved."
+msgstr "設定を保存しました。"
+
+#: includes/class.store-locator.php:85
+msgid "ZIP / Address:"
+msgstr "郵便番号/住所:"
+
+#: includes/class.strings.php:50
+#: includes/compat/class.pro-below-8.1-compatibility.php:1695
+msgid "miles away"
+msgstr "マイル先"
+
+#: includes/class.strings.php:49
+#: includes/compat/class.pro-below-8.1-compatibility.php:1694
+msgid "km away"
+msgstr "キロメートル先"
+
+#: html/settings-page.html.php:969
+msgid "PinkPurple"
+msgstr "ピンク紫"
+
+#: html/settings-page.html.php:1261 html/settings-page.html.php:1281
+msgid "Currently using"
+msgstr "現在使用中"
+
+#: html/map-edit-page/heatmap-panel.html.php:80
+#: includes/legacy/functions.circle.php:74
+#: includes/legacy/functions.circle.php:197
+msgid "Radius"
+msgstr "半径"
+
+#: legacy-core.php:1286
+msgid "this page"
+msgstr "このページ"
+
+#: html/settings-page.html.php:24
+msgid "InfoWindows"
+msgstr "情報ウィンドウ"
+
+#: includes/class.database.php:227
+msgid "My first map"
+msgstr "はじめてのマップ"
+
+#: html/settings-page.html.php:1033
+msgid "Resize Images with Timthumb"
+msgstr "Timthumb で画像のサイズを変更"
+
+#: html/support.html.php:91 includes/class.admin-ui.php:54
+#: includes/compat/class.pro-below-8.1-compatibility.php:1161
+msgid "Support"
+msgstr "サポート"
+
+#: html/map-edit-page/circle-panel.html.php:51
+#: html/map-edit-page/heatmap-panel.html.php:34
+#: html/map-edit-page/polygon-panel.html.php:54
+#: html/map-edit-page/polyline-panel.html.php:54
+#: html/map-edit-page/rectangle-panel.html.php:47
+#: includes/compat/class.pro-below-8.1-compatibility.php:93
+#: includes/compat/class.pro-below-8.1-compatibility.php:180
+#: includes/compat/class.pro-below-8.1-compatibility.php:491
+#: includes/compat/class.pro-below-8.1-compatibility.php:627
+#: includes/compat/class.pro-below-8.1-compatibility.php:725
+#: includes/compat/class.pro-below-8.1-compatibility.php:1007
+#: includes/legacy/functions.circle.php:50
+#: includes/legacy/functions.circle.php:158
+#: includes/legacy/functions.circle.php:291
+#: includes/legacy/functions.rectangle.php:50
+#: includes/legacy/functions.rectangle.php:146
+#: includes/legacy/functions.rectangle.php:260
+#: includes/tables/class.circle-datatable.php:21
+#: includes/tables/class.heatmap-datatable.php:21
+#: includes/tables/class.polygon-datatable.php:21
+#: includes/tables/class.polyline-datatable.php:21
+#: includes/tables/class.rectangle-datatable.php:21
+msgid "Name"
+msgstr "名前"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1985
+msgid "Your marker location has been saved."
+msgstr "マーカーの場所を保存しました。"
+
+#: html/theme-panel.html.php:405
+#: includes/compat/class.pro-below-8.1-compatibility.php:1142
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1035
+msgid "Delete this polyline"
+msgstr "この多折線を削除"
+
+#: base/classes/WPGM_templates.php:122
+msgid "Support Forum"
+msgstr "サポート用掲示板"
+
+#: base/classes/WPGM_templates.php:125 html/welcome.html.php:155
+msgid "Feedback"
+msgstr "ご意見"
+
+#: base/classes/WPGM_templates.php:126 html/welcome.html.php:156
+msgid "We need you to help us make this plugin better."
+msgstr "このプラグインの改善へのご協力を募っています。"
+
+#: base/classes/WPGM_templates.php:122 html/welcome.html.php:150
+msgid "for quick and friendly help. We'll answer your request within 24hours."
+msgstr "にて、素早く親切なヘルプを提供しています。ご要望に対し、24時間以内に返答しています。"
+
+#: base/classes/WPGM_templates.php:126 html/welcome.html.php:156
+msgid "and we'll act on it as soon as humanly possible."
+msgstr "私たちは人事を尽くして迅速に行動を起こします。"
+
+#: legacy-core.php:1093 legacy-core.php:1105
+msgid "Problems with the plugin? See the troubleshooting manual."
+msgstr "本プラグインに問題がありますか ? トラブル発生時の解説をご覧ください。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:1334
+#: includes/tables/class.admin-map-datatable.php:37
+msgid "Type"
+msgstr "種類"
+
+#: html/map-list-page.html.php:52 legacy-core.php:1067
+msgid "Create unlimited maps"
+msgstr "無制限の地図を作成"
+
+#: html/map-list-page.html.php:56 legacy-core.php:1067
+msgid "with the"
+msgstr "するには、"
+
+#: html/map-list-page.html.php:67 legacy-core.php:1067
+msgid "of WP Google Maps for only"
+msgstr "の WP Google Maps が必要です。わずか"
+
+#: base/classes/widget_module.class.php:16
+msgid "Add your map as a widget"
+msgstr "地図をウィジェットとして追加。"
+
+#: base/classes/WPGM_templates.php:130 html/credits.html.php:160
+#: html/welcome.html.php:161
+msgid "OK! Let's start"
+msgstr "では始めましょう"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: base/classes/widget_module.class.php:14
+#: html/map-edit-page/map-edit-page.html.php:4
+#: includes/class.auto-loader.php:222 includes/class.maps-engine-dialog.php:158
+#: includes/class.plugin.php:973 wpGoogleMaps.php:1613 wpGoogleMaps.php:1717
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:43
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:140
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:48
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:144
+#: js/v8/wp-google-maps.combined.js:9334 js/v8/wp-google-maps.combined.js:9431
+msgid "WP Google Maps"
+msgstr "WP Google マップ"
+
+#: base/classes/WPGM_templates.php:126 html/welcome.html.php:156
+msgid "Send us your feedback"
+msgstr "ご意見をお送りいただければ"
+
+#: html/map-edit-page/polygon-panel.html.php:145
+#: includes/compat/class.pro-below-8.1-compatibility.php:117
+#: includes/compat/class.pro-below-8.1-compatibility.php:207
+msgid "On Hover Fill Color"
+msgstr "塗りつぶし (ホバー時)"
+
+#: html/map-edit-page/polygon-panel.html.php:154
+#: includes/compat/class.pro-below-8.1-compatibility.php:120
+#: includes/compat/class.pro-below-8.1-compatibility.php:210
+msgid "On Hover Opacity"
+msgstr "不透明度 (ホバー時)"
+
+#: html/map-edit-page/polygon-panel.html.php:136
+#: includes/compat/class.pro-below-8.1-compatibility.php:114
+#: includes/compat/class.pro-below-8.1-compatibility.php:204
+msgid "On Hover Line Color"
+msgstr "線の色 (ホバー時)"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:133
+msgid "Click on a vertex to remove it."
+msgstr "頂点のクリックで削除"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:132
+msgid "Click on the map to insert a vertex."
+msgstr "地図のクリックで頂点を挿入"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:134
+msgid "Drag a vertex to move it."
+msgstr "頂点のドラッグで移動"
+
+#: legacy-core.php:218
+msgid "<strong>WP Google Maps cannot find the directory it uses to save marker data to. Please confirm that <em>"
+msgstr "<strong>WP Google マップのマーカーのデータの保存先ディレクトリが見つかりません。以下を確認してください。<em>"
+
+#: legacy-core.php:218
+msgid "</em>exists. Please also ensure that you assign file permissions of 755 (or 777) to this directory."
+msgstr "</em> が存在すること。また、このディレクトリに755 (または777) でファイルのアクセス権が割り当てられていることもご確認ください。"
+
+#: legacy-core.php:688
+msgid "does not exist"
+msgstr "が存在しません"
+
+#: html/footer.html.php:4
+#: includes/compat/class.pro-below-8.1-compatibility.php:1185
+#: legacy-core.php:919
+msgid "Experiencing problems with the plugin?"
+msgstr "プラグインに問題が発生しましたか ?"
+
+#: html/footer.html.php:12
+#: includes/compat/class.pro-below-8.1-compatibility.php:1185
+#: legacy-core.php:919
+msgid "See the troubleshooting manual."
+msgstr "トラブル発生時の解説をご覧ください。"
+
+#: html/footer.html.php:17
+#: includes/compat/class.pro-below-8.1-compatibility.php:1185
+msgid "Or ask a question on our "
+msgstr "または、ここで私たちに質問ください: "
+
+#: html/footer.html.php:22
+#: includes/compat/class.pro-below-8.1-compatibility.php:1185
+msgid "Support forum."
+msgstr "サポート用掲示板。"
+
+#: html/map-edit-page/map-edit-page.html.php:103
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:102
+#: js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx:110
+#: js/v8/wp-google-maps.combined.js:9393
+msgid "Map Settings"
+msgstr "地図の設定"
+
+#: html/settings-page.html.php:63
+msgid "General Map Settings"
+msgstr "地図の一般設定"
+
+#: html/settings-page.html.php:84
+msgid "Disable Zoom Controls"
+msgstr "拡大制御を無効化"
+
+#: html/settings-page.html.php:112
+msgid "Disable Mouse Wheel Zoom"
+msgstr "マウスホイールによる拡大を無効化"
+
+#: html/settings-page.html.php:91
+msgid "Disable Pan Controls"
+msgstr "パンによる制御を無効化"
+
+#: html/settings-page.html.php:249
+msgid "Troubleshooting Options"
+msgstr "トラブルシューティングの設定"
+
+#: html/settings-page.html.php:126
+msgid "Disable Mouse Double Click Zooming"
+msgstr "マウスのダブルクリックによる拡大を無効化"
+
+#: html/settings-page.html.php:492
+msgid "Lowest level of access to the map editor"
+msgstr "地図エディターにアクセスできる最低レベル"
+
+#: html/settings-page.html.php:722
+msgid "Open Marker InfoWindows by"
+msgstr "マーカーの情報ウィンドウを開く方法"
+
+#: html/settings-page.html.php:762
+msgid "Changing these settings will alter the way the marker list appears on your website."
+msgstr "これらの設定を変更すると、サイト上でのマーカー一覧の表示が変化します。"
+
+#: includes/compat/class.pro-below-8.1-compatibility.php:96
+#: includes/compat/class.pro-below-8.1-compatibility.php:183
+#: includes/compat/class.pro-below-8.1-compatibility.php:186
+msgid "Get the Pro add-on"
+msgstr "Pro アドオンを入手"
+
+#: html/map-edit-page/map-edit-page.html.php:80 html/settings-page.html.php:29
+msgid "Marker Listing"
+msgstr "マーカー一覧"
+
+#: html/settings-page.html.php:756
+msgid "Marker Listing Settings"
+msgstr "マーカー一覧の設定"
+
+#: html/settings-page.html.php:934
+msgid "Carousel Marker Listing"
+msgstr "カルーセル型マーカー一覧"
+
+#: html/settings-page.html.php:784
+msgid "Advanced Marker Listing"
+msgstr "マーカー一覧の詳細"
+
+#: html/settings-page.html.php:811
+msgid "Hide the Icon column"
+msgstr "アイコン欄を非表示"
+
+#: html/settings-page.html.php:838
+msgid "Hide the Title column"
+msgstr "タイトル欄を非表示"
+
+#: html/settings-page.html.php:852
+msgid "Hide the Address column"
+msgstr "住所欄を非表示"
+
+#: html/settings-page.html.php:866
+msgid "Hide the Category column"
+msgstr "カテゴリー欄を非表示"
+
+#: html/settings-page.html.php:880
+msgid "Hide the Description column"
+msgstr "説明欄を非表示"
+
+#: html/settings-page.html.php:954
+msgid "Sun"
+msgstr "太陽"
+
+#: html/settings-page.html.php:941
+msgid "Theme selection"
+msgstr "テーマの選択"
+
+#: html/settings-page.html.php:1006
+msgid "Hide the Address"
+msgstr "住所を非表示"
+
+#: html/settings-page.html.php:1045
+msgid "Enable pagination"
+msgstr "ページレイアウトを有効化"
+
+#: html/settings-page.html.php:1121
+msgid "Autoplay after x milliseconds (1000 = 1 second)"
+msgstr "x ミリ秒後の自動再生（1000 = 1秒）"
+
+#: html/map-edit-page/map-edit-page.html.php:73 html/settings-page.html.php:39
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: html/settings-page.html.php:1215
+msgid "Marker Data Location"
+msgstr "マーカーのデータの場所"
+
+#: html/settings-page.html.php:1226
+msgid "Pull marker data from"
+msgstr "マーカーのデータの取得元"
+
+#: html/settings-page.html.php:1221
+msgid "We suggest that you change the two fields below ONLY if you are experiencing issues when trying to save the marker XML files."
+msgstr "マーカー用の XML ファイル保存時に問題が発生した場合にのみ、以下の2つの項目を変更することをお勧めします。"
+
+#: html/settings-page.html.php:1251
+msgid "Marker data XML directory"
+msgstr "マーカーのデータ XML 用ディレクトリ"
+
+#: html/settings-page.html.php:1255 html/settings-page.html.php:1275
+msgid "You can use the following"
+msgstr "以下が使用可能"
+
+#: html/settings-page.html.php:1271
+msgid "Marker data XML URL"
+msgstr "マーカーのデータ XML の URL"
+
+#: html/map-edit-page/map-edit-page.html.php:857
+#: includes/compat/class.pro-below-8.1-compatibility.php:1342
+#: includes/tables/class.admin-map-datatable.php:81
+msgid "Roadmap"
+msgstr "道路地図"
+
+#: html/map-edit-page/map-edit-page.html.php:862
+#: includes/compat/class.pro-below-8.1-compatibility.php:1343
+#: includes/tables/class.admin-map-datatable.php:78
+msgid "Satellite"
+msgstr "衛星"
+
+#: html/map-list-page.html.php:26 legacy-core.php:1041 legacy-core.php:1066
+msgid "My Maps"
+msgstr "作成した地図一覧"
+
+#: html/map-edit-page/map-edit-page.html.php:867
+#: includes/compat/class.pro-below-8.1-compatibility.php:1344
+#: includes/tables/class.admin-map-datatable.php:79
+msgid "Hybrid"
+msgstr "混合型"
+
+#: html/settings-page.html.php:98
+msgid "Disable Map Type Controls"
+msgstr "地図の種類の制御を無効化"
+
+#: base/classes/WPGM_templates.php:86 html/welcome.html.php:119
+msgid "Google or other search engine"
+msgstr "Google などの検索エンジン"
+
+#: base/classes/WPGM_templates.php:58
+#: html/map-edit-page/map-edit-page.html.php:2307 html/welcome.html.php:92
+msgid "Polylines"
+msgstr "多折線"
+
+#: base/classes/WPGM_templates.php:44
+msgid "What's new?"
+msgstr "新着情報"
+
+#: base/classes/WPGM_templates.php:40
+msgid "Welcome to"
+msgstr "ようこそ"
+
+#: base/classes/WPGM_templates.php:48
+#: html/map-edit-page/map-edit-page.html.php:66 html/settings-page.html.php:34
+#: html/welcome.html.php:76
+msgid "Store Locator"
+msgstr "店舗検索"
+
+#: base/classes/WPGM_templates.php:49 html/welcome.html.php:77
+msgid "Let users search for products, branches and stores near them"
+msgstr "ユーザーが近くの製品、支店、店舗を検索できるようにします"
+
+#: base/classes/WPGM_templates.php:53
+#: html/map-edit-page/map-edit-page.html.php:2301 html/welcome.html.php:92
+msgid "Polygons"
+msgstr "多角形"
+
+#: base/classes/WPGM_templates.php:54
+msgid "Create service areas or coverage maps with polygons"
+msgstr "多角形でサービス提供範囲や対象範囲の地図を作成"
+
+#: base/classes/WPGM_templates.php:117 html/welcome.html.php:143
+msgid "New to WP Google Maps?"
+msgstr "WP Google マップは初めてですか ?"
+
+#: base/classes/WPGM_templates.php:118 html/welcome.html.php:144
+msgid "You may want to"
+msgstr "最初に"
+
+#: base/classes/WPGM_templates.php:118 html/welcome.html.php:144
+msgid "review our documentation"
+msgstr "解説文書 (英語) の確認"
+
+#: base/classes/WPGM_templates.php:118 html/welcome.html.php:144
+msgid "before you get started. If you're a tech-savvy individual, you may skip this step."
+msgstr "をおすすめします。技術的に精通している方はこれを省略できるでしょう。"
+
+#: base/classes/WPGM_templates.php:59
+msgid "Create custom routes or outlines using polylines"
+msgstr "多折線で自由に道順や線を作成"
+
+#: base/classes/WPGM_templates.php:81 html/welcome.html.php:114
+msgid "WordPress.org plugin repository"
+msgstr "WordPress.org のプラグインにて"
+
+#: base/classes/WPGM_templates.php:82 html/welcome.html.php:115
+msgid "What search term did you use?"
+msgstr "検索した単語を教えてください"
+
+#: base/classes/WPGM_templates.php:90 html/welcome.html.php:123
+msgid "Friend recommendation"
+msgstr "友人にすすめられた"
+
+#: base/classes/WPGM_templates.php:94 html/welcome.html.php:127
+#: lib/codecabin/deactivate-feedback-form.php:61
+msgid "Other"
+msgstr "それ以外"
+
+#: base/classes/WPGM_templates.php:95 html/welcome.html.php:128
+msgid "Please explain"
+msgstr "説明してください"
+
+#: base/classes/WPGM_templates.php:74 html/welcome.html.php:107
+msgid "How did you find out about us?"
+msgstr "どうやって知りましたか ?"
+
+#: base/classes/WPGM_templates.php:122 html/welcome.html.php:150
+msgid "Visit our"
+msgstr "私たちの"
+
+#: base/classes/WPGM_templates.php:121 html/welcome.html.php:149
+msgid "Help me!"
+msgstr "助けが必要 !"
+
+#: base/classes/WPGM_templates.php:42
+msgid "Amazing maps. Simple interface. Powerful functionality. World Class Support."
+msgstr "すばらしい地図。シンプルなインターフェース。強力な機能。世界に通用するサポート。"
